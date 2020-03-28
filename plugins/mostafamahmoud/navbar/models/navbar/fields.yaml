@@ -1,0 +1,22 @@
+fields:
+    name:
+        label: Name
+        span: auto
+        type: text
+    logo:
+        label: Logo
+        mode: image
+        imageWidth: '200'
+        imageHeight: '200'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    link:
+        label: 'Navbar Links'
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation

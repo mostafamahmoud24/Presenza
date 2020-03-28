@@ -1,0 +1,4 @@
+title: Aboutus
+modelClass: MostafaMahmoud\AboutUs\Models\Aboutus
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,10 @@
+name: Navabr
+form: $/mostafamahmoud/navbar/models/navbar/fields.yaml
+modelClass: MostafaMahmoud\Navbar\Models\Navbar
+defaultRedirect: mostafamahmoud/navbar/navabr
+create:
+    redirect: 'mostafamahmoud/navbar/navabr/update/:id'
+    redirectClose: mostafamahmoud/navbar/navabr
+update:
+    redirect: mostafamahmoud/navbar/navabr
+    redirectClose: mostafamahmoud/navbar/navabr

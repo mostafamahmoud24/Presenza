@@ -1,0 +1,30 @@
+fields:
+    name:
+        label: Name
+        span: auto
+        type: text
+    title:
+        label: Title
+        span: auto
+        type: text
+    subtitle:
+        label: Subtitle
+        size: ''
+        span: full
+        type: textarea
+    heroLogo:
+        label: Logo
+        mode: image
+        imageWidth: '200'
+        imageHeight: '200'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    link:
+        label: 'Link ID'
+        span: auto
+        type: text
+        comment: 'this field is used in conjuction with the header navigation links to link to this component'

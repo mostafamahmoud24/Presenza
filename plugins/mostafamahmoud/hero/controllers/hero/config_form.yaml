@@ -1,0 +1,10 @@
+name: Hero
+form: $/mostafamahmoud/hero/models/hero/fields.yaml
+modelClass: MostafaMahmoud\Hero\Models\Hero
+defaultRedirect: mostafamahmoud/hero/hero
+create:
+    redirect: 'mostafamahmoud/hero/hero/update/:id'
+    redirectClose: mostafamahmoud/hero/hero
+update:
+    redirect: mostafamahmoud/hero/hero
+    redirectClose: mostafamahmoud/hero/hero

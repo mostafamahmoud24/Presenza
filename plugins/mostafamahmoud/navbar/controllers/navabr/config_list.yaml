@@ -1,0 +1,12 @@
+list: $/mostafamahmoud/navbar/models/navbar/columns.yaml
+modelClass: MostafaMahmoud\Navbar\Models\Navbar
+title: Navabr
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'mostafamahmoud/navbar/navabr/update/:id'

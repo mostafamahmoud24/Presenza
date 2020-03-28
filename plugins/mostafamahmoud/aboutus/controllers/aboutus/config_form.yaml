@@ -1,0 +1,10 @@
+name: Aboutus
+form: $/mostafamahmoud/aboutus/models/aboutus/fields.yaml
+modelClass: MostafaMahmoud\AboutUs\Models\Aboutus
+defaultRedirect: mostafamahmoud/aboutus/aboutus
+create:
+    redirect: 'mostafamahmoud/aboutus/aboutus/update/:id'
+    redirectClose: mostafamahmoud/aboutus/aboutus
+update:
+    redirect: mostafamahmoud/aboutus/aboutus
+    redirectClose: mostafamahmoud/aboutus/aboutus

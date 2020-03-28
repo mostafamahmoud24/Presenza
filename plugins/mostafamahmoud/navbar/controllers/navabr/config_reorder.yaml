@@ -1,0 +1,4 @@
+title: Navabr
+modelClass: MostafaMahmoud\Navbar\Models\Navbar
+toolbar:
+    buttons: reorder_toolbar

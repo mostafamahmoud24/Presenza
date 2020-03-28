@@ -1,0 +1,35 @@
+1585431267a:1:{s:10:"header.htm";a:6:{s:8:"fileName";s:10:"header.htm";s:7:"content";s:498:"[navbar]
+==
+{% set navbar = navbar.navbar%}
+{% set navs = navbar|last %}
+
+<div class="navbar-container">
+    <div class="navbar-logo">
+        <img src="{{navs.logo.thumb(150, auto)}}" alt="">
+    </div>
+    <div class="navigation-links">
+        <ul class="navbar-links">
+            {% for nav in navs.link %}
+            <a href="#{{nav.link}}" class="navbar-link">
+                <li>{{nav.name}}</li>
+            </a>
+            {% endfor %}
+        </ul>
+    </div>
+</div>";s:5:"mtime";i:1585428734;s:6:"markup";s:484:"{% set navbar = navbar.navbar%}
+{% set navs = navbar|last %}
+
+<div class="navbar-container">
+    <div class="navbar-logo">
+        <img src="{{navs.logo.thumb(150, auto)}}" alt="">
+    </div>
+    <div class="navigation-links">
+        <ul class="navbar-links">
+            {% for nav in navs.link %}
+            <a href="#{{nav.link}}" class="navbar-link">
+                <li>{{nav.name}}</li>
+            </a>
+            {% endfor %}
+        </ul>
+    </div>
+</div>";s:4:"code";N;s:6:"navbar";a:0:{}}}

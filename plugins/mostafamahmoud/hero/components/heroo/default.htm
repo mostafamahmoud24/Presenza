@@ -1,0 +1,31 @@
+{% set heros = __SELF__.hero %}
+{% set heroname = __SELF__.property('results') %}
+{% for hero in heros %}
+{% if hero.name == heroname %}
+<div class="hero-container text-center text-white">
+    <div class="hero-logo-container">
+        <img src="{{hero.heroLogo.thumb(250, auto)}}" alt="">
+    </div>
+    <div class="hero-title-container">
+        <h2 class="hero-title">{{hero.title}}</h2>
+    </div>
+    <div class="hero-subtitle-container">
+        <p class="hero-subtitle">{{hero.subtitle}}</p>
+    </div>
+    <a href="#about" style="text-decoration: none;">
+        <div class="hero-button-container">
+            <p class="hero-button">
+                Get Started
+            </p>
+        </div>
+    </a>
+    <a href=" #about">
+        <div class="hero-arrow-container">
+            <div class="hero-arrow">
+                <i class="fas fa-long-arrow-alt-down"></i>
+            </div>
+        </div>
+    </a>
+</div>
+{% endif %}
+{% endfor %}

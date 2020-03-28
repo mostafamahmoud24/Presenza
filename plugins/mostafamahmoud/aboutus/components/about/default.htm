@@ -1,0 +1,42 @@
+{% set aboutus = __SELF__.aboutus %}
+{% set aboutname = __SELF__.property('results') %}
+{% for about in aboutus %}
+{% if about.name == aboutname %}
+
+<div class="about-container" id="about">
+    <div class="styling-container"></div>
+    <div class="about-content-container">
+        <div class="about-video-container" style="width: 600px;">
+            <video class="afterglow about-video" id="myvideo" width="640" height="360" src="{{about.video.path}}"
+                poster="{{about.videoimg.thumb(1280, 720, {'mode': 'crop'})}}" /></video>
+        </div>
+        <div class="about-content-header">
+            <div class="about-title">
+                <h3 style="font-weight: bold;">About us</h3>
+            </div>
+            <div class="about-title-sec">
+
+                <h3 style="font-size: 100px; color: rgba(214, 214, 214, 0.555); font-weight:bolder; z-index:0;">About
+                </h3>
+            </div>
+            <div class="about-social">
+                <a href="{{about.facebook_link}}" target="_blank" class="about-social-link">
+                    <i class="fab fa-facebook-square" style="display:flex; margin-top:20px;"></i>
+                </a>
+                <a class="about-social-link" href="{{about.twitter_link}}" target="_blank">
+                    <i class="fab fa-twitter" style="display:flex; margin-top:20px;"></i>
+                </a>
+                <a class="about-social-link" href="{{about.instagram_link}}" target="_blank">
+                    <i class="fab fa-instagram" style="display:flex; margin-top:20px;"></i>
+                </a>
+            </div>
+        </div>
+        <div class="about-content-description">
+            <p>{{about.description|raw}}</p>
+        </div>
+
+    </div>
+</div>
+
+{% endif %}
+{% endfor %}

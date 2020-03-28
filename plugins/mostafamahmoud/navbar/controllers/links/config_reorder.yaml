@@ -1,0 +1,4 @@
+title: Links
+modelClass: MostafaMahmoud\Navbar\Models\Link
+toolbar:
+    buttons: reorder_toolbar

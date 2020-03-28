@@ -1,0 +1,11 @@
+plugin:
+    name: 'mostafamahmoud.aboutus::lang.plugin.name'
+    description: 'mostafamahmoud.aboutus::lang.plugin.description'
+    author: 'Mostafa Mahmoud'
+    icon: oc-icon-info
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'About Us'
+        url: mostafamahmoud/aboutus/aboutus
+        icon: icon-info

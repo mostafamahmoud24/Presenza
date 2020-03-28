@@ -1,0 +1,10 @@
+name: Links
+form: $/mostafamahmoud/navbar/models/link/fields.yaml
+modelClass: MostafaMahmoud\Navbar\Models\Link
+defaultRedirect: mostafamahmoud/navbar/links
+create:
+    redirect: 'mostafamahmoud/navbar/links/update/:id'
+    redirectClose: mostafamahmoud/navbar/links
+update:
+    redirect: mostafamahmoud/navbar/links
+    redirectClose: mostafamahmoud/navbar/links

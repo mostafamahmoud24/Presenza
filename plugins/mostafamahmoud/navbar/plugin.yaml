@@ -1,0 +1,16 @@
+plugin:
+    name: 'mostafamahmoud.navbar::lang.plugin.name'
+    description: 'mostafamahmoud.navbar::lang.plugin.description'
+    author: 'Mostafa Mahmoud'
+    icon: oc-icon-navicon
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'Navbar Links'
+        url: mostafamahmoud/navbar/navabr
+        icon: icon-navicon
+        sideMenu:
+            side-menu-item:
+                label: 'Navbar Links'
+                url: mostafamahmoud/navbar/links
+                icon: icon-link

@@ -1,0 +1,45 @@
+fields:
+    name:
+        label: Name
+        span: full
+        type: text
+    facebook_link:
+        label: 'Facebook Link'
+        span: full
+        type: text
+    twitter_link:
+        label: 'Twitter Link'
+        span: full
+        type: text
+    instagram_link:
+        label: 'Instagram Link'
+        span: full
+        type: text
+    description:
+        label: Content
+        size: large
+        span: full
+        type: richeditor
+    video:
+        label: 'Upload Video'
+        mode: file
+        imageWidth: '400'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    link:
+        label: 'Link ID'
+        span: auto
+        type: text
+    videoimg:
+        label: 'Video Thumbnail'
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload

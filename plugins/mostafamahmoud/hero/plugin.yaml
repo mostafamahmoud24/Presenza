@@ -1,0 +1,11 @@
+plugin:
+    name: 'mostafamahmoud.hero::lang.plugin.name'
+    description: 'mostafamahmoud.hero::lang.plugin.description'
+    author: 'Mostafa Mahmoud'
+    icon: oc-icon-connectdevelop
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Heros
+        url: mostafamahmoud/hero/hero
+        icon: icon-connectdevelop
