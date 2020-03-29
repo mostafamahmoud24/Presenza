@@ -1,0 +1,16 @@
+plugin:
+    name: 'mostafamahmoud.wedo::lang.plugin.name'
+    description: 'mostafamahmoud.wedo::lang.plugin.description'
+    author: 'Mostafa Mahmoud'
+    icon: oc-icon-clipboard
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'What We Do'
+        url: mostafamahmoud/wedo/wedos
+        icon: icon-clipboard
+        sideMenu:
+            side-menu-item:
+                label: Components
+                url: mostafamahmoud/wedo/components
+                icon: icon-pencil

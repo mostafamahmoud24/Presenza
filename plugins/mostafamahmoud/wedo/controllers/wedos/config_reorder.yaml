@@ -1,0 +1,4 @@
+title: Wedos
+modelClass: MostafaMahmoud\Wedo\Models\Wedo
+toolbar:
+    buttons: reorder_toolbar

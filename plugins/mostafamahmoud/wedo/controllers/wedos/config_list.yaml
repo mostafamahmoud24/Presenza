@@ -1,0 +1,12 @@
+list: $/mostafamahmoud/wedo/models/wedo/columns.yaml
+modelClass: MostafaMahmoud\Wedo\Models\Wedo
+title: Wedos
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'mostafamahmoud/wedo/wedos/update/:id'

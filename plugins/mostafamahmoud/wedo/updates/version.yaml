@@ -1,0 +1,17 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table mostafamahmoud_wedo_'
+    - builder_table_create_mostafamahmoud_wedo_.php
+1.0.3:
+    - 'Created table mostafamahmoud_wedo_components_'
+    - builder_table_create_mostafamahmoud_wedo_components_.php
+1.0.4:
+    - 'Updated table mostafamahmoud_wedo_'
+    - builder_table_update_mostafamahmoud_wedo_.php
+1.0.5:
+    - 'Created table mostafamahmoud_wedo_component_wedo_'
+    - builder_table_create_mostafamahmoud_wedo_component_wedo_.php
+1.0.6:
+    - 'Updated table mostafamahmoud_wedo_'
+    - builder_table_update_mostafamahmoud_wedo__2.php

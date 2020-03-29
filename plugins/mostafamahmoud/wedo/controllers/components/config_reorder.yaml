@@ -1,0 +1,4 @@
+title: Components
+modelClass: MostafaMahmoud\Wedo\Models\Component
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,233 @@
+{% set wedos = __SELF__.wedos %}
+{% set wedosname = __SELF__.property('results') %}
+{% for wedo in wedos %}
+{% if wedo.name == wedosname %}
+
+<div class="wedo-container" id="{{wedo.link}}">
+    <h3 class="wedo-title">What We Do</h3>
+    <div class="wedo-content-container">
+        <p class="wedo-content">{{wedo.subtitle|raw}}</p>
+    </div>
+
+    {% if wedo.component|length == 2 %}
+
+    <div class="" style="width: 80% !important; margin: auto;">
+        <div class="row mt-5" style="margin-top: 150px !important; ">
+            <div class="col-2"></div>
+            <div class="wedo-component-container col-4">
+                <img src=" {{wedo.component[0].wedoimg.path}}" alt="" class="wedo-icon">
+                <h4 class="wedo-component-title">{{wedo.component[0].title}}</h4>
+                <div class="wedo-component-content-container">
+                    <p class="wedo-component-content">{{wedo.component[0].content|raw}}</p>
+                </div>
+            </div>
+
+            <div class="wedo-component-container col-4" style="border-left: 1px solid rgb(165, 165, 165);">
+                <img src=" {{wedo.component[1].wedoimg.path}}" alt="" class="wedo-icon">
+                <h4 class="wedo-component-title">{{wedo.component[1].title}}</h4>
+                <div class="wedo-component-content-container">
+                    <p class="wedo-component-content">{{wedo.component[1].content|raw}}</p>
+                </div>
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </div>
+</div>
+
+
+
+{% elseif wedo.component|length == 3 %}
+
+<div class="" style="width: 70% !important; margin: auto;">
+    <div class="row mt-5" style="margin-top: 150px !important; ">
+        <div class="wedo-component-container col-4">
+            <img src=" {{wedo.component[0].wedoimg.path}}" alt="" class="wedo-icon">
+            <h4 class="wedo-component-title">{{wedo.component[0].title}}</h4>
+            <div class="wedo-component-content-container">
+                <p class="wedo-component-content">{{wedo.component[0].content|raw}}</p>
+            </div>
+        </div>
+
+        <div class="wedo-component-container col-4" style="border-left: 1px solid rgb(165, 165, 165);">
+            <img src=" {{wedo.component[1].wedoimg.path}}" alt="" class="wedo-icon">
+            <h4 class="wedo-component-title">{{wedo.component[1].title}}</h4>
+            <div class="wedo-component-content-container">
+                <p class="wedo-component-content">{{wedo.component[1].content|raw}}</p>
+            </div>
+        </div>
+
+        <div class="wedo-component-container col-4" style="border-left: 1px solid rgb(165, 165, 165); ">
+            <img src=" {{wedo.component[2].wedoimg.path}}" alt="" class="wedo-icon">
+            <h4 class="wedo-component-title">{{wedo.component[2].title}}</h4>
+            <div class="wedo-component-content-container">
+                <p class="wedo-component-content">{{wedo.component[2].content|raw}}</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+{% elseif wedo.component|length == 4 %}
+<div class="" style="width: 50% !important; margin: auto;">
+    <div class="row mt-5">
+        <div class="wedo-component-container col-6" style="border-bottom: 1px solid rgb(165, 165, 165);">
+            <img src=" {{wedo.component[0].wedoimg.path}}" alt="" class="wedo-icon">
+            <h4 class="wedo-component-title">{{wedo.component[0].title}}</h4>
+            <div class="wedo-component-content-container">
+                <p class="wedo-component-content">{{wedo.component[0].content|raw}}</p>
+            </div>
+        </div>
+
+        <div class="wedo-component-container col-6"
+            style="border-bottom: 1px solid rgb(165, 165, 165); border-left: 1px solid rgb(165, 165, 165)">
+            <img src=" {{wedo.component[1].wedoimg.path}}" alt="" class="wedo-icon">
+            <h4 class="wedo-component-title">{{wedo.component[1].title}}</h4>
+            <div class="wedo-component-content-container">
+                <p class="wedo-component-content">{{wedo.component[1].content|raw}}</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="wedo-component-container col-6">
+            <img src=" {{wedo.component[2].wedoimg.path}}" alt="" class="wedo-icon">
+            <h4 class="wedo-component-title">{{wedo.component[2].title}}</h4>
+            <div class="wedo-component-content-container">
+                <p class="wedo-component-content">{{wedo.component[2].content|raw}}</p>
+            </div>
+        </div>
+
+        <div class="wedo-component-container col-6" style="border-left: 1px solid rgb(165, 165, 165);">
+            <img src=" {{wedo.component[3].wedoimg.path}}" alt="" class="wedo-icon">
+            <h4 class="wedo-component-title">{{wedo.component[3].title}}</h4>
+            <div class="wedo-component-content-container">
+                <p class="wedo-component-content">{{wedo.component[3].content|raw}}</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+{% elseif wedo.component|length == 5 %}
+
+<div class="" style="width: 60% !important; margin: auto;">
+    <div class="row mt-5">
+        <div class="wedo-component-container col-4" style="border-bottom: 1px solid rgb(165, 165, 165);">
+            <img src=" {{wedo.component[0].wedoimg.path}}" alt="" class="wedo-icon">
+            <h4 class="wedo-component-title">{{wedo.component[0].title}}</h4>
+            <div class="wedo-component-content-container">
+                <p class="wedo-component-content">{{wedo.component[0].content|raw}}</p>
+            </div>
+        </div>
+
+        <div class="wedo-component-container col-4"
+            style="border-bottom: 1px solid rgb(165, 165, 165); border-left: 1px solid rgb(165, 165, 165);">
+            <img src=" {{wedo.component[1].wedoimg.path}}" alt="" class="wedo-icon">
+            <h4 class="wedo-component-title">{{wedo.component[1].title}}</h4>
+            <div class="wedo-component-content-container">
+                <p class="wedo-component-content">{{wedo.component[1].content|raw}}</p>
+            </div>
+        </div>
+
+        <div class="wedo-component-container col-4"
+            style="border-bottom: 1px solid rgb(165, 165, 165); border-left: 1px solid rgb(165, 165, 165); ">
+            <img src=" {{wedo.component[2].wedoimg.path}}" alt="" class="wedo-icon">
+            <h4 class="wedo-component-title">{{wedo.component[2].title}}</h4>
+            <div class="wedo-component-content-container">
+                <p class="wedo-component-content">{{wedo.component[2].content|raw}}</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="wedo-component-container col-4" style="border-left: 1px solid rgb(165, 165, 165);">
+            <img src=" {{wedo.component[3].wedoimg.path}}" alt="" class="wedo-icon">
+            <h4 class="wedo-component-title">{{wedo.component[3].title}}</h4>
+            <div class="wedo-component-content-container">
+                <p class="wedo-component-content">{{wedo.component[3].content|raw}}</p>
+            </div>
+        </div>
+
+        <div class="wedo-component-container col-4"
+            style="border-left: 1px solid rgb(165, 165, 165); border-right: 1px solid rgb(165, 165, 165);">
+            <img src=" {{wedo.component[4].wedoimg.path}}" alt="" class="wedo-icon">
+            <h4 class="wedo-component-title">{{wedo.component[4].title}}</h4>
+            <div class="wedo-component-content-container">
+                <p class="wedo-component-content">{{wedo.component[4].content|raw}}</p>
+            </div>
+        </div>
+        <div class="col-2"></div>
+    </div>
+</div>
+</div>
+
+{% elseif wedo.component|length == 6 %}
+
+<div class="" style="width: 60% !important; margin: auto;">
+    <div class="row mt-5">
+        <div class="wedo-component-container col-4" style="border-bottom: 1px solid rgb(165, 165, 165);">
+            <img src=" {{wedo.component[0].wedoimg.path}}" alt="" class="wedo-icon">
+            <h4 class="wedo-component-title">{{wedo.component[0].title}}</h4>
+            <div class="wedo-component-content-container">
+                <p class="wedo-component-content">{{wedo.component[0].content|raw}}</p>
+            </div>
+        </div>
+
+        <div class="wedo-component-container col-4"
+            style="border-bottom: 1px solid rgb(165, 165, 165); border-left: 1px solid rgb(165, 165, 165);">
+            <img src=" {{wedo.component[1].wedoimg.path}}" alt="" class="wedo-icon">
+            <h4 class="wedo-component-title">{{wedo.component[1].title}}</h4>
+            <div class="wedo-component-content-container">
+                <p class="wedo-component-content">{{wedo.component[1].content|raw}}</p>
+            </div>
+        </div>
+
+        <div class="wedo-component-container col-4"
+            style="border-bottom: 1px solid rgb(165, 165, 165); border-left: 1px solid rgb(165, 165, 165); ">
+            <img src=" {{wedo.component[2].wedoimg.path}}" alt="" class="wedo-icon">
+            <h4 class="wedo-component-title">{{wedo.component[2].title}}</h4>
+            <div class="wedo-component-content-container">
+                <p class="wedo-component-content">{{wedo.component[2].content|raw}}</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+
+        <div class="wedo-component-container col-4">
+            <img src=" {{wedo.component[3].wedoimg.path}}" alt="" class="wedo-icon">
+            <h4 class="wedo-component-title">{{wedo.component[3].title}}</h4>
+            <div class="wedo-component-content-container">
+                <p class="wedo-component-content">{{wedo.component[3].content|raw}}</p>
+            </div>
+        </div>
+
+        <div class="wedo-component-container col-4" style="border-left: 1px solid rgb(165, 165, 165); ">
+            <img src=" {{wedo.component[4].wedoimg.path}}" alt="" class="wedo-icon">
+            <h4 class="wedo-component-title">{{wedo.component[4].title}}</h4>
+            <div class="wedo-component-content-container">
+                <p class="wedo-component-content">{{wedo.component[4].content|raw}}</p>
+            </div>
+        </div>
+
+        <div class="wedo-component-container col-4" style="border-left: 1px solid rgb(165, 165, 165); ">
+            <img src=" {{wedo.component[5].wedoimg.path}}" alt="" class="wedo-icon">
+            <h4 class="wedo-component-title">{{wedo.component[5].title}}</h4>
+            <div class="wedo-component-content-container">
+                <p class="wedo-component-content">{{wedo.component[5].content|raw}}</p>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+</div>
+{% endif %}
+</div>
+
+{% endif %}
+{% endfor %}

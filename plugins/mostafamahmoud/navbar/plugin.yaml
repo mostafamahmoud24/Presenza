@@ -6,7 +6,7 @@ plugin:
     homepage: ''
 navigation:
     main-menu-item:
-        label: 'Navbar Links'
+        label: Navbar
         url: mostafamahmoud/navbar/navabr
         icon: icon-navicon
         sideMenu:

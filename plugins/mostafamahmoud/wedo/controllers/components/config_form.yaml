@@ -1,0 +1,10 @@
+name: Components
+form: $/mostafamahmoud/wedo/models/component/fields.yaml
+modelClass: MostafaMahmoud\Wedo\Models\Component
+defaultRedirect: mostafamahmoud/wedo/components
+create:
+    redirect: 'mostafamahmoud/wedo/components/update/:id'
+    redirectClose: mostafamahmoud/wedo/components
+update:
+    redirect: mostafamahmoud/wedo/components
+    redirectClose: mostafamahmoud/wedo/components

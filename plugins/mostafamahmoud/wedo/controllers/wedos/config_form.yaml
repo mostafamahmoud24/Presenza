@@ -1,0 +1,10 @@
+name: Wedos
+form: $/mostafamahmoud/wedo/models/wedo/fields.yaml
+modelClass: MostafaMahmoud\Wedo\Models\Wedo
+defaultRedirect: mostafamahmoud/wedo/wedos
+create:
+    redirect: 'mostafamahmoud/wedo/wedos/update/:id'
+    redirectClose: mostafamahmoud/wedo/wedos
+update:
+    redirect: mostafamahmoud/wedo/wedos
+    redirectClose: mostafamahmoud/wedo/wedos

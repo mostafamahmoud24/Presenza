@@ -1,0 +1,26 @@
+fields:
+    name:
+        label: Name
+        span: auto
+        type: text
+    title:
+        label: Title
+        span: auto
+        type: text
+    content:
+        label: Content
+        size: large
+        span: full
+        type: richeditor
+    wedoimg:
+        label: 'Icon Image'
+        mode: image
+        imageWidth: '200'
+        imageHeight: '200'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+        comment: 'Please upload a transparent PNG image'
