@@ -1,0 +1,21 @@
+fields:
+    name:
+        label: Name
+        span: auto
+        type: text
+    link:
+        label: 'Link ID'
+        span: auto
+        type: text
+    subtitle:
+        label: Subtitle
+        size: large
+        span: auto
+        type: richeditor
+    user:
+        label: Clients
+        oc.commentPosition: below
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation

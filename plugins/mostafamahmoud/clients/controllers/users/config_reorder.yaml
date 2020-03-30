@@ -1,0 +1,4 @@
+title: Users
+modelClass: MostafaMahmoud\Clients\Models\User
+toolbar:
+    buttons: reorder_toolbar

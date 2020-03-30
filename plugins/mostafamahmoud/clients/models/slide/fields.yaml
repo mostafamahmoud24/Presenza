@@ -1,0 +1,33 @@
+fields:
+    name:
+        label: Name
+        span: auto
+        type: text
+    author:
+        label: Author
+        span: auto
+        type: text
+        comment: 'please enter the name of the testimony''s author'
+    author_title:
+        label: 'Author Title'
+        span: auto
+        type: text
+        comment: 'Please enter the title of the author (e.g CEO or CFO etc...)'
+    coname:
+        label: 'Client / Company Name'
+        span: auto
+        type: text
+    testimony:
+        label: Testimony
+        size: large
+        span: auto
+        type: richeditor
+    coimg:
+        label: 'Client / Company logo'
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload

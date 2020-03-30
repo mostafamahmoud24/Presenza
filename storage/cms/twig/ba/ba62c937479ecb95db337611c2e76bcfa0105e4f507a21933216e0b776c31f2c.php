@@ -61,39 +61,40 @@ class __TwigTemplate_3dfb3da1da9a036d5e6353e7af3b77ed709dd8e51f8f6eb1749883c9f55
         echo "\" rel=\"stylesheet\" />
   <link href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css\" rel=\"stylesheet\"
     integrity=\"sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh\" crossorigin=\"anonymous\">
+  <link rel=\"stylesheet\" href=\"https://unpkg.com/flickity@2/dist/flickity.min.css\">
   <script src=\"https://kit.fontawesome.com/dbcf87c66d.js\" crossorigin=\"anonymous\"></script>
   <script src=\"//cdn.jsdelivr.net/npm/afterglowplayer@1.x\"></script>
 
   ";
-        // line 19
+        // line 20
         echo $this->env->getExtension('Cms\Twig\Extension')->assetsFunction('css');
         echo $this->env->getExtension('Cms\Twig\Extension')->displayBlock('styles');
-        // line 20
+        // line 21
         echo "</head>
 
 <!-- Header -->
 ";
-        // line 23
+        // line 24
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("header"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 24
+        // line 25
         echo "
 <!-- Content -->
 <section>
   ";
-        // line 27
-        echo $this->env->getExtension('Cms\Twig\Extension')->pageFunction();
         // line 28
+        echo $this->env->getExtension('Cms\Twig\Extension')->pageFunction();
+        // line 29
         echo "</section>
 
 <!-- Footer -->
 ";
-        // line 31
+        // line 32
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("footer"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 32
+        // line 33
         echo "
 
 
@@ -110,11 +111,11 @@ class __TwigTemplate_3dfb3da1da9a036d5e6353e7af3b77ed709dd8e51f8f6eb1749883c9f55
   crossorigin=\"anonymous\"></script>
 
 ";
-        // line 47
+        // line 48
         $_minify = System\Classes\CombineAssets::instance()->useMinify;
         echo '<script src="' . Request::getBasePath() . '/modules/system/assets/js/framework'.($_minify ? '-min' : '').'.js"></script>'.PHP_EOL;
         unset($_minify);
-        // line 48
+        // line 49
         echo "</body>
 
 </html>";
@@ -132,7 +133,7 @@ class __TwigTemplate_3dfb3da1da9a036d5e6353e7af3b77ed709dd8e51f8f6eb1749883c9f55
 
     public function getDebugInfo()
     {
-        return array (  118 => 48,  114 => 47,  97 => 32,  93 => 31,  88 => 28,  86 => 27,  81 => 24,  77 => 23,  72 => 20,  69 => 19,  60 => 13,  53 => 9,  49 => 8,  45 => 7,  37 => 1,);
+        return array (  119 => 49,  115 => 48,  98 => 33,  94 => 32,  89 => 29,  87 => 28,  82 => 25,  78 => 24,  73 => 21,  70 => 20,  60 => 13,  53 => 9,  49 => 8,  45 => 7,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -152,6 +153,7 @@ class __TwigTemplate_3dfb3da1da9a036d5e6353e7af3b77ed709dd8e51f8f6eb1749883c9f55
   <link href=\"{{ ['assets/css/styles.css']|theme }}\" rel=\"stylesheet\" />
   <link href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css\" rel=\"stylesheet\"
     integrity=\"sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh\" crossorigin=\"anonymous\">
+  <link rel=\"stylesheet\" href=\"https://unpkg.com/flickity@2/dist/flickity.min.css\">
   <script src=\"https://kit.fontawesome.com/dbcf87c66d.js\" crossorigin=\"anonymous\"></script>
   <script src=\"//cdn.jsdelivr.net/npm/afterglowplayer@1.x\"></script>
 

@@ -1,0 +1,4 @@
+title: Testimony
+modelClass: MostafaMahmoud\Clients\Models\Slide
+toolbar:
+    buttons: reorder_toolbar

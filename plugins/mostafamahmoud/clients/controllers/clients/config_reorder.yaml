@@ -1,0 +1,4 @@
+title: Clients
+modelClass: MostafaMahmoud\Clients\Models\Client
+toolbar:
+    buttons: reorder_toolbar

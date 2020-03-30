@@ -1,0 +1,10 @@
+name: Testimony
+form: $/mostafamahmoud/clients/models/slide/fields.yaml
+modelClass: MostafaMahmoud\Clients\Models\Slide
+defaultRedirect: mostafamahmoud/clients/testimony
+create:
+    redirect: 'mostafamahmoud/clients/testimony/update/:id'
+    redirectClose: mostafamahmoud/clients/testimony
+update:
+    redirect: mostafamahmoud/clients/testimony
+    redirectClose: mostafamahmoud/clients/testimony

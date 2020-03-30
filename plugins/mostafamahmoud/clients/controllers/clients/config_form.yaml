@@ -1,0 +1,10 @@
+name: Clients
+form: $/mostafamahmoud/clients/models/client/fields.yaml
+modelClass: MostafaMahmoud\Clients\Models\Client
+defaultRedirect: mostafamahmoud/clients/clients
+create:
+    redirect: 'mostafamahmoud/clients/clients/update/:id'
+    redirectClose: mostafamahmoud/clients/clients
+update:
+    redirect: mostafamahmoud/clients/clients
+    redirectClose: mostafamahmoud/clients/clients

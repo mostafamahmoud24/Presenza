@@ -1,0 +1,20 @@
+plugin:
+    name: 'mostafamahmoud.clients::lang.plugin.name'
+    description: 'mostafamahmoud.clients::lang.plugin.description'
+    author: 'Mostafa Mahmoud'
+    icon: oc-icon-user
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'Our Clients'
+        url: mostafamahmoud/clients/clients
+        icon: icon-user
+        sideMenu:
+            side-menu-item2:
+                label: Client
+                url: mostafamahmoud/clients/users
+                icon: icon-user-plus
+            side-menu-item:
+                label: Testimonials
+                url: mostafamahmoud/clients/testimony
+                icon: icon-users
