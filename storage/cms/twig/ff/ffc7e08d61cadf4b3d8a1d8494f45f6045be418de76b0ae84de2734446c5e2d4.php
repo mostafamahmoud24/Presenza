@@ -240,7 +240,7 @@ class __TwigTemplate_8cd7087caad147250dde7c87483d256c9bc961b0bf3dba5ef7fbeaa28fe
             <div id=\"";
                         // line 89
                         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["user"], "id", [], "any", false, false, false, 89), "html", null, true);
-                        echo "\" class=\"carousel slide carousel-fade\" data-ride=\"carousel\"
+                        echo "\" class=\"carousel slide carousel-fade\" data-ride=\"carousel\" data-interval=\"false\"
                 style=\"height: 550px !important; width:100% !important\">
                 <div class=\" carousel-inner\">
                     ";
@@ -602,7 +602,7 @@ class __TwigTemplate_8cd7087caad147250dde7c87483d256c9bc961b0bf3dba5ef7fbeaa28fe
             <!-- The data-interval attribute disables auto sliding when set to false-->
 
 
-            <div id=\"{{user.id}}\" class=\"carousel slide carousel-fade\" data-ride=\"carousel\"
+            <div id=\"{{user.id}}\" class=\"carousel slide carousel-fade\" data-ride=\"carousel\" data-interval=\"false\"
                 style=\"height: 550px !important; width:100% !important\">
                 <div class=\" carousel-inner\">
                     {% for use in user.slide %}
