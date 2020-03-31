@@ -9,7 +9,7 @@ fields:
         type: text
     subtitle:
         label: Subtitle
-        size: ''
+        size: large
         span: full
         type: textarea
     heroLogo:

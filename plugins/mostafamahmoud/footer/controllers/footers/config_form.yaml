@@ -1,0 +1,10 @@
+name: Footers
+form: $/mostafamahmoud/footer/models/footer/fields.yaml
+modelClass: MostafaMahmoud\Footer\Models\Footer
+defaultRedirect: mostafamahmoud/footer/footers
+create:
+    redirect: 'mostafamahmoud/footer/footers/update/:id'
+    redirectClose: mostafamahmoud/footer/footers
+update:
+    redirect: mostafamahmoud/footer/footers
+    redirectClose: mostafamahmoud/footer/footers

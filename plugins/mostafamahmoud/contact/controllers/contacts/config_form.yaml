@@ -1,0 +1,10 @@
+name: Contacts
+form: $/mostafamahmoud/contact/models/contact/fields.yaml
+modelClass: MostafaMahmoud\Contact\Models\Contact
+defaultRedirect: mostafamahmoud/contact/contacts
+create:
+    redirect: 'mostafamahmoud/contact/contacts/update/:id'
+    redirectClose: mostafamahmoud/contact/contacts
+update:
+    redirect: mostafamahmoud/contact/contacts
+    redirectClose: mostafamahmoud/contact/contacts

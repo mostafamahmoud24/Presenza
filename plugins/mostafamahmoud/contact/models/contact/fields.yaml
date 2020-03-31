@@ -1,0 +1,14 @@
+fields:
+    name:
+        label: Name
+        span: auto
+        type: text
+    link:
+        label: 'Link ID'
+        span: auto
+        type: text
+    subtitle:
+        label: Subtitle
+        size: large
+        span: full
+        type: richeditor

@@ -1,0 +1,30 @@
+{% set footers = __SELF__.footer %}
+{% set footername = __SELF__.property('results') %}
+{% for footer in footers %}
+{% if footer.name == footername %}
+
+<div class="footer-container">
+    <ul class="footer-list">
+        <li>
+            <a href="{{footer.facebook_link}}" target="_blank" class="footer-link">
+                <i class="fab fa-twitter"></i>
+
+            </a>
+        </li>
+        <li>
+            <a href="{{footer.twitter_link}}" target="_blank" class="footer-link">
+                <i class="fab fa-facebook-square"></i>
+            </a>
+        </li>
+        <li>
+            <a href="{{footer.youtube_link}}" target="_blank" class="footer-link">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </li>
+    </ul>
+
+    <p class="footer-copyrights">Copyright 2020 All rights reserved - Designed by John Esamt</p>
+</div>
+
+{% endif %}
+{% endfor %}

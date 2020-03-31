@@ -1,0 +1,12 @@
+list: $/mostafamahmoud/contact/models/contact/columns.yaml
+modelClass: MostafaMahmoud\Contact\Models\Contact
+title: Contacts
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'mostafamahmoud/contact/contacts/update/:id'

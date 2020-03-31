@@ -1,0 +1,4 @@
+title: Footers
+modelClass: MostafaMahmoud\Footer\Models\Footer
+toolbar:
+    buttons: reorder_toolbar

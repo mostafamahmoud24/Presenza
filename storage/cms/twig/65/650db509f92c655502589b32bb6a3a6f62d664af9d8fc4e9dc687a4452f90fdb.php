@@ -34,12 +34,19 @@ class __TwigTemplate_ad2b2bec5a51ac5232d99f356a101a189735e317af47b1efb8aa4725ad8
     {
         $macros = $this->macros;
         // line 1
-        echo "footer";
+        $context['__cms_component_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->componentFunction("footer"        , $context['__cms_component_params']        );
+        unset($context['__cms_component_params']);
     }
 
     public function getTemplateName()
     {
         return "C:\\xampp\\htdocs\\presenza/themes/presenza/partials/footer.htm";
+    }
+
+    public function isTraitable()
+    {
+        return false;
     }
 
     public function getDebugInfo()
@@ -49,6 +56,6 @@ class __TwigTemplate_ad2b2bec5a51ac5232d99f356a101a189735e317af47b1efb8aa4725ad8
 
     public function getSourceContext()
     {
-        return new Source("footer", "C:\\xampp\\htdocs\\presenza/themes/presenza/partials/footer.htm", "");
+        return new Source("{% component 'footer' %}", "C:\\xampp\\htdocs\\presenza/themes/presenza/partials/footer.htm", "");
     }
 }

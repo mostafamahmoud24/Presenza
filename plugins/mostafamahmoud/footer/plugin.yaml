@@ -1,0 +1,11 @@
+plugin:
+    name: 'mostafamahmoud.footer::lang.plugin.name'
+    description: 'mostafamahmoud.footer::lang.plugin.description'
+    author: 'Mostafa Mahmoud'
+    icon: oc-icon-empire
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Footer
+        url: mostafamahmoud/footer/footers
+        icon: icon-empire

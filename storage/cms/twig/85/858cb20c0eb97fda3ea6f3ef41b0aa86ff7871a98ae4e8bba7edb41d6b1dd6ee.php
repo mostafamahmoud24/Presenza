@@ -46,6 +46,9 @@ class __TwigTemplate_e64c00679aff5e771022ab88ec62f4a03bda7f51eca3e2a00005b3be8d0
         $context['__cms_component_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->componentFunction("clients"        , $context['__cms_component_params']        );
         unset($context['__cms_component_params']);
+        $context['__cms_component_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->componentFunction("contactform"        , $context['__cms_component_params']        );
+        unset($context['__cms_component_params']);
     }
 
     public function getTemplateName()
@@ -65,6 +68,6 @@ class __TwigTemplate_e64c00679aff5e771022ab88ec62f4a03bda7f51eca3e2a00005b3be8d0
 
     public function getSourceContext()
     {
-        return new Source("{% component 'hero' %}{% component 'Aboutus' %}{% component 'wedos' %}{% component 'clients' %}", "C:\\xampp\\htdocs\\presenza/themes/presenza/pages/homepage.htm", "");
+        return new Source("{% component 'hero' %}{% component 'Aboutus' %}{% component 'wedos' %}{% component 'clients' %}{% component 'contactform' %}", "C:\\xampp\\htdocs\\presenza/themes/presenza/pages/homepage.htm", "");
     }
 }

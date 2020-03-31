@@ -1,0 +1,11 @@
+plugin:
+    name: 'mostafamahmoud.contact::lang.plugin.name'
+    description: 'mostafamahmoud.contact::lang.plugin.description'
+    author: 'Mostafa Mahmoud'
+    icon: oc-icon-paper-plane
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'Contact Us'
+        url: mostafamahmoud/contact/contacts
+        icon: icon-paper-plane
