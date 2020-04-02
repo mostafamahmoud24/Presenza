@@ -1,4 +1,4 @@
-1585686123a:1:{s:11:"default.htm";a:5:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:2195:"<!-- description = "Default layout" == -->
+1585799156a:1:{s:11:"default.htm";a:5:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:2300:"<!-- description = "Default layout" == -->
 <!DOCTYPE html>
 <html>
 
@@ -10,6 +10,7 @@
   <meta name="author" content="OctoberCMS" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="generator" content="OctoberCMS" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
   <link href="{{ ['assets/css/styles.css']|theme }}" rel="stylesheet" />
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -48,7 +49,7 @@
 {% framework %}
 </body>
 
-</html>";s:5:"mtime";i:1585586880;s:6:"markup";s:2195:"<!-- description = "Default layout" == -->
+</html>";s:5:"mtime";i:1585767200;s:6:"markup";s:2300:"<!-- description = "Default layout" == -->
 <!DOCTYPE html>
 <html>
 
@@ -60,6 +61,7 @@
   <meta name="author" content="OctoberCMS" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="generator" content="OctoberCMS" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
   <link href="{{ ['assets/css/styles.css']|theme }}" rel="stylesheet" />
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">

@@ -20,10 +20,24 @@ class Nav extends ComponentBase
         return [
             'results' => [
                 'name' => 'Navbar Component',
-                'description' => 'pre-styled navbar for Presnza'
+                'description' => 'pre-styled navbar for Presnza',
+                'type' => 'dropdown'
             ]
         ];
     }
+
+    public function getResultsOptions() {
+        $db = Navbar::all();
+
+        $query = Navbar::all()->take(count($db))->all();
+  
+        $arr = array();
+        foreach ($query as $q) {
+          $arr = array_merge($arr, array($q->name => $q->name));
+        }
+  
+        return $arr;
+      }
 
     public function onRun() {
         $this -> navbar = $this -> loadNavbar();
