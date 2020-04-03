@@ -2,30 +2,41 @@
 {% set heroname = __SELF__.property('results') %}
 {% for hero in heros %}
 {% if hero.name == heroname %}
-<div class="hero-container text-center text-white">
+<div class="hero-container">
     <div class="hero-logo-container">
-        <img src="{{hero.heroLogo.thumb(250, auto)}}" alt="">
+        <img src="{{hero.heroLogo.path}}" alt="" class="hero-logo">
     </div>
+
     <div class="hero-title-container">
         <h2 class="hero-title">{{hero.title}}</h2>
     </div>
+
     <div class="hero-subtitle-container">
         <p class="hero-subtitle">{{hero.subtitle}}</p>
     </div>
-    <a href="#about" style="text-decoration: none;">
-        <div class="hero-button-container">
-            <p class="hero-button">
+
+    <div class="hero-button-container">
+        <a href="#about" class="hero-button-anchor">
+            <div class="hero-button-text">
                 Get Started
-            </p>
-        </div>
-    </a>
-    <a href=" #about">
-        <div class="hero-arrow-container">
-            <div class="hero-arrow">
-                <i class="fas fa-long-arrow-alt-down"></i>
             </div>
-        </div>
+        </a>
+    </div>
+
+    <a href="#about">
+        <img src="../../../../../presenza/themes/presenza/assets/images/Button@2x.png" alt=""
+            class="hero-button-desktop">
     </a>
+
+    <img src="../../../../../presenza/themes/presenza/assets/images/Group69Copy.png" alt="" class="hero-overlay1">
+
+    <img src="../../../../../presenza/themes/presenza/assets/images/Group625.png" alt="" class="hero-overlay2">
+
+    <a href="#about">
+        <img src="../../../../../presenza/themes/presenza/assets/images/button2.png" alt="" class="hero-button-mobile">
+    </a>
+
+
 </div>
 {% endif %}
 {% endfor %}
