@@ -1,4 +1,4 @@
-1585884318a:1:{s:10:"header.htm";a:6:{s:8:"fileName";s:10:"header.htm";s:7:"content";s:1713:"[navbar]
+1585973294a:1:{s:10:"header.htm";a:6:{s:8:"fileName";s:10:"header.htm";s:7:"content";s:1387:"[navbar]
 ==
 {% set navbar = navbar.navbar%}
 {% set navs = navbar|last %}
@@ -24,18 +24,17 @@
         <img src=" {{navs.logo.path}}" alt="" class="navbar-logo-img">
 
     </div>
-    <div class=" burger" onclick="document.getElementById('burger').classList.add('navigation-links-set')"></div>
+    <div class=" burger" onclick="handleSideMenuToggle()">
+    </div>
 
     <div class="navigation-links" id="burger">
-        <div class=" burger" onclick="document.getElementById('burger').classList.remove('navigation-links-set').classList.add('navigation-links');
-            document.getElementById('burger').style.animationName = 'reverse-hamburger'">
+        <div class=" burger" onclick="handleSideMenuToggle()">
         </div>
 
         <div class=" nav">
             <ul class="navbar-links">
                 {% for nav in navs.link %}
-                <a href="#{{nav.link}}" class="navbar-link"
-                    onclick="document.getElementById('burger').classList.remove('navigation-links-set').classList.add('navigation-links')">
+                <a href="#{{nav.link}}" class="navbar-link" onclick="handleSideMenuToggle()">
                     <li class="link-item">{{nav.name}}</li>
                 </a>
                 {% endfor %}
@@ -47,7 +46,7 @@
 
         </div>
     </div>
-</div>";s:5:"mtime";i:1585798044;s:6:"markup";s:1699:"{% set navbar = navbar.navbar%}
+</div>";s:5:"mtime";i:1585931667;s:6:"markup";s:1373:"{% set navbar = navbar.navbar%}
 {% set navs = navbar|last %}
 
 <!-- <div class="navbar-container">
@@ -71,18 +70,17 @@
         <img src=" {{navs.logo.path}}" alt="" class="navbar-logo-img">
 
     </div>
-    <div class=" burger" onclick="document.getElementById('burger').classList.add('navigation-links-set')"></div>
+    <div class=" burger" onclick="handleSideMenuToggle()">
+    </div>
 
     <div class="navigation-links" id="burger">
-        <div class=" burger" onclick="document.getElementById('burger').classList.remove('navigation-links-set').classList.add('navigation-links');
-            document.getElementById('burger').style.animationName = 'reverse-hamburger'">
+        <div class=" burger" onclick="handleSideMenuToggle()">
         </div>
 
         <div class=" nav">
             <ul class="navbar-links">
                 {% for nav in navs.link %}
-                <a href="#{{nav.link}}" class="navbar-link"
-                    onclick="document.getElementById('burger').classList.remove('navigation-links-set').classList.add('navigation-links')">
+                <a href="#{{nav.link}}" class="navbar-link" onclick="handleSideMenuToggle()">
                     <li class="link-item">{{nav.name}}</li>
                 </a>
                 {% endfor %}

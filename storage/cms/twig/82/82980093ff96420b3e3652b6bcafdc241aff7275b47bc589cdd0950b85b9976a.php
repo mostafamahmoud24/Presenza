@@ -81,11 +81,11 @@ class __TwigTemplate_ffef64beaf29775f992c0e1482884c4e299c8ae845efc78e4d1d81e941a
         echo "\" alt=\"\" class=\"navbar-logo-img\">
 
     </div>
-    <div class=\" burger\" onclick=\"document.getElementById('burger').classList.add('navigation-links-set')\"></div>
+    <div class=\" burger\" onclick=\"handleSideMenuToggle()\">
+    </div>
 
     <div class=\"navigation-links\" id=\"burger\">
-        <div class=\" burger\" onclick=\"document.getElementById('burger').classList.remove('navigation-links-set').classList.add('navigation-links');
-            document.getElementById('burger').style.animationName = 'reverse-hamburger'\">
+        <div class=\" burger\" onclick=\"handleSideMenuToggle()\">
         </div>
 
         <div class=\" nav\">
@@ -98,11 +98,10 @@ class __TwigTemplate_ffef64beaf29775f992c0e1482884c4e299c8ae845efc78e4d1d81e941a
             // line 35
             echo "                <a href=\"#";
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["nav"], "link", [], "any", false, false, false, 35), "html", null, true);
-            echo "\" class=\"navbar-link\"
-                    onclick=\"document.getElementById('burger').classList.remove('navigation-links-set').classList.add('navigation-links')\">
+            echo "\" class=\"navbar-link\" onclick=\"handleSideMenuToggle()\">
                     <li class=\"link-item\">";
-            // line 37
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["nav"], "name", [], "any", false, false, false, 37), "html", null, true);
+            // line 36
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["nav"], "name", [], "any", false, false, false, 36), "html", null, true);
             echo "</li>
                 </a>
                 ";
@@ -110,14 +109,14 @@ class __TwigTemplate_ffef64beaf29775f992c0e1482884c4e299c8ae845efc78e4d1d81e941a
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['nav'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 40
+        // line 39
         echo "            </ul>
         </div>
 
         <div class=\"navbar-logo-burger\">
             <img src=\" ";
-        // line 44
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["navs"] ?? null), "logo", [], "any", false, false, false, 44), "path", [], "any", false, false, false, 44), "html", null, true);
+        // line 43
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["navs"] ?? null), "logo", [], "any", false, false, false, 43), "path", [], "any", false, false, false, 43), "html", null, true);
         echo "\" alt=\"\" class=\"navbar-logo-img-second\">
 
         </div>
@@ -137,7 +136,7 @@ class __TwigTemplate_ffef64beaf29775f992c0e1482884c4e299c8ae845efc78e4d1d81e941a
 
     public function getDebugInfo()
     {
-        return array (  120 => 44,  114 => 40,  105 => 37,  99 => 35,  95 => 34,  80 => 22,  71 => 15,  62 => 12,  57 => 11,  53 => 10,  46 => 6,  41 => 3,  39 => 2,  37 => 1,);
+        return array (  119 => 43,  113 => 39,  104 => 36,  99 => 35,  95 => 34,  80 => 22,  71 => 15,  62 => 12,  57 => 11,  53 => 10,  46 => 6,  41 => 3,  39 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -166,18 +165,17 @@ class __TwigTemplate_ffef64beaf29775f992c0e1482884c4e299c8ae845efc78e4d1d81e941a
         <img src=\" {{navs.logo.path}}\" alt=\"\" class=\"navbar-logo-img\">
 
     </div>
-    <div class=\" burger\" onclick=\"document.getElementById('burger').classList.add('navigation-links-set')\"></div>
+    <div class=\" burger\" onclick=\"handleSideMenuToggle()\">
+    </div>
 
     <div class=\"navigation-links\" id=\"burger\">
-        <div class=\" burger\" onclick=\"document.getElementById('burger').classList.remove('navigation-links-set').classList.add('navigation-links');
-            document.getElementById('burger').style.animationName = 'reverse-hamburger'\">
+        <div class=\" burger\" onclick=\"handleSideMenuToggle()\">
         </div>
 
         <div class=\" nav\">
             <ul class=\"navbar-links\">
                 {% for nav in navs.link %}
-                <a href=\"#{{nav.link}}\" class=\"navbar-link\"
-                    onclick=\"document.getElementById('burger').classList.remove('navigation-links-set').classList.add('navigation-links')\">
+                <a href=\"#{{nav.link}}\" class=\"navbar-link\" onclick=\"handleSideMenuToggle()\">
                     <li class=\"link-item\">{{nav.name}}</li>
                 </a>
                 {% endfor %}

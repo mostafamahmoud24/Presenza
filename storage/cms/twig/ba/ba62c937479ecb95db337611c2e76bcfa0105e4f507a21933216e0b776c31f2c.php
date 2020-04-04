@@ -66,58 +66,64 @@ class __TwigTemplate_3dfb3da1da9a036d5e6353e7af3b77ed709dd8e51f8f6eb1749883c9f55
   <link rel=\"stylesheet\" href=\"https://unpkg.com/flickity@2/dist/flickity.min.css\">
   <script src=\"https://kit.fontawesome.com/dbcf87c66d.js\" crossorigin=\"anonymous\"></script>
   <script src=\"//cdn.jsdelivr.net/npm/afterglowplayer@1.x\"></script>
+  <script src=\"../presenza/themes/presenza/assets/javascript/index.js\"></script>
 
   ";
-        // line 22
+        // line 23
         echo $this->env->getExtension('Cms\Twig\Extension')->assetsFunction('css');
         echo $this->env->getExtension('Cms\Twig\Extension')->displayBlock('styles');
-        // line 23
+        // line 24
         echo "</head>
 
-<!-- Header -->
-";
-        // line 26
+<body>
+
+  <!-- Header -->
+  ";
+        // line 29
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("header"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 27
-        echo "
-<!-- Content -->
-<section>
-  ";
         // line 30
+        echo "
+  <!-- Content -->
+  <section>
+    ";
+        // line 33
         echo $this->env->getExtension('Cms\Twig\Extension')->pageFunction();
-        // line 31
-        echo "</section>
-
-<!-- Footer -->
-";
         // line 34
+        echo "  </section>
+
+  <!-- Footer -->
+  ";
+        // line 37
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("footer"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 35
+        // line 38
         echo "
 
 
 
-<script src=\"https://code.jquery.com/jquery-3.2.1.slim.min.js\"
-  integrity=\"sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN\" crossorigin=\"anonymous\"></script>
-<script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js\"
-  integrity=\"sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q\" crossorigin=\"anonymous\"></script>
-<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css\"
-  integrity=\"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm\" crossorigin=\"anonymous\">
-<script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js\"
-  integrity=\"sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl\" crossorigin=\"anonymous\"></script>
-<script src=\"https://code.jquery.com/jquery-3.4.1.js\" integrity=\"sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=\"
-  crossorigin=\"anonymous\"></script>
+  <script src=\"https://code.jquery.com/jquery-3.2.1.slim.min.js\"
+    integrity=\"sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN\"
+    crossorigin=\"anonymous\"></script>
+  <script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js\"
+    integrity=\"sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q\"
+    crossorigin=\"anonymous\"></script>
+  <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css\"
+    integrity=\"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm\" crossorigin=\"anonymous\">
+  <script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js\"
+    integrity=\"sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl\"
+    crossorigin=\"anonymous\"></script>
+  <script src=\"https://code.jquery.com/jquery-3.4.1.js\" integrity=\"sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=\"
+    crossorigin=\"anonymous\"></script>
 
-";
-        // line 50
+  ";
+        // line 56
         $_minify = System\Classes\CombineAssets::instance()->useMinify;
         echo '<script src="' . Request::getBasePath() . '/modules/system/assets/js/framework'.($_minify ? '-min' : '').'.js"></script>'.PHP_EOL;
         unset($_minify);
-        // line 51
+        // line 57
         echo "</body>
 
 </html>";
@@ -135,7 +141,7 @@ class __TwigTemplate_3dfb3da1da9a036d5e6353e7af3b77ed709dd8e51f8f6eb1749883c9f55
 
     public function getDebugInfo()
     {
-        return array (  121 => 51,  117 => 50,  100 => 35,  96 => 34,  91 => 31,  89 => 30,  84 => 27,  80 => 26,  75 => 23,  72 => 22,  62 => 15,  53 => 9,  49 => 8,  45 => 7,  37 => 1,);
+        return array (  127 => 57,  123 => 56,  103 => 38,  99 => 37,  94 => 34,  92 => 33,  87 => 30,  83 => 29,  76 => 24,  73 => 23,  62 => 15,  53 => 9,  49 => 8,  45 => 7,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -160,36 +166,42 @@ class __TwigTemplate_3dfb3da1da9a036d5e6353e7af3b77ed709dd8e51f8f6eb1749883c9f55
   <link rel=\"stylesheet\" href=\"https://unpkg.com/flickity@2/dist/flickity.min.css\">
   <script src=\"https://kit.fontawesome.com/dbcf87c66d.js\" crossorigin=\"anonymous\"></script>
   <script src=\"//cdn.jsdelivr.net/npm/afterglowplayer@1.x\"></script>
+  <script src=\"../presenza/themes/presenza/assets/javascript/index.js\"></script>
 
   {% styles %}
 </head>
 
-<!-- Header -->
-{% partial 'header' %}
+<body>
 
-<!-- Content -->
-<section>
-  {% page %}
-</section>
+  <!-- Header -->
+  {% partial 'header' %}
 
-<!-- Footer -->
-{% partial 'footer' %}
+  <!-- Content -->
+  <section>
+    {% page %}
+  </section>
+
+  <!-- Footer -->
+  {% partial 'footer' %}
 
 
 
 
-<script src=\"https://code.jquery.com/jquery-3.2.1.slim.min.js\"
-  integrity=\"sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN\" crossorigin=\"anonymous\"></script>
-<script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js\"
-  integrity=\"sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q\" crossorigin=\"anonymous\"></script>
-<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css\"
-  integrity=\"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm\" crossorigin=\"anonymous\">
-<script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js\"
-  integrity=\"sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl\" crossorigin=\"anonymous\"></script>
-<script src=\"https://code.jquery.com/jquery-3.4.1.js\" integrity=\"sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=\"
-  crossorigin=\"anonymous\"></script>
+  <script src=\"https://code.jquery.com/jquery-3.2.1.slim.min.js\"
+    integrity=\"sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN\"
+    crossorigin=\"anonymous\"></script>
+  <script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js\"
+    integrity=\"sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q\"
+    crossorigin=\"anonymous\"></script>
+  <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css\"
+    integrity=\"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm\" crossorigin=\"anonymous\">
+  <script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js\"
+    integrity=\"sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl\"
+    crossorigin=\"anonymous\"></script>
+  <script src=\"https://code.jquery.com/jquery-3.4.1.js\" integrity=\"sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=\"
+    crossorigin=\"anonymous\"></script>
 
-{% framework %}
+  {% framework %}
 </body>
 
 </html>", "C:\\xampp\\htdocs\\presenza/themes/presenza/layouts/default.htm", "");
