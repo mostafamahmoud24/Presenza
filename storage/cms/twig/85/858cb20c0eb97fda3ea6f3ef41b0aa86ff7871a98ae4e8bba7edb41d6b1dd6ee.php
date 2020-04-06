@@ -44,8 +44,12 @@ class __TwigTemplate_e64c00679aff5e771022ab88ec62f4a03bda7f51eca3e2a00005b3be8d0
         $context['__cms_component_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->componentFunction("wedos"        , $context['__cms_component_params']        );
         unset($context['__cms_component_params']);
+        $context['__cms_component_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->componentFunction("clients"        , $context['__cms_component_params']        );
+        unset($context['__cms_component_params']);
         // line 3
         echo "
+<!-- <br>
 <br>
 <br>
 <br>
@@ -61,8 +65,7 @@ class __TwigTemplate_e64c00679aff5e771022ab88ec62f4a03bda7f51eca3e2a00005b3be8d0
 <br>
 <br>
 <br>
-<br>
-<br>";
+<br> -->";
     }
 
     public function getTemplateName()
@@ -77,14 +80,15 @@ class __TwigTemplate_e64c00679aff5e771022ab88ec62f4a03bda7f51eca3e2a00005b3be8d0
 
     public function getDebugInfo()
     {
-        return array (  48 => 3,  44 => 2,  37 => 1,);
+        return array (  51 => 3,  44 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("{% component 'hero' %}{% component 'Aboutus' %}
-{% component 'wedos' %}
+{% component 'wedos' %}{% component 'clients' %}
 
+<!-- <br>
 <br>
 <br>
 <br>
@@ -100,7 +104,6 @@ class __TwigTemplate_e64c00679aff5e771022ab88ec62f4a03bda7f51eca3e2a00005b3be8d0
 <br>
 <br>
 <br>
-<br>
-<br>", "C:\\xampp\\htdocs\\presenza/themes/presenza/pages/homepage.htm", "");
+<br> -->", "C:\\xampp\\htdocs\\presenza/themes/presenza/pages/homepage.htm", "");
     }
 }

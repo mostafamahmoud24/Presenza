@@ -1,4 +1,4 @@
-1586134520a:1:{s:11:"default.htm";a:5:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:2620:"<!-- description = "Default layout" == -->
+1586204378a:1:{s:11:"default.htm";a:5:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:2648:"<!-- description = "Default layout" == -->
 <!DOCTYPE html>
 <html>
 
@@ -11,7 +11,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="generator" content="OctoberCMS" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Open+Sans&display=swap"
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Open+Sans&family=Lora:ital@1&display=swap"
     rel="stylesheet">
   <link href="{{ ['assets/css/styles.css']|theme }}" rel="stylesheet" />
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
@@ -60,7 +61,7 @@
   {% framework %}
 </body>
 
-</html>";s:5:"mtime";i:1586120571;s:6:"markup";s:2620:"<!-- description = "Default layout" == -->
+</html>";s:5:"mtime";i:1586201052;s:6:"markup";s:2648:"<!-- description = "Default layout" == -->
 <!DOCTYPE html>
 <html>
 
@@ -73,7 +74,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="generator" content="OctoberCMS" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Open+Sans&display=swap"
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Open+Sans&family=Lora:ital@1&display=swap"
     rel="stylesheet">
   <link href="{{ ['assets/css/styles.css']|theme }}" rel="stylesheet" />
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
