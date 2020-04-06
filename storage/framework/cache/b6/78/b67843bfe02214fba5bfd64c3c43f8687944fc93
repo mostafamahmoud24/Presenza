@@ -1,23 +1,8 @@
-1586023172a:1:{s:10:"header.htm";a:6:{s:8:"fileName";s:10:"header.htm";s:7:"content";s:1387:"[navbar]
+1586134520a:1:{s:10:"header.htm";a:6:{s:8:"fileName";s:10:"header.htm";s:7:"content";s:945:"[navbar]
 ==
 {% set navbar = navbar.navbar%}
 {% set navs = navbar|last %}
 
-<!-- <div class="navbar-container">
-    <div class="navbar-logo">
-        <img src="{{navs.logo.thumb(150, auto)}}" alt="">
-    </div>
-    <div class="navigation-links">
-        <ul class="navbar-links">
-            {% for nav in navs.link %}
-            <a href="#{{nav.link}}" class="navbar-link">
-                <li>{{nav.name}}</li>
-            </a>
-            {% endfor %}
-        </ul>
-    </div>
-    
-</div> -->
 
 <div class="navbar-container">
     <div class="navbar-logo">
@@ -34,7 +19,7 @@
         <div class=" nav">
             <ul class="navbar-links">
                 {% for nav in navs.link %}
-                <a href="#{{nav.link}}" class="navbar-link" onclick="handleSideMenuToggle()">
+                <a href="#{{nav.link}}" class="navbar-link" onclick="handleSideMenu()">
                     <li class="link-item">{{nav.name}}</li>
                 </a>
                 {% endfor %}
@@ -46,24 +31,9 @@
 
         </div>
     </div>
-</div>";s:5:"mtime";i:1585931667;s:6:"markup";s:1373:"{% set navbar = navbar.navbar%}
+</div>";s:5:"mtime";i:1586100050;s:6:"markup";s:931:"{% set navbar = navbar.navbar%}
 {% set navs = navbar|last %}
 
-<!-- <div class="navbar-container">
-    <div class="navbar-logo">
-        <img src="{{navs.logo.thumb(150, auto)}}" alt="">
-    </div>
-    <div class="navigation-links">
-        <ul class="navbar-links">
-            {% for nav in navs.link %}
-            <a href="#{{nav.link}}" class="navbar-link">
-                <li>{{nav.name}}</li>
-            </a>
-            {% endfor %}
-        </ul>
-    </div>
-    
-</div> -->
 
 <div class="navbar-container">
     <div class="navbar-logo">
@@ -80,7 +50,7 @@
         <div class=" nav">
             <ul class="navbar-links">
                 {% for nav in navs.link %}
-                <a href="#{{nav.link}}" class="navbar-link" onclick="handleSideMenuToggle()">
+                <a href="#{{nav.link}}" class="navbar-link" onclick="handleSideMenu()">
                     <li class="link-item">{{nav.name}}</li>
                 </a>
                 {% endfor %}

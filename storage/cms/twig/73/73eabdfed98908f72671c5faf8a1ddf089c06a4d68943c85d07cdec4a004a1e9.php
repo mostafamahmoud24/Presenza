@@ -45,7 +45,10 @@ class __TwigTemplate_e51ce75d663863575c906da5b36173dbf4c759eb0bedee30fca48bdac19
             if ((twig_get_attribute($this->env, $this->source, $context["about"], "name", [], "any", false, false, false, 4) == ($context["aboutname"] ?? null))) {
                 // line 5
                 echo "
-<div class=\"about-body\" id=\"about\">
+<div class=\"about-body\" id=\"";
+                // line 6
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["about"], "link", [], "any", false, false, false, 6), "html", null, true);
+                echo "\">
     <div class=\"about-container-container\">
         <div class=\"purple-icon\"></div>
         <img src=\"../../../../../../presenza/themes/presenza/assets/images/square1.png\" alt=\"\" class=\"about-square1\">
@@ -178,7 +181,7 @@ class __TwigTemplate_e51ce75d663863575c906da5b36173dbf4c759eb0bedee30fca48bdac19
 
     public function getDebugInfo()
     {
-        return array (  154 => 86,  145 => 80,  139 => 77,  133 => 74,  118 => 62,  114 => 61,  94 => 44,  63 => 16,  59 => 15,  47 => 5,  45 => 4,  41 => 3,  39 => 2,  37 => 1,);
+        return array (  157 => 86,  148 => 80,  142 => 77,  136 => 74,  121 => 62,  117 => 61,  97 => 44,  66 => 16,  62 => 15,  50 => 6,  47 => 5,  45 => 4,  41 => 3,  39 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -188,7 +191,7 @@ class __TwigTemplate_e51ce75d663863575c906da5b36173dbf4c759eb0bedee30fca48bdac19
 {% for about in aboutus %}
 {% if about.name == aboutname %}
 
-<div class=\"about-body\" id=\"about\">
+<div class=\"about-body\" id=\"{{about.link}}\">
     <div class=\"about-container-container\">
         <div class=\"purple-icon\"></div>
         <img src=\"../../../../../../presenza/themes/presenza/assets/images/square1.png\" alt=\"\" class=\"about-square1\">
