@@ -16,7 +16,7 @@ return [
     |
     */
 
-    'debug' => true,
+    'debug' => env('APP_DEBUG', true),
 
     /*
     |--------------------------------------------------------------------------
@@ -41,7 +41,7 @@ return [
     |
     */
 
-    'url' => 'http://localhost/presenza/',
+    'url' => env('APP_URL', 'http://localhost/presenza/'),
 
     /*
     |--------------------------------------------------------------------------
@@ -107,7 +107,7 @@ return [
     |
     */
 
-    'key' => 'emzbuG40UzVV3MtiEjlNtwaKGQuj2X0I',
+    'key' => env('APP_KEY', ''),
 
     'cipher' => 'AES-256-CBC',
 
