@@ -61,52 +61,44 @@ class __TwigTemplate_c3538076b4214192c9cb04685a4cec57681ad982405b162a95c58604e53
         <div class=\"form__group field\">
             <input type=\"text\" class=\"form__field\" placeholder=\"Name\" name=\"name\" />
             <label for=\"name\" class=\"form__label\">Name</label>
+            <p class=\"text-danger\" style=\"padding-top: 0px !important;\">";
+                // line 16
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["errors"] ?? null), "first", [0 => "name"], "method", false, false, false, 16), "html", null, true);
+                echo "</p>
         </div>
+
 
         <div class=\"form__group field\">
             <input type=\"email\" class=\"form__field\" placeholder=\"email\" name=\"email\" />
             <label for=\"email\" class=\"form__label\">Email</label>
+            <p class=\"text-danger\" style=\"padding-top: 0px !important;\">";
+                // line 23
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["errors"] ?? null), "first", [0 => "email"], "method", false, false, false, 23), "html", null, true);
+                echo "</p>
         </div>
 
-        <div class=\"form__group field\">
+
+        <div class=\"form__group field1 mt-5\">
             <textarea name=\"content\" cols=\"30\" rows=\"5\" class=\"form__field\" placeholder=\"Message\"
                 style=\"resize: none;\"></textarea>
             <label for=\"content\" class=\"form__label\">Message</label>
+            <p class=\"text-danger\" style=\"padding-top: 0px !important;\">";
+                // line 31
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["errors"] ?? null), "first", [0 => "content"], "method", false, false, false, 31), "html", null, true);
+                echo "</p>
         </div>
 
-        <a href=\"#contact\" onclick=\"\$(this).closest('form').submit()\" class=\"contact-button\">
-            <div style=\"margin-top: 7px;\">submit form</div>
-            <div class=\"contact-submit-icon\">
-                <i class=\"fas fa-arrow-right\" style=\"position: absolute; top:11px; right: 12px\"></i>
-            </div>
-        </a>
+        <div class=\"contact-button\">
+            <a href=\"#contact\" onclick=\"\$(this).closest('form').submit()\" class=\"contact-submit-text\">
+                <div style=\"margin-top: 8px;\">submit form</div>
+            </a>
+            <a href=\"#contact\" onclick=\"\$(this).closest('form').submit()\">
+                <div class=\"contact-submit-icon\">
+                    <i class=\"fas fa-arrow-right\" style=\"position: absolute; top:11px; right: 12px\"></i>
+                </div>
+            </a>
 
-        <ul>
-            ";
-                // line 37
-                $context['_parent'] = $context;
-                $context['_seq'] = twig_ensure_traversable(twig_get_attribute($this->env, $this->source, ($context["errors"] ?? null), "all", [], "method", false, false, false, 37));
-                foreach ($context['_seq'] as $context["_key"] => $context["error"]) {
-                    // line 38
-                    echo "            <!-- displays specific error -->
-            <li>";
-                    // line 39
-                    echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["errors"] ?? null), "first", [0 => "name"], "method", false, false, false, 39), "html", null, true);
-                    echo "</li>
-            <!-- displays all errors  -->
-            <li>";
-                    // line 41
-                    echo twig_escape_filter($this->env, $context["error"], "html", null, true);
-                    echo "</li>
-            ";
-                }
-                $_parent = $context['_parent'];
-                unset($context['_seq'], $context['_iterated'], $context['_key'], $context['error'], $context['_parent'], $context['loop']);
-                $context = array_intersect_key($context, $_parent) + $_parent;
-                // line 43
-                echo "        </ul>
-
-
+        </div>
     </form>
 
 </div>
@@ -131,7 +123,7 @@ class __TwigTemplate_c3538076b4214192c9cb04685a4cec57681ad982405b162a95c58604e53
 
     public function getDebugInfo()
     {
-        return array (  107 => 43,  99 => 41,  94 => 39,  91 => 38,  87 => 37,  57 => 10,  51 => 7,  47 => 5,  45 => 4,  41 => 3,  39 => 2,  37 => 1,);
+        return array (  87 => 31,  76 => 23,  66 => 16,  57 => 10,  51 => 7,  47 => 5,  45 => 4,  41 => 3,  39 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -151,36 +143,35 @@ class __TwigTemplate_c3538076b4214192c9cb04685a4cec57681ad982405b162a95c58604e53
         <div class=\"form__group field\">
             <input type=\"text\" class=\"form__field\" placeholder=\"Name\" name=\"name\" />
             <label for=\"name\" class=\"form__label\">Name</label>
+            <p class=\"text-danger\" style=\"padding-top: 0px !important;\">{{errors.first('name')}}</p>
         </div>
+
 
         <div class=\"form__group field\">
             <input type=\"email\" class=\"form__field\" placeholder=\"email\" name=\"email\" />
             <label for=\"email\" class=\"form__label\">Email</label>
+            <p class=\"text-danger\" style=\"padding-top: 0px !important;\">{{errors.first('email')}}</p>
         </div>
 
-        <div class=\"form__group field\">
+
+        <div class=\"form__group field1 mt-5\">
             <textarea name=\"content\" cols=\"30\" rows=\"5\" class=\"form__field\" placeholder=\"Message\"
                 style=\"resize: none;\"></textarea>
             <label for=\"content\" class=\"form__label\">Message</label>
+            <p class=\"text-danger\" style=\"padding-top: 0px !important;\">{{errors.first('content')}}</p>
         </div>
 
-        <a href=\"#contact\" onclick=\"\$(this).closest('form').submit()\" class=\"contact-button\">
-            <div style=\"margin-top: 7px;\">submit form</div>
-            <div class=\"contact-submit-icon\">
-                <i class=\"fas fa-arrow-right\" style=\"position: absolute; top:11px; right: 12px\"></i>
-            </div>
-        </a>
+        <div class=\"contact-button\">
+            <a href=\"#contact\" onclick=\"\$(this).closest('form').submit()\" class=\"contact-submit-text\">
+                <div style=\"margin-top: 8px;\">submit form</div>
+            </a>
+            <a href=\"#contact\" onclick=\"\$(this).closest('form').submit()\">
+                <div class=\"contact-submit-icon\">
+                    <i class=\"fas fa-arrow-right\" style=\"position: absolute; top:11px; right: 12px\"></i>
+                </div>
+            </a>
 
-        <ul>
-            {% for error in errors.all() %}
-            <!-- displays specific error -->
-            <li>{{ errors.first('name') }}</li>
-            <!-- displays all errors  -->
-            <li>{{ error }}</li>
-            {% endfor %}
-        </ul>
-
-
+        </div>
     </form>
 
 </div>

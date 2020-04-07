@@ -2,7 +2,7 @@
 {% set clientname = __SELF__.property('results') %}
 {% for client in clients %}
 {% if client.name == clientname %}
-<div class="client-header-container" id="clients">
+<div class="client-header-container" id="{{client.link}}">
     <div class="client-title-container">
         <img src="../../../../../../presenza/themes/presenza/assets/images/Presenza-icon@2x.png" alt=""
             class="client-title-img">

@@ -20,6 +20,4 @@ let handleSideMenu = () => {
     }
 
     return;
-
-
 }

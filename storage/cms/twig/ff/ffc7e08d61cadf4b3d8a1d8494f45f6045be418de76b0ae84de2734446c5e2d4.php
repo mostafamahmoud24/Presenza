@@ -44,7 +44,9 @@ class __TwigTemplate_8cd7087caad147250dde7c87483d256c9bc961b0bf3dba5ef7fbeaa28fe
             // line 4
             if ((twig_get_attribute($this->env, $this->source, $context["client"], "name", [], "any", false, false, false, 4) == ($context["clientname"] ?? null))) {
                 // line 5
-                echo "<div class=\"client-header-container\" id=\"clients\">
+                echo "<div class=\"client-header-container\" id=\"";
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["client"], "link", [], "any", false, false, false, 5), "html", null, true);
+                echo "\">
     <div class=\"client-title-container\">
         <img src=\"../../../../../../presenza/themes/presenza/assets/images/Presenza-icon@2x.png\" alt=\"\"
             class=\"client-title-img\">
@@ -398,7 +400,7 @@ class __TwigTemplate_8cd7087caad147250dde7c87483d256c9bc961b0bf3dba5ef7fbeaa28fe
 
     public function getDebugInfo()
     {
-        return array (  379 => 142,  361 => 137,  349 => 128,  337 => 119,  330 => 115,  325 => 112,  311 => 111,  301 => 106,  295 => 103,  290 => 101,  285 => 99,  282 => 98,  272 => 93,  266 => 90,  261 => 88,  256 => 86,  253 => 85,  250 => 84,  233 => 83,  228 => 81,  221 => 76,  207 => 65,  200 => 61,  195 => 58,  181 => 57,  171 => 52,  165 => 49,  160 => 47,  155 => 45,  152 => 44,  142 => 39,  136 => 36,  131 => 34,  126 => 32,  123 => 31,  120 => 30,  103 => 29,  98 => 27,  90 => 22,  87 => 21,  85 => 20,  80 => 17,  63 => 16,  56 => 12,  47 => 5,  45 => 4,  41 => 3,  39 => 2,  37 => 1,);
+        return array (  381 => 142,  363 => 137,  351 => 128,  339 => 119,  332 => 115,  327 => 112,  313 => 111,  303 => 106,  297 => 103,  292 => 101,  287 => 99,  284 => 98,  274 => 93,  268 => 90,  263 => 88,  258 => 86,  255 => 85,  252 => 84,  235 => 83,  230 => 81,  223 => 76,  209 => 65,  202 => 61,  197 => 58,  183 => 57,  173 => 52,  167 => 49,  162 => 47,  157 => 45,  154 => 44,  144 => 39,  138 => 36,  133 => 34,  128 => 32,  125 => 31,  122 => 30,  105 => 29,  100 => 27,  92 => 22,  89 => 21,  87 => 20,  82 => 17,  65 => 16,  58 => 12,  47 => 5,  45 => 4,  41 => 3,  39 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -407,7 +409,7 @@ class __TwigTemplate_8cd7087caad147250dde7c87483d256c9bc961b0bf3dba5ef7fbeaa28fe
 {% set clientname = __SELF__.property('results') %}
 {% for client in clients %}
 {% if client.name == clientname %}
-<div class=\"client-header-container\" id=\"clients\">
+<div class=\"client-header-container\" id=\"{{client.link}}\">
     <div class=\"client-title-container\">
         <img src=\"../../../../../../presenza/themes/presenza/assets/images/Presenza-icon@2x.png\" alt=\"\"
             class=\"client-title-img\">
