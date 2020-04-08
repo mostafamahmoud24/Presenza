@@ -162,4 +162,6 @@
   'MostafaMahmoud\\Footer\\Models\\Footer' => 'plugins\\mostafamahmoud\\footer\\models\\Footer.php',
   'MostafaMahmoud\\Footer\\Components\\Footer' => 'plugins\\mostafamahmoud\\footer\\components\\Footer.php',
   'MostafaMahmoud\\Footer\\Components\\Footers' => 'plugins\\mostafamahmoud\\footer\\components\\Footers.php',
+  'backend\\Controllers\\preferences' => 'modules\\backend\\controllers\\preferences.php',
+  'backend\\Controllers\\users' => 'modules\\backend\\controllers\\users.php',
 );

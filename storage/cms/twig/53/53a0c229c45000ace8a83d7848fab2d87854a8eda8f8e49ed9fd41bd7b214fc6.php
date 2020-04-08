@@ -918,7 +918,7 @@ $context["wedo"], "component", [], "any", false, false, false, 406)) == 9)) {
 
     <div class=\"row\">
 
-        <div class=\"wedo-component-container15 col-12 col-md-12 col-lg-4\">
+        <div class=\"wedo-component-container18 col-12 col-md-12 col-lg-4\">
             <img src=\" ";
                     // line 469
                     echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (($__internal_7886d104df990d4d01343e15743b569d1995f6a6a8de3ead740a6091880b629a = twig_get_attribute($this->env, $this->source, $context["wedo"], "component", [], "any", false, false, false, 469)) && is_array($__internal_7886d104df990d4d01343e15743b569d1995f6a6a8de3ead740a6091880b629a) || $__internal_7886d104df990d4d01343e15743b569d1995f6a6a8de3ead740a6091880b629a instanceof ArrayAccess ? ($__internal_7886d104df990d4d01343e15743b569d1995f6a6a8de3ead740a6091880b629a[6] ?? null) : null), "wedoimg", [], "any", false, false, false, 469), "path", [], "any", false, false, false, 469), "html", null, true);
@@ -1486,7 +1486,7 @@ $context["wedo"], "component", [], "any", false, false, false, 406)) == 9)) {
 
     <div class=\"row\">
 
-        <div class=\"wedo-component-container15 col-12 col-md-12 col-lg-4\">
+        <div class=\"wedo-component-container18 col-12 col-md-12 col-lg-4\">
             <img src=\" {{wedo.component[6].wedoimg.path}}\" alt=\"\" class=\"wedo-icon\">
             <h4 class=\"wedo-component-title\">{{wedo.component[6].title}}</h4>
             <div class=\"wedo-component-content-container\">

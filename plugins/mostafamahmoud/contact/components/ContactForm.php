@@ -57,7 +57,7 @@ class ContactForm extends ComponentBase
 
             Mail::send('mostafamahmoud.contact::mail.message', $vars, function($message) {
 
-            $message->to('mostafamahmoud24@gmail.com', 'Admin Person');
+            $message->to('95mostafamahmoud@gmail.com', 'Admin Person');
             $message->subject('Presenza contact form test');
             });
         }
