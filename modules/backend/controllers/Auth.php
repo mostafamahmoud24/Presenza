@@ -87,6 +87,7 @@ class Auth extends Controller
         $user = BackendAuth::authenticate([
             'login' => post('login'),
             'password' => post('password')
+            
         ], $remember);
 
         if (is_null($runMigrationsOnLogin = Config::get('cms.runMigrationsOnLogin', null))) {
