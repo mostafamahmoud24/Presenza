@@ -2946,7 +2946,7 @@ margin: -5px;
     }
 
     .carousel {
-        width: 354px !important;
+        width: 100% !important;
         height: 352px !important;
         margin: auto !important;
         margin-top: 18px !important;
