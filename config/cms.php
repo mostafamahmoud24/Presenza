@@ -343,7 +343,7 @@ return [
     |
     */
 
-    'linkPolicy' => env('LINK_POLICY', 'detect'),
+    'linkPolicy' => env('LINK_POLICY', 'secure'),
 
     /*
     |--------------------------------------------------------------------------
