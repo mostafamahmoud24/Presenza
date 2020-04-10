@@ -21,9 +21,9 @@
             <img src="{{user.clientimg.path}}" class="testimony-img">
         </div>
         <div class="col-12 col-lg-6">
-            <!-- The data-interval attribute disables auto sliding when set to false-->
+            <!-- The data-interval attribute disables auto sliding when set to false, add class carousel-fade for fade effect on sliding-->
 
-            <div id="test{{user.id}}" class="carousel slide carousel-fade" data-ride="carousel" data-touch="true"
+            <div id="test{{user.id}}" class="carousel slide" data-ride="carousel" data-touch="true"
                 data-interval="false">
                 <div class=" carousel-inner">
                     {% for use in user.slide %}
@@ -76,10 +76,9 @@
 
 
         <div class="col-lg-6 order-12 order-lg-1 ">
-            <!-- The data-interval attribute disables auto sliding when set to false-->
+            <!-- The data-interval attribute disables auto sliding when set to false, add class carousel-fade for fade effect on sliding-->
 
-            <div id="another{{user.id}}" class="carousel slide carousel-fade " data-ride="carousel"
-                data-interval="false"">
+            <div id="another{{user.id}}" class="carousel slide" data-ride="carousel" data-interval="false"">
             <div class=" carousel-inner">
                 {% for use in user.slide %}
                 {% if loop.index0 == 0 %}
