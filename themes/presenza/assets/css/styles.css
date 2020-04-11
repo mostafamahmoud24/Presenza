@@ -374,12 +374,13 @@ z-index: 5;
 
 
     .navbar-logo-img {
-        position: absolute;
-        top: 4px;
-        left: -3px;
-        width: 100px ;
-        height: auto ;
-     }
+        width: 100px;
+        /* background-color: red; */
+        margin-top: 0px;
+        margin-left: 30px;
+        transition: ease;
+        transition-duration: 0.2s;
+    }
 
     .navbar-logo-img-second {
         display: none;
