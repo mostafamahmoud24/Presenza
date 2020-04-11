@@ -409,12 +409,16 @@ z-index: 5;
     }
 
     .navbar-link {
-        text-decoration: none !important;                
-        color: rgb(190, 190, 190);
-        font-size: 16px;
-        font-weight: bold;
-        font-family: 'Poppins', sans-serif;
-        color: #FFFFFF;
+        padding-right: 12px;
+        padding-left: 12px;
+        color: white;
+        font-size: 14px;
+        /* background-color: green; */
+        text-decoration: none;
+        transition: ease;
+        transition-duration: 0.2s;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
     }
 
     .navbar-link:hover {
@@ -427,15 +431,10 @@ z-index: 5;
     }
 
     .navigation-links {
-        background-color: #242635;
-        width: 78%;
-        min-height: 100vh;
-        max-height: 100%;
-        position: absolute;
-        top: 0px;
-        right: -100%;
-        transition: ease-in-out;
-        transition-duration: 0.4s;
+        /* background-color: blue; */
+        padding-right: 5%;
+        transition: ease;
+        transition-duration: 0.2s;
     }
 
     .navigation-links-set {
