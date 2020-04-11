@@ -354,6 +354,106 @@ z-index: 5;
         }
   }
 
+  @media only screen and (max-width: 650px) and (orientation: landscape) {
+    .navbar-container {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 100px;
+        /* background-color: #242635; */
+        background-color: transparent;
+        position: sticky;
+        top: 0;
+        width: 100%;
+        z-index: 5;
+    }
+
+    .navbar-logo-img {
+       position: absolute;
+       top: 4px;
+       left: -3px;
+       width: 117px ;
+       height: auto ;
+
+    }
+
+    .navbar-logo-burger {
+       display: none;
+    }
+
+    .navbar-logo-img {
+        width: 117px;
+        height: auto;
+    }
+
+    .navbar-logo-img-second {
+        display: none;
+    }
+
+    .burger {
+        display: none;
+    }
+
+    .navbar-links {
+        display: block;
+        margin: auto;
+        padding: 0px;
+        text-align: center;
+        list-style: none;
+        text-decoration: none;
+        background-color: #242635;
+        width: 100%;
+        min-height: 100vh;
+        max-height: 100%;
+        /* position: absolute;
+        margin-top: auto;
+        margin-bottom: auto;
+        top: 50%;
+        bottom: 0; */
+        padding-top: 55%;
+        display: none;
+    }
+
+    .nav {
+        text-align: center;
+        width: 107%;
+
+    }
+
+    .navbar-link {
+        text-decoration: none !important;                
+        color: rgb(190, 190, 190);
+        font-size: 16px;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+        color: #FFFFFF;
+    }
+
+    .navbar-link:hover {
+        color: white;
+        text-decoration: none;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        background: transparent;
+        border-bottom:none;
+    }
+
+    .navigation-links {
+        background-color: #242635;
+        width: 78%;
+        min-height: 100vh;
+        max-height: 100%;
+        position: absolute;
+        top: 0px;
+        right: -100%;
+        transition: ease-in-out;
+        transition-duration: 0.4s;
+    }
+
+    .navigation-links-set {
+        display: none;
+    }
+  }
+
 
 
 /*///////////////////////////////////////////*/
