@@ -227,7 +227,7 @@ z-index: 5;
             }
   }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 650px) and (orientation: portrait) {
 
         .navbar-container {
             display: flex;
@@ -331,7 +331,8 @@ z-index: 5;
         .navigation-links {
             background-color: #242635;
             width: 78%;
-            height: 100vh;
+            min-height: 100vh;
+            max-height: 100%;
             position: absolute;
             top: 0px;
             right: -100%;
