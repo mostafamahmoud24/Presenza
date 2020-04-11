@@ -358,7 +358,7 @@ z-index: 5;
     .navbar-container {
         display: flex;
         justify-content: space-between;
-        padding-top: 100px;
+        padding-top: 0px;
         /* background-color: #242635; */
         background-color: transparent;
         position: sticky;
