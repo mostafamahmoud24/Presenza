@@ -609,7 +609,7 @@ z-index: 5;
     }
   }
 
-  @media only screen and (max-height: 650px) {
+  @media only screen and (max-height: 650px) and (max-width: 650px) {
     .hero-logo-container {
         width: 223px;
         margin: auto;
@@ -624,6 +624,8 @@ z-index: 5;
         /* margin-top: 100px; */
         margin: auto;
     }
+
+    
   }
     
 
