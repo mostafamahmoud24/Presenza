@@ -9,7 +9,8 @@ use Input;
 use Mail;
 use Validator;
 use Redirect;
-use Flash;
+// use Flash;
+use ValidationException;
 
 
 class ContactForm extends ComponentBase
@@ -50,7 +51,8 @@ class ContactForm extends ComponentBase
         if ($validator->fails()) {
 
             // $this['results'] = $validator->messages()->first();
-            return Redirect::to('https://presenzaa.herokuapp.com/#contact')->withErrors($validator);
+            // return Redirect::to('#contact')->withErrors($validator);
+            throw new ValidationException($validator);
             
         }else {
 

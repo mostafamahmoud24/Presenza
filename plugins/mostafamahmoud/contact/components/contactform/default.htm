@@ -9,18 +9,19 @@
     <div class="contact-subtitle-container">
         <p class="contact-subtitle">{{contact.subtitle|raw}}</p>
     </div>
-    <form data-request="onSend" id="the_form">
+    <form data-request="onSend" id="the_form" data-request-validate data-request-flash>
         <div class="form__group field">
             <input type="text" class="form__field" placeholder="Name" name="name" />
             <label for="name" class="form__label">Name</label>
-            <p class="text-danger" style="padding-top: 0px !important;">{{errors.first('name')}}</p>
+            <p class="text-danger" style="padding-top: 0px !important;">
+                {{errors.first('name')}}</p>
         </div>
-
 
         <div class="form__group field">
             <input type="email" class="form__field" placeholder="email" name="email" />
             <label for="email" class="form__label">Email</label>
             <p class="text-danger" style="padding-top: 0px !important;">{{errors.first('email')}}</p>
+            <div data-validate-for="name" class="text-danger"></div>
         </div>
 
 
@@ -29,6 +30,7 @@
             <label for="content" class="form__label">Message</label>
             <p class="text-danger" style="padding-top: 0px !important;">{{errors.first('content')}}</p>
         </div>
+
 
         <div class="contact-button">
             <a onclick="$(this).closest('form').submit()" class="contact-submit-text">
