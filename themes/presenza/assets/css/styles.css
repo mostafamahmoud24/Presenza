@@ -588,7 +588,7 @@ z-index: 5;
     }
   }
 
-  @media only screen and (max-width: 915px) and (max-height: 860px) {
+  @media only screen and (min-width: 915px) and (max-height: 860px) {
     .hero-button-desktop {
         display: none;
     }
@@ -603,7 +603,7 @@ z-index: 5;
     .hero-logo-container {
         width: 223px;
         margin: auto;
-        padding-top: 49.3%;
+        padding-top: 20%;
         /* padding-top: 204px; */
     }
     
