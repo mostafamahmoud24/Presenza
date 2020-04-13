@@ -663,6 +663,16 @@ z-index: 5;
     }
   }
 
+  @media only screen and (min-width: 915px) and (max-height: 860px) {
+    .hero-logo-container {
+        width: 223px;
+        margin: auto;
+        padding-top: 10%;
+        /* padding-top: 204px; */
+        display: inherit;
+    }
+  }
+
 
   @media only screen and (max-width: 650px) {
 
