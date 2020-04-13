@@ -605,6 +605,7 @@ z-index: 5;
         margin: auto;
         padding-top: 20%;
         /* padding-top: 204px; */
+        display: inherit;
     }
     
     .hero-logo {
