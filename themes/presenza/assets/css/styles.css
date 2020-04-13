@@ -675,7 +675,7 @@ z-index: 5;
     .hero-logo-container {
         width: 112px;
         margin: auto;
-        padding-top: 10%;
+        padding-top: 20%;
         /* padding-top: 204px; */
         display: inherit;
     }
@@ -688,7 +688,7 @@ z-index: 5;
     }
 
     .hero-title {
-        margin-top:-170px;
+        margin-top:-42px;
         font-size: 12px;
         transition: ease;
         transition-duration: 0.3s;
