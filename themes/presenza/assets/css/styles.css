@@ -794,7 +794,7 @@ z-index: 5;
     }
   }
 
-  @media only screen and (min-width: 650px) {
+  @media only screen and (min-width: 651px) {
     .hero-button-mobile {
         display: none;
     }
