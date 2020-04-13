@@ -59,55 +59,57 @@ class __TwigTemplate_3dfb3da1da9a036d5e6353e7af3b77ed709dd8e51f8f6eb1749883c9f55
   <link
     href=\"https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Open+Sans&family=Lora:ital@1&display=swap\"
     rel=\"stylesheet\">
-  <link href=\"";
+  <!-- <link href=\"";
         // line 17
         echo $this->extensions['Cms\Twig\Extension']->themeFilter([0 => "assets/css/styles.css"]);
-        echo "\" rel=\"stylesheet\" />
+        echo "\" rel=\"stylesheet\" /> -->
+  <link href=\"../../../../presenza/themes/presenza/assets/css/styles.css\" rel=\"stylesheet\" />
   <link href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css\" rel=\"stylesheet\"
     integrity=\"sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh\" crossorigin=\"anonymous\">
   <link rel=\"stylesheet\" href=\"https://unpkg.com/flickity@2/dist/flickity.min.css\">
 
   <script src=\"https://kit.fontawesome.com/dbcf87c66d.js\" crossorigin=\"anonymous\"></script>
   <script src=\"//cdn.jsdelivr.net/npm/afterglowplayer@1.x\"></script>
-  <script type=\"text/javascript\" src=\"";
-        // line 24
+  <!-- <script type=\"text/javascript\" src=\"";
+        // line 25
         echo $this->extensions['Cms\Twig\Extension']->themeFilter([0 => "assets/javascript/index.js"]);
-        echo "\"></script>
+        echo "\"></script> -->
+  <script type=\"text/javascript\" src=\"../../../../presenza/themes/presenza/assets/javascript/index.js\"></script>
 
 
 
   ";
-        // line 28
+        // line 30
         echo $this->env->getExtension('Cms\Twig\Extension')->assetsFunction('css');
         echo $this->env->getExtension('Cms\Twig\Extension')->displayBlock('styles');
-        // line 29
+        // line 31
         echo "</head>
 
 <body>
 
   <!-- Header -->
   ";
-        // line 34
+        // line 36
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("header"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 35
+        // line 37
         echo "
   <!-- Content -->
   <section>
     ";
-        // line 38
+        // line 40
         echo $this->env->getExtension('Cms\Twig\Extension')->pageFunction();
-        // line 39
+        // line 41
         echo "  </section>
 
   <!-- Footer -->
   ";
-        // line 42
+        // line 44
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("footer"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 43
+        // line 45
         echo "
 
 
@@ -130,11 +132,11 @@ class __TwigTemplate_3dfb3da1da9a036d5e6353e7af3b77ed709dd8e51f8f6eb1749883c9f55
     crossorigin=\"anonymous\"></script>
 
   ";
-        // line 64
+        // line 66
         $_minify = System\Classes\CombineAssets::instance()->useMinify;
         echo '<script src="' . Request::getBasePath() . '/modules/system/assets/js/framework'.($_minify ? '-min' : '').'.js"></script>'.PHP_EOL;
         unset($_minify);
-        // line 65
+        // line 67
         echo "</body>
 
 </html>";
@@ -152,7 +154,7 @@ class __TwigTemplate_3dfb3da1da9a036d5e6353e7af3b77ed709dd8e51f8f6eb1749883c9f55
 
     public function getDebugInfo()
     {
-        return array (  138 => 65,  134 => 64,  111 => 43,  107 => 42,  102 => 39,  100 => 38,  95 => 35,  91 => 34,  84 => 29,  81 => 28,  74 => 24,  64 => 17,  53 => 9,  49 => 8,  45 => 7,  37 => 1,);
+        return array (  140 => 67,  136 => 66,  113 => 45,  109 => 44,  104 => 41,  102 => 40,  97 => 37,  93 => 36,  86 => 31,  83 => 30,  75 => 25,  64 => 17,  53 => 9,  49 => 8,  45 => 7,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -173,14 +175,16 @@ class __TwigTemplate_3dfb3da1da9a036d5e6353e7af3b77ed709dd8e51f8f6eb1749883c9f55
   <link
     href=\"https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Open+Sans&family=Lora:ital@1&display=swap\"
     rel=\"stylesheet\">
-  <link href=\"{{ ['assets/css/styles.css']|theme }}\" rel=\"stylesheet\" />
+  <!-- <link href=\"{{ ['assets/css/styles.css']|theme }}\" rel=\"stylesheet\" /> -->
+  <link href=\"../../../../presenza/themes/presenza/assets/css/styles.css\" rel=\"stylesheet\" />
   <link href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css\" rel=\"stylesheet\"
     integrity=\"sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh\" crossorigin=\"anonymous\">
   <link rel=\"stylesheet\" href=\"https://unpkg.com/flickity@2/dist/flickity.min.css\">
 
   <script src=\"https://kit.fontawesome.com/dbcf87c66d.js\" crossorigin=\"anonymous\"></script>
   <script src=\"//cdn.jsdelivr.net/npm/afterglowplayer@1.x\"></script>
-  <script type=\"text/javascript\" src=\"{{ ['assets/javascript/index.js']|theme }}\"></script>
+  <!-- <script type=\"text/javascript\" src=\"{{ ['assets/javascript/index.js']|theme }}\"></script> -->
+  <script type=\"text/javascript\" src=\"../../../../presenza/themes/presenza/assets/javascript/index.js\"></script>
 
 
 

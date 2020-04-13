@@ -51,52 +51,63 @@ class __TwigTemplate_e51ce75d663863575c906da5b36173dbf4c759eb0bedee30fca48bdac19
                 echo "\">
     <div class=\"about-container-container\">
         <div class=\"purple-icon\"></div>
-        <img src=\"../../../../../themes/presenza/assets/images/square1.png\" alt=\"\" class=\"about-square1\">
-        <img src=\"../../../../../themes/presenza/assets/images/square1.png\" alt=\"\" class=\"about-square2\">
+        <!-- <img src=\"../../../../../themes/presenza/assets/images/square1.png\" alt=\"\" class=\"about-square1\">
+        <img src=\"../../../../../themes/presenza/assets/images/square1.png\" alt=\"\" class=\"about-square2\"> -->
+        <img src=\"../../../../../../presenza/themes/presenza/assets/images/square1.png\" alt=\"\" class=\"about-square1\">
+        <img src=\"../../../../../../presenza/themes/presenza/assets/images/square1.png\" alt=\"\" class=\"about-square2\">
 
         <div class=\"about-container\">
 
             <div class=\"about-video-container\"\">
             <video class=\" afterglow about-video\" id=\"myvideo\" width=\"597\" height=\"336\" src=\"";
-                // line 15
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, $context["about"], "video", [], "any", false, false, false, 15), "path", [], "any", false, false, false, 15), "html", null, true);
+                // line 17
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, $context["about"], "video", [], "any", false, false, false, 17), "path", [], "any", false, false, false, 17), "html", null, true);
                 echo "\"
                 poster=\"";
-                // line 16
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, $context["about"], "videoimg", [], "any", false, false, false, 16), "thumb", [0 => 1194, 1 => 672, 2 => ["mode" => "crop"]], "method", false, false, false, 16), "html", null, true);
+                // line 18
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, $context["about"], "videoimg", [], "any", false, false, false, 18), "thumb", [0 => 1194, 1 => 672, 2 => ["mode" => "crop"]], "method", false, false, false, 18), "html", null, true);
                 echo "\" />
             </video>
-            <img src=\"../../../../../themes/presenza/assets/images/Path 492@2x.png\" alt=\"\" class=\"line-icon\">
+            <!-- <img src=\"../../../../../themes/presenza/assets/images/Path 492@2x.png\" alt=\"\" class=\"line-icon\">
             <img src=\"../../../../../themes/presenza/assets/images/Path 493@2x.png\" alt=\"\" class=\"big-curve-icon\">
             <img src=\"../../../../../themes/presenza/assets/images/Path 494@2x.png\" alt=\"\"
                 class=\"small-curve-icon-icon\">
-            <img src=\"../../../../../themes/presenza/assets/images/Group 451@2x.png\" alt=\"\" class=\"square-icon\">
+            <img src=\"../../../../../themes/presenza/assets/images/Group 451@2x.png\" alt=\"\" class=\"square-icon\"> -->
+            <img src=\"../../../../../../presenza/themes/presenza/assets/images/Path 492@2x.png\" alt=\"\"
+                class=\"line-icon\">
+            <img src=\"../../../../../../presenza/themes/presenza/assets/images/Path 493@2x.png\" alt=\"\"
+                class=\"big-curve-icon\">
+            <img src=\"../../../../../../presenza/themes/presenza/assets/images/Path 494@2x.png\" alt=\"\"
+                class=\"small-curve-icon-icon\">
+            <img src=\"../../../../../../presenza/themes/presenza/assets/images/Group 451@2x.png\" alt=\"\"
+                class=\"square-icon\">
         </div>
 
         <div class=\"about-header\">
             <div class=\"about-styling-title-container\">
                 <!-- <h1 class=\"about-styling-title\">About</h1> -->
-                <img src=\"../../../../../themes/presenza/assets/images/About.png\" alt=\"\">
+                <!-- <img src=\"../../../../../themes/presenza/assets/images/About.png\" alt=\"\"> -->
+                <img src=\"../../../../../../presenza/themes/presenza/assets/images/About.png\" alt=\"\">
                 <h1 class=\"about-title\">About us</h1>
             </div>
 
         </div>
         <div class=\"about-social-container\">
             <a href=\"";
-                // line 34
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["about"], "facebook_link", [], "any", false, false, false, 34), "html", null, true);
+                // line 45
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["about"], "facebook_link", [], "any", false, false, false, 45), "html", null, true);
                 echo "\" style=\"text-decoration: none;\" target=\"_blank\">
                 <i class=\"fab fa-facebook-square\"></i>
             </a>
             <a href=\"";
-                // line 37
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["about"], "twitter_link", [], "any", false, false, false, 37), "html", null, true);
+                // line 48
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["about"], "twitter_link", [], "any", false, false, false, 48), "html", null, true);
                 echo "\" style=\"text-decoration: none;\" target=\"_blank\">
                 <i class=\"fab fa-twitter\"></i>
             </a>
             <a href=\"";
-                // line 40
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["about"], "instagram_link", [], "any", false, false, false, 40), "html", null, true);
+                // line 51
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["about"], "instagram_link", [], "any", false, false, false, 51), "html", null, true);
                 echo "\" style=\"text-decoration: none;\" target=\"_blank\">
                 <i class=\"fab fa-instagram\"></i>
             </a>
@@ -105,8 +116,8 @@ class __TwigTemplate_e51ce75d663863575c906da5b36173dbf4c759eb0bedee30fca48bdac19
         <div class=\"about-content-container\">
             <p class=\"about-content product-sans\">
                 ";
-                // line 47
-                echo twig_get_attribute($this->env, $this->source, $context["about"], "description", [], "any", false, false, false, 47);
+                // line 58
+                echo twig_get_attribute($this->env, $this->source, $context["about"], "description", [], "any", false, false, false, 58);
                 echo "
             </p>
         </div>
@@ -117,7 +128,8 @@ class __TwigTemplate_e51ce75d663863575c906da5b36173dbf4c759eb0bedee30fca48bdac19
     </div>
 </div>
 
-<img src=\"../../../../../themes/presenza/assets/images/Ellipse 212.png\" alt=\"\" class=\"about-arch\">
+<!-- <img src=\"../../../../../themes/presenza/assets/images/Ellipse 212.png\" alt=\"\" class=\"about-arch\"> -->
+<img src=\"../../../../../../presenza/themes/presenza/assets/images/Ellipse 212.png\" alt=\"\" class=\"about-arch\">
 
 
 </div>
@@ -125,12 +137,12 @@ class __TwigTemplate_e51ce75d663863575c906da5b36173dbf4c759eb0bedee30fca48bdac19
     <div class=\"about-content-container\">
         <div class=\"about-video-container\" style=\"width: 600px;\">
             <video class=\"afterglow about-video\" id=\"myvideo\" width=\"640\" height=\"360\" src=\"";
-                // line 64
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, $context["about"], "video", [], "any", false, false, false, 64), "path", [], "any", false, false, false, 64), "html", null, true);
+                // line 76
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, $context["about"], "video", [], "any", false, false, false, 76), "path", [], "any", false, false, false, 76), "html", null, true);
                 echo "\"
                 poster=\"";
-                // line 65
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, $context["about"], "videoimg", [], "any", false, false, false, 65), "thumb", [0 => 1280, 1 => 720, 2 => ["mode" => "crop"]], "method", false, false, false, 65), "html", null, true);
+                // line 77
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, $context["about"], "videoimg", [], "any", false, false, false, 77), "thumb", [0 => 1280, 1 => 720, 2 => ["mode" => "crop"]], "method", false, false, false, 77), "html", null, true);
                 echo "\" /></video>
         </div>
         <div class=\"about-content-header\">
@@ -144,20 +156,20 @@ class __TwigTemplate_e51ce75d663863575c906da5b36173dbf4c759eb0bedee30fca48bdac19
             </div>
             <div class=\"about-social\">
                 <a href=\"";
-                // line 77
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["about"], "facebook_link", [], "any", false, false, false, 77), "html", null, true);
+                // line 89
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["about"], "facebook_link", [], "any", false, false, false, 89), "html", null, true);
                 echo "\" target=\"_blank\" class=\"about-social-link\">
                     <i class=\"fab fa-facebook-square\" style=\"display:flex; margin-top:20px;\"></i>
                 </a>
                 <a class=\"about-social-link\" href=\"";
-                // line 80
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["about"], "twitter_link", [], "any", false, false, false, 80), "html", null, true);
+                // line 92
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["about"], "twitter_link", [], "any", false, false, false, 92), "html", null, true);
                 echo "\" target=\"_blank\">
                     <i class=\"fab fa-twitter\" style=\"display:flex; margin-top:20px;\"></i>
                 </a>
                 <a class=\"about-social-link\" href=\"";
-                // line 83
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["about"], "instagram_link", [], "any", false, false, false, 83), "html", null, true);
+                // line 95
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["about"], "instagram_link", [], "any", false, false, false, 95), "html", null, true);
                 echo "\" target=\"_blank\">
                     <i class=\"fab fa-instagram\" style=\"display:flex; margin-top:20px;\"></i>
                 </a>
@@ -165,8 +177,8 @@ class __TwigTemplate_e51ce75d663863575c906da5b36173dbf4c759eb0bedee30fca48bdac19
         </div>
         <div class=\"about-content-description\">
             <p>";
-                // line 89
-                echo twig_get_attribute($this->env, $this->source, $context["about"], "description", [], "any", false, false, false, 89);
+                // line 101
+                echo twig_get_attribute($this->env, $this->source, $context["about"], "description", [], "any", false, false, false, 101);
                 echo "</p>
         </div>
 
@@ -193,7 +205,7 @@ class __TwigTemplate_e51ce75d663863575c906da5b36173dbf4c759eb0bedee30fca48bdac19
 
     public function getDebugInfo()
     {
-        return array (  169 => 89,  160 => 83,  154 => 80,  148 => 77,  133 => 65,  129 => 64,  109 => 47,  99 => 40,  93 => 37,  87 => 34,  66 => 16,  62 => 15,  50 => 6,  47 => 5,  45 => 4,  41 => 3,  39 => 2,  37 => 1,);
+        return array (  181 => 101,  172 => 95,  166 => 92,  160 => 89,  145 => 77,  141 => 76,  120 => 58,  110 => 51,  104 => 48,  98 => 45,  68 => 18,  64 => 17,  50 => 6,  47 => 5,  45 => 4,  41 => 3,  39 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -206,8 +218,10 @@ class __TwigTemplate_e51ce75d663863575c906da5b36173dbf4c759eb0bedee30fca48bdac19
 <div class=\"about-body\" id=\"{{about.link}}\">
     <div class=\"about-container-container\">
         <div class=\"purple-icon\"></div>
-        <img src=\"../../../../../themes/presenza/assets/images/square1.png\" alt=\"\" class=\"about-square1\">
-        <img src=\"../../../../../themes/presenza/assets/images/square1.png\" alt=\"\" class=\"about-square2\">
+        <!-- <img src=\"../../../../../themes/presenza/assets/images/square1.png\" alt=\"\" class=\"about-square1\">
+        <img src=\"../../../../../themes/presenza/assets/images/square1.png\" alt=\"\" class=\"about-square2\"> -->
+        <img src=\"../../../../../../presenza/themes/presenza/assets/images/square1.png\" alt=\"\" class=\"about-square1\">
+        <img src=\"../../../../../../presenza/themes/presenza/assets/images/square1.png\" alt=\"\" class=\"about-square2\">
 
         <div class=\"about-container\">
 
@@ -215,17 +229,26 @@ class __TwigTemplate_e51ce75d663863575c906da5b36173dbf4c759eb0bedee30fca48bdac19
             <video class=\" afterglow about-video\" id=\"myvideo\" width=\"597\" height=\"336\" src=\"{{about.video.path}}\"
                 poster=\"{{about.videoimg.thumb(1194, 672, {'mode': 'crop'})}}\" />
             </video>
-            <img src=\"../../../../../themes/presenza/assets/images/Path 492@2x.png\" alt=\"\" class=\"line-icon\">
+            <!-- <img src=\"../../../../../themes/presenza/assets/images/Path 492@2x.png\" alt=\"\" class=\"line-icon\">
             <img src=\"../../../../../themes/presenza/assets/images/Path 493@2x.png\" alt=\"\" class=\"big-curve-icon\">
             <img src=\"../../../../../themes/presenza/assets/images/Path 494@2x.png\" alt=\"\"
                 class=\"small-curve-icon-icon\">
-            <img src=\"../../../../../themes/presenza/assets/images/Group 451@2x.png\" alt=\"\" class=\"square-icon\">
+            <img src=\"../../../../../themes/presenza/assets/images/Group 451@2x.png\" alt=\"\" class=\"square-icon\"> -->
+            <img src=\"../../../../../../presenza/themes/presenza/assets/images/Path 492@2x.png\" alt=\"\"
+                class=\"line-icon\">
+            <img src=\"../../../../../../presenza/themes/presenza/assets/images/Path 493@2x.png\" alt=\"\"
+                class=\"big-curve-icon\">
+            <img src=\"../../../../../../presenza/themes/presenza/assets/images/Path 494@2x.png\" alt=\"\"
+                class=\"small-curve-icon-icon\">
+            <img src=\"../../../../../../presenza/themes/presenza/assets/images/Group 451@2x.png\" alt=\"\"
+                class=\"square-icon\">
         </div>
 
         <div class=\"about-header\">
             <div class=\"about-styling-title-container\">
                 <!-- <h1 class=\"about-styling-title\">About</h1> -->
-                <img src=\"../../../../../themes/presenza/assets/images/About.png\" alt=\"\">
+                <!-- <img src=\"../../../../../themes/presenza/assets/images/About.png\" alt=\"\"> -->
+                <img src=\"../../../../../../presenza/themes/presenza/assets/images/About.png\" alt=\"\">
                 <h1 class=\"about-title\">About us</h1>
             </div>
 
@@ -254,7 +277,8 @@ class __TwigTemplate_e51ce75d663863575c906da5b36173dbf4c759eb0bedee30fca48bdac19
     </div>
 </div>
 
-<img src=\"../../../../../themes/presenza/assets/images/Ellipse 212.png\" alt=\"\" class=\"about-arch\">
+<!-- <img src=\"../../../../../themes/presenza/assets/images/Ellipse 212.png\" alt=\"\" class=\"about-arch\"> -->
+<img src=\"../../../../../../presenza/themes/presenza/assets/images/Ellipse 212.png\" alt=\"\" class=\"about-arch\">
 
 
 </div>

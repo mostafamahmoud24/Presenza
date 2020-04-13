@@ -1,4 +1,4 @@
-1586716530a:1:{s:11:"default.htm";a:5:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:2863:"<!-- description = "Default layout" == -->
+1586788886a:1:{s:11:"default.htm";a:5:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:3090:"<!-- description = "Default layout" == -->
 <!DOCTYPE html>
 <html>
 
@@ -14,14 +14,16 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Open+Sans&family=Lora:ital@1&display=swap"
     rel="stylesheet">
-  <link href="{{ ['assets/css/styles.css']|theme }}" rel="stylesheet" />
+  <!-- <link href="{{ ['assets/css/styles.css']|theme }}" rel="stylesheet" /> -->
+  <link href="../../../../presenza/themes/presenza/assets/css/styles.css" rel="stylesheet" />
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
   <script src="https://kit.fontawesome.com/dbcf87c66d.js" crossorigin="anonymous"></script>
   <script src="//cdn.jsdelivr.net/npm/afterglowplayer@1.x"></script>
-  <script type="text/javascript" src="{{ ['assets/javascript/index.js']|theme }}"></script>
+  <!-- <script type="text/javascript" src="{{ ['assets/javascript/index.js']|theme }}"></script> -->
+  <script type="text/javascript" src="../../../../presenza/themes/presenza/assets/javascript/index.js"></script>
 
 
 
@@ -64,7 +66,7 @@
   {% framework %}
 </body>
 
-</html>";s:5:"mtime";i:1586532937;s:6:"markup";s:2863:"<!-- description = "Default layout" == -->
+</html>";s:5:"mtime";i:1586745463;s:6:"markup";s:3090:"<!-- description = "Default layout" == -->
 <!DOCTYPE html>
 <html>
 
@@ -80,14 +82,16 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Open+Sans&family=Lora:ital@1&display=swap"
     rel="stylesheet">
-  <link href="{{ ['assets/css/styles.css']|theme }}" rel="stylesheet" />
+  <!-- <link href="{{ ['assets/css/styles.css']|theme }}" rel="stylesheet" /> -->
+  <link href="../../../../presenza/themes/presenza/assets/css/styles.css" rel="stylesheet" />
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
   <script src="https://kit.fontawesome.com/dbcf87c66d.js" crossorigin="anonymous"></script>
   <script src="//cdn.jsdelivr.net/npm/afterglowplayer@1.x"></script>
-  <script type="text/javascript" src="{{ ['assets/javascript/index.js']|theme }}"></script>
+  <!-- <script type="text/javascript" src="{{ ['assets/javascript/index.js']|theme }}"></script> -->
+  <script type="text/javascript" src="../../../../presenza/themes/presenza/assets/javascript/index.js"></script>
 
 
 
