@@ -681,14 +681,14 @@ z-index: 5;
     }
     
     .hero-logo {
-        width: 112px;
+        width: 223px;
         height: auto;
         /* margin-top: 100px; */
         margin: auto;
     }
 
     .hero-title {
-        margin-top:-42px;
+        margin-top:-30px;
         font-size: 12px;
         transition: ease;
         transition-duration: 0.3s;
