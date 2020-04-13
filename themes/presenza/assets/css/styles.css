@@ -688,7 +688,7 @@ z-index: 5;
         min-height: 100vh;
         max-height: 100%;
         background-color: #242635;
-        padding-bottom: 40px;
+        padding-bottom: 15px;
         z-index: 0;
     }
 
@@ -744,7 +744,6 @@ z-index: 5;
         padding-top: 12px;
     }
   }
-
 
   @media only screen and (max-width: 650px) {
 
