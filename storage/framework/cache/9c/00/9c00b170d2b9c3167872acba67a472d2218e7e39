@@ -1,4 +1,4 @@
-1586527439a:1:{s:11:"default.htm";a:5:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:2874:"<!-- description = "Default layout" == -->
+1586716530a:1:{s:11:"default.htm";a:5:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:2863:"<!-- description = "Default layout" == -->
 <!DOCTYPE html>
 <html>
 
@@ -21,7 +21,7 @@
 
   <script src="https://kit.fontawesome.com/dbcf87c66d.js" crossorigin="anonymous"></script>
   <script src="//cdn.jsdelivr.net/npm/afterglowplayer@1.x"></script>
-  <script type="text/javascript" src="../presenza/themes/presenza/assets/javascript/index.js"></script>
+  <script type="text/javascript" src="{{ ['assets/javascript/index.js']|theme }}"></script>
 
 
 
@@ -44,7 +44,7 @@
 
 
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  <script src=" https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
@@ -64,7 +64,7 @@
   {% framework %}
 </body>
 
-</html>";s:5:"mtime";i:1586386321;s:6:"markup";s:2874:"<!-- description = "Default layout" == -->
+</html>";s:5:"mtime";i:1586532937;s:6:"markup";s:2863:"<!-- description = "Default layout" == -->
 <!DOCTYPE html>
 <html>
 
@@ -87,7 +87,7 @@
 
   <script src="https://kit.fontawesome.com/dbcf87c66d.js" crossorigin="anonymous"></script>
   <script src="//cdn.jsdelivr.net/npm/afterglowplayer@1.x"></script>
-  <script type="text/javascript" src="../presenza/themes/presenza/assets/javascript/index.js"></script>
+  <script type="text/javascript" src="{{ ['assets/javascript/index.js']|theme }}"></script>
 
 
 
@@ -110,7 +110,7 @@
 
 
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  <script src=" https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"

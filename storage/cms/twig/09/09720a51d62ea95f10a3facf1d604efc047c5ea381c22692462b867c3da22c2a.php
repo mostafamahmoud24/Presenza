@@ -78,10 +78,9 @@ class __TwigTemplate_9095cba4541149b6b3205129a0c73998cdb79d5fd2e02d7c5d87a632135
 
     <p class=\"footer-copyrights-mobile\">Copyright 2020 All rights reserved</p>
 
-    <img src=\"../../../../../../presenza/themes/presenza/assets/images/Triangle@2x.png\" alt=\"\" class=\"footer-triangle\">
-    <img src=\"../../../../../../presenza/themes/presenza/assets/images/footer.png\" alt=\"\" class=\"footer-styling\">
-    <img src=\"../../../../../../presenza/themes/presenza/assets/images/footer2.png\" alt=\"\"
-        class=\"footer-styling-mobile\">
+    <img src=\"../../../../../themes/presenza/assets/images/Triangle@2x.png\" alt=\"\" class=\"footer-triangle\">
+    <img src=\"../../../../../themes/presenza/assets/images/footer.png\" alt=\"\" class=\"footer-styling\">
+    <img src=\"../../../../../themes/presenza/assets/images/footer2.png\" alt=\"\" class=\"footer-styling-mobile\">
 
 </div>
 
@@ -140,10 +139,9 @@ class __TwigTemplate_9095cba4541149b6b3205129a0c73998cdb79d5fd2e02d7c5d87a632135
 
     <p class=\"footer-copyrights-mobile\">Copyright 2020 All rights reserved</p>
 
-    <img src=\"../../../../../../presenza/themes/presenza/assets/images/Triangle@2x.png\" alt=\"\" class=\"footer-triangle\">
-    <img src=\"../../../../../../presenza/themes/presenza/assets/images/footer.png\" alt=\"\" class=\"footer-styling\">
-    <img src=\"../../../../../../presenza/themes/presenza/assets/images/footer2.png\" alt=\"\"
-        class=\"footer-styling-mobile\">
+    <img src=\"../../../../../themes/presenza/assets/images/Triangle@2x.png\" alt=\"\" class=\"footer-triangle\">
+    <img src=\"../../../../../themes/presenza/assets/images/footer.png\" alt=\"\" class=\"footer-styling\">
+    <img src=\"../../../../../themes/presenza/assets/images/footer2.png\" alt=\"\" class=\"footer-styling-mobile\">
 
 </div>
 

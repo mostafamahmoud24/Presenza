@@ -23,8 +23,8 @@ z-index: 5;
 }
 
 .navigation-links {
-    /* padding-right: 19.85%; */
-    padding-right: 0px;
+    /* background-color: blue; */
+    padding-right: 19.85%;
     padding-right: 22%;
     transition: ease;
     transition-duration: 0.2s;
@@ -1839,7 +1839,7 @@ z-index: 5;
         z-index: -1;
     }
 
-  } 
+  }
 
   @media only screen and (max-width: 900px) and (orientation: landscape) {
     .about-square2 {

@@ -1,4 +1,4 @@
-1586527439a:1:{s:12:"homepage.htm";a:14:{s:8:"fileName";s:12:"homepage.htm";s:7:"content";s:472:"title = "Homepage"
+1586716530a:1:{s:12:"homepage.htm";a:14:{s:8:"fileName";s:12:"homepage.htm";s:7:"content";s:361:"title = "Homepage"
 url = "/"
 layout = "default"
 is_hidden = 0
@@ -20,40 +20,6 @@ results = "main"
 ==
 {% component 'hero' %}{% component 'Aboutus' %}
 {% component 'wedos' %}{% component 'clients' %}
-{% component 'contactform' %}
-<!-- <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br> -->";s:5:"mtime";i:1586275812;s:6:"markup";s:239:"{% component 'hero' %}{% component 'Aboutus' %}
+{% component 'contactform' %}";s:5:"mtime";i:1586532505;s:6:"markup";s:128:"{% component 'hero' %}{% component 'Aboutus' %}
 {% component 'wedos' %}{% component 'clients' %}
-{% component 'contactform' %}
-<!-- <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br> -->";s:4:"code";N;s:5:"title";s:8:"Homepage";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:4:"hero";a:1:{s:7:"results";s:4:"Main";}s:7:"Aboutus";a:1:{s:7:"results";s:13:"About Us Main";}s:5:"wedos";a:1:{s:7:"results";s:4:"Main";}s:7:"clients";a:1:{s:7:"results";s:4:"Main";}s:11:"contactform";a:1:{s:7:"results";s:4:"main";}}}
+{% component 'contactform' %}";s:4:"code";N;s:5:"title";s:8:"Homepage";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:4:"hero";a:1:{s:7:"results";s:4:"Main";}s:7:"Aboutus";a:1:{s:7:"results";s:13:"About Us Main";}s:5:"wedos";a:1:{s:7:"results";s:4:"Main";}s:7:"clients";a:1:{s:7:"results";s:4:"Main";}s:11:"contactform";a:1:{s:7:"results";s:4:"main";}}}
