@@ -3615,11 +3615,6 @@ input:-webkit-autofill {
         margin-top: 0px;
       }
 
-      #textarea {
-        height: 100px;
-        resize: none;
-    }
-
       .contact-subtitle-container {
         font-family: 'Poppins', sans-serif;
           width: 84.5%;

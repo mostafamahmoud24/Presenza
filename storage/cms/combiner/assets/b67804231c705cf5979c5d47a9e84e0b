@@ -3433,11 +3433,6 @@ margin: -5px;
     /* background-color: blue; */
   }
 
-  #textarea {
-      height: 200px;
-      resize: none;
-  }
-
   .form__field {
     font-family: inherit;
     width: 100%;
@@ -3611,14 +3606,9 @@ input:-webkit-autofill {
 
   @media only screen and (max-width: 650px) {
     #the_form {
-        width: 87% !important;
+        width: 87%;
         margin-top: 0px;
       }
-
-      #textarea {
-        height: 100px;
-        resize: none;
-    }
 
       .contact-subtitle-container {
         font-family: 'Poppins', sans-serif;
@@ -3664,7 +3654,6 @@ input:-webkit-autofill {
         border-image: linear-gradient(to right, #305D79, #305D79);
         border-image-slice: 1;
       }
-
       .form__field:focus ~ .form__label {
         position: absolute;
         top: 0;
@@ -3718,33 +3707,13 @@ input:-webkit-autofill {
 
   @media only screen and (max-height: 900px) {
     .contact-title {
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+          font-size: 23px;
+          color: #FFFFFF;
           margin-top: 20px;
       }
-  }
 
-  @media only screen and (max-height: 850px) {
-    .contact-title {
-          margin-top: 10px;
-      }
-  }
-
-  @media only screen and (max-height: 650px) {
-    .contact-title {
-          margin-top: 10px;
-      }
-
-      #the_form {
-        position: relative;
-        padding: 15px 0 0;
-        margin-top: 10px;
-        width: 770px;
-        margin-top: 10px;
-      }
-
-      #textarea {
-        height: 50px;
-        resize: none;
-    }
   }
 
   /*//////////////////////////////////////////////////////////////////////////////*/

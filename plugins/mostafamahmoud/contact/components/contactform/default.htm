@@ -25,25 +25,24 @@
 
 
         <div class="form__group field1 mt-5">
-            <textarea name="content" cols="30" rows="5" class="form__field" placeholder="Message"
-                style="resize: none;"></textarea>
+            <textarea name="content" id="textarea" class="form__field" placeholder="Message"></textarea>
             <label for="content" class="form__label">Message</label>
             <p class="text-danger" style="padding-top: 0px !important;">{{errors.first('content')}}</p>
         </div>
 
         <div class="contact-button">
-            <a href="#contact" onclick="$(this).closest('form').submit()" class="contact-submit-text">
-                <div style="margin-top: 8px;">submit form</div>
+            <a onclick="$(this).closest('form').submit()" class="contact-submit-text">
+                <div style="margin-top: 8px; cursor: pointer;">submit form</div>
             </a>
-            <a href="#contact" onclick="$(this).closest('form').submit()">
-                <div class="contact-submit-icon">
-                    <i class="fas fa-arrow-right" style="position: absolute; top:11px; right: 12px"></i>
+            <a onclick="$(this).closest('form').submit()">
+                <div class="contact-submit-icon" style="cursor: pointer;">
+                    <i class="fas fa-arrow-right"
+                        style="position: absolute; top:11px; right: 12px; cursor: pointer"></i>
                 </div>
             </a>
 
         </div>
     </form>
-
 </div>
 
 {% endif %}

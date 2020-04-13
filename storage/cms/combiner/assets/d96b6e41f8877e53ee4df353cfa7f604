@@ -3434,8 +3434,7 @@ margin: -5px;
   }
 
   #textarea {
-      height: 200px;
-      resize: none;
+      height: 300px;
   }
 
   .form__field {
@@ -3615,11 +3614,6 @@ input:-webkit-autofill {
         margin-top: 0px;
       }
 
-      #textarea {
-        height: 100px;
-        resize: none;
-    }
-
       .contact-subtitle-container {
         font-family: 'Poppins', sans-serif;
           width: 84.5%;
@@ -3740,11 +3734,6 @@ input:-webkit-autofill {
         width: 770px;
         margin-top: 10px;
       }
-
-      #textarea {
-        height: 50px;
-        resize: none;
-    }
   }
 
   /*//////////////////////////////////////////////////////////////////////////////*/

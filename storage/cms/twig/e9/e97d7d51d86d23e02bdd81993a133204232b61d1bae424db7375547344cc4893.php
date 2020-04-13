@@ -67,9 +67,9 @@ class __TwigTemplate_bfcd1c53c47ff3de9d174ea1aba7f4bbb3fd08b8940884aeeabbdc170c4
     </div>
 
     <div class=\"hero-button-container\">
-        <a href=\"#about\" class=\"hero-button-anchor\">
+        <a href=\"#contact\" class=\"hero-button-anchor\">
             <div class=\"hero-button-text\">
-                Get Started
+                Get in touch
             </div>
         </a>
     </div>
@@ -144,9 +144,9 @@ class __TwigTemplate_bfcd1c53c47ff3de9d174ea1aba7f4bbb3fd08b8940884aeeabbdc170c4
     </div>
 
     <div class=\"hero-button-container\">
-        <a href=\"#about\" class=\"hero-button-anchor\">
+        <a href=\"#contact\" class=\"hero-button-anchor\">
             <div class=\"hero-button-text\">
-                Get Started
+                Get in touch
             </div>
         </a>
     </div>

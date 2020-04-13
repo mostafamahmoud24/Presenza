@@ -79,28 +79,27 @@ class __TwigTemplate_c3538076b4214192c9cb04685a4cec57681ad982405b162a95c58604e53
 
 
         <div class=\"form__group field1 mt-5\">
-            <textarea name=\"content\" cols=\"30\" rows=\"5\" class=\"form__field\" placeholder=\"Message\"
-                style=\"resize: none;\"></textarea>
+            <textarea name=\"content\" id=\"textarea\" class=\"form__field\" placeholder=\"Message\"></textarea>
             <label for=\"content\" class=\"form__label\">Message</label>
             <p class=\"text-danger\" style=\"padding-top: 0px !important;\">";
-                // line 31
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["errors"] ?? null), "first", [0 => "content"], "method", false, false, false, 31), "html", null, true);
+                // line 30
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["errors"] ?? null), "first", [0 => "content"], "method", false, false, false, 30), "html", null, true);
                 echo "</p>
         </div>
 
         <div class=\"contact-button\">
-            <a href=\"#contact\" onclick=\"\$(this).closest('form').submit()\" class=\"contact-submit-text\">
-                <div style=\"margin-top: 8px;\">submit form</div>
+            <a onclick=\"\$(this).closest('form').submit()\" class=\"contact-submit-text\">
+                <div style=\"margin-top: 8px; cursor: pointer;\">submit form</div>
             </a>
-            <a href=\"#contact\" onclick=\"\$(this).closest('form').submit()\">
-                <div class=\"contact-submit-icon\">
-                    <i class=\"fas fa-arrow-right\" style=\"position: absolute; top:11px; right: 12px\"></i>
+            <a onclick=\"\$(this).closest('form').submit()\">
+                <div class=\"contact-submit-icon\" style=\"cursor: pointer;\">
+                    <i class=\"fas fa-arrow-right\"
+                        style=\"position: absolute; top:11px; right: 12px; cursor: pointer\"></i>
                 </div>
             </a>
 
         </div>
     </form>
-
 </div>
 
 ";
@@ -123,7 +122,7 @@ class __TwigTemplate_c3538076b4214192c9cb04685a4cec57681ad982405b162a95c58604e53
 
     public function getDebugInfo()
     {
-        return array (  87 => 31,  76 => 23,  66 => 16,  57 => 10,  51 => 7,  47 => 5,  45 => 4,  41 => 3,  39 => 2,  37 => 1,);
+        return array (  86 => 30,  76 => 23,  66 => 16,  57 => 10,  51 => 7,  47 => 5,  45 => 4,  41 => 3,  39 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -155,25 +154,24 @@ class __TwigTemplate_c3538076b4214192c9cb04685a4cec57681ad982405b162a95c58604e53
 
 
         <div class=\"form__group field1 mt-5\">
-            <textarea name=\"content\" cols=\"30\" rows=\"5\" class=\"form__field\" placeholder=\"Message\"
-                style=\"resize: none;\"></textarea>
+            <textarea name=\"content\" id=\"textarea\" class=\"form__field\" placeholder=\"Message\"></textarea>
             <label for=\"content\" class=\"form__label\">Message</label>
             <p class=\"text-danger\" style=\"padding-top: 0px !important;\">{{errors.first('content')}}</p>
         </div>
 
         <div class=\"contact-button\">
-            <a href=\"#contact\" onclick=\"\$(this).closest('form').submit()\" class=\"contact-submit-text\">
-                <div style=\"margin-top: 8px;\">submit form</div>
+            <a onclick=\"\$(this).closest('form').submit()\" class=\"contact-submit-text\">
+                <div style=\"margin-top: 8px; cursor: pointer;\">submit form</div>
             </a>
-            <a href=\"#contact\" onclick=\"\$(this).closest('form').submit()\">
-                <div class=\"contact-submit-icon\">
-                    <i class=\"fas fa-arrow-right\" style=\"position: absolute; top:11px; right: 12px\"></i>
+            <a onclick=\"\$(this).closest('form').submit()\">
+                <div class=\"contact-submit-icon\" style=\"cursor: pointer;\">
+                    <i class=\"fas fa-arrow-right\"
+                        style=\"position: absolute; top:11px; right: 12px; cursor: pointer\"></i>
                 </div>
             </a>
 
         </div>
     </form>
-
 </div>
 
 {% endif %}

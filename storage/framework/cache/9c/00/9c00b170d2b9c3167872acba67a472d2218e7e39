@@ -1,4 +1,4 @@
-1586788886a:1:{s:11:"default.htm";a:5:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:3090:"<!-- description = "Default layout" == -->
+1586799564a:1:{s:11:"default.htm";a:5:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:3107:"<!-- description = "Default layout" == -->
 <!DOCTYPE html>
 <html>
 
@@ -64,9 +64,10 @@
     crossorigin="anonymous"></script>
 
   {% framework %}
+  {% scripts %}
 </body>
 
-</html>";s:5:"mtime";i:1586745463;s:6:"markup";s:3090:"<!-- description = "Default layout" == -->
+</html>";s:5:"mtime";i:1586790239;s:6:"markup";s:3107:"<!-- description = "Default layout" == -->
 <!DOCTYPE html>
 <html>
 
@@ -132,6 +133,7 @@
     crossorigin="anonymous"></script>
 
   {% framework %}
+  {% scripts %}
 </body>
 
 </html>";s:4:"code";N;}}

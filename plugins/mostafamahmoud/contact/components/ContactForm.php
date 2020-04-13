@@ -9,6 +9,7 @@ use Input;
 use Mail;
 use Validator;
 use Redirect;
+use Flash;
 
 
 class ContactForm extends ComponentBase
@@ -48,8 +49,9 @@ class ContactForm extends ComponentBase
 
         if ($validator->fails()) {
 
-            return Redirect::back()->withErrors($validator);
-
+            // $this['results'] = $validator->messages()->first();
+            return Redirect::to('https://presenzaa.herokuapp.com/#contact')->withErrors($validator);
+            
         }else {
 
             // These variables are available inside the message as Twig

@@ -137,6 +137,10 @@ class __TwigTemplate_3dfb3da1da9a036d5e6353e7af3b77ed709dd8e51f8f6eb1749883c9f55
         echo '<script src="' . Request::getBasePath() . '/modules/system/assets/js/framework'.($_minify ? '-min' : '').'.js"></script>'.PHP_EOL;
         unset($_minify);
         // line 67
+        echo "  ";
+        echo $this->env->getExtension('Cms\Twig\Extension')->assetsFunction('js');
+        echo $this->env->getExtension('Cms\Twig\Extension')->displayBlock('scripts');
+        // line 68
         echo "</body>
 
 </html>";
@@ -154,7 +158,7 @@ class __TwigTemplate_3dfb3da1da9a036d5e6353e7af3b77ed709dd8e51f8f6eb1749883c9f55
 
     public function getDebugInfo()
     {
-        return array (  140 => 67,  136 => 66,  113 => 45,  109 => 44,  104 => 41,  102 => 40,  97 => 37,  93 => 36,  86 => 31,  83 => 30,  75 => 25,  64 => 17,  53 => 9,  49 => 8,  45 => 7,  37 => 1,);
+        return array (  144 => 68,  140 => 67,  136 => 66,  113 => 45,  109 => 44,  104 => 41,  102 => 40,  97 => 37,  93 => 36,  86 => 31,  83 => 30,  75 => 25,  64 => 17,  53 => 9,  49 => 8,  45 => 7,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -225,6 +229,7 @@ class __TwigTemplate_3dfb3da1da9a036d5e6353e7af3b77ed709dd8e51f8f6eb1749883c9f55
     crossorigin=\"anonymous\"></script>
 
   {% framework %}
+  {% scripts %}
 </body>
 
 </html>", "C:\\xampp\\htdocs\\presenza/themes/presenza/layouts/default.htm", "");

@@ -3424,6 +3424,10 @@ margin: -5px;
     max-width: 100%;
   }
 
+  #textarea {
+      height: 400px;
+  }
+
 #the_form {
     position: relative;
     padding: 15px 0 0;
@@ -3431,11 +3435,6 @@ margin: -5px;
     width: 770px;
     margin-top: 70px;
     /* background-color: blue; */
-  }
-
-  #textarea {
-      height: 200px;
-      resize: none;
   }
 
   .form__field {
@@ -3615,11 +3614,6 @@ input:-webkit-autofill {
         margin-top: 0px;
       }
 
-      #textarea {
-        height: 100px;
-        resize: none;
-    }
-
       .contact-subtitle-container {
         font-family: 'Poppins', sans-serif;
           width: 84.5%;
@@ -3740,11 +3734,6 @@ input:-webkit-autofill {
         width: 770px;
         margin-top: 10px;
       }
-
-      #textarea {
-        height: 50px;
-        resize: none;
-    }
   }
 
   /*//////////////////////////////////////////////////////////////////////////////*/
