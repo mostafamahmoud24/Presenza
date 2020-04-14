@@ -112,5 +112,5 @@ return [
     |
     */
 
-    'disableRequestCache' => null,
+    'disableRequestCache' => false,
 ];

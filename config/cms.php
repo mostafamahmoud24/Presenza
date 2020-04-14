@@ -156,7 +156,7 @@ return [
     |
     */
 
-    'enableRoutesCache' => env('ROUTES_CACHE', false),
+    'enableRoutesCache' => env('ROUTES_CACHE', true),
 
     /*
     |--------------------------------------------------------------------------
@@ -196,7 +196,7 @@ return [
     |
     */
 
-    'enableAssetCache' => env('ASSET_CACHE', false),
+    'enableAssetCache' => env('ASSET_CACHE', true),
 
     /*
     |--------------------------------------------------------------------------
