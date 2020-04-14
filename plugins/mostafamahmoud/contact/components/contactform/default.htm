@@ -11,21 +11,22 @@
     </div>
     <form data-request="onSend" id="the_form" data-request-validate data-request-flash>
         <div class="form__group field">
-            <input type="text" class="form__field" placeholder="Name" name="name" />
+            <input type="text" class="form__field" placeholder="Name" name="name" aria-label="name" />
             <label for="name" class="form__label">Name</label>
             <p class="text-danger" style="padding-top: 0px !important;">
                 {{errors.first('name')}}</p>
         </div>
 
         <div class="form__group field">
-            <input type="email" class="form__field" placeholder="email" name="email" />
+            <input type="email" class="form__field" aria-label="email" placeholder="email" name="email" />
             <label for="email" class="form__label">Email</label>
             <p class="text-danger" style="padding-top: 0px !important;">{{errors.first('email')}}</p>
             <div data-validate-for="name"></div>
 
 
             <div class="form__group field1 mt-5">
-                <textarea name="content" id="textarea" class="form__field" placeholder="Message"></textarea>
+                <textarea name="content" id="textarea" aria-label="content" class="form__field"
+                    placeholder="Message"></textarea>
                 <label for="content" class="form__label">Message</label>
                 <p class="text-danger" style="padding-top: 0px !important;">{{errors.first('content')}}</p>
             </div>

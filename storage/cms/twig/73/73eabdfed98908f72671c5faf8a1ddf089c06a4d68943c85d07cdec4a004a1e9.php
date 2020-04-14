@@ -96,19 +96,19 @@ class __TwigTemplate_e51ce75d663863575c906da5b36173dbf4c759eb0bedee30fca48bdac19
             <a href=\"";
                 // line 45
                 echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["about"], "facebook_link", [], "any", false, false, false, 45), "html", null, true);
-                echo "\" style=\"text-decoration: none;\" target=\"_blank\">
+                echo "\" style=\"text-decoration: none;\" target=\"_blank\" name=\"facebook icon\">
                 <i class=\"fab fa-facebook-square\"></i>
             </a>
             <a href=\"";
                 // line 48
                 echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["about"], "twitter_link", [], "any", false, false, false, 48), "html", null, true);
-                echo "\" style=\"text-decoration: none;\" target=\"_blank\">
+                echo "\" style=\"text-decoration: none;\" target=\"_blank\" name=\"twitter icon\">
                 <i class=\"fab fa-twitter\"></i>
             </a>
             <a href=\"";
                 // line 51
                 echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["about"], "instagram_link", [], "any", false, false, false, 51), "html", null, true);
-                echo "\" style=\"text-decoration: none;\" target=\"_blank\">
+                echo "\" style=\"text-decoration: none;\" target=\"_blank\" name=\"instagram icon\">
                 <i class=\"fab fa-instagram\"></i>
             </a>
         </div>
@@ -133,58 +133,6 @@ class __TwigTemplate_e51ce75d663863575c906da5b36173dbf4c759eb0bedee30fca48bdac19
 
 
 </div>
-<!-- <div class=\"styling-container\"></div>
-    <div class=\"about-content-container\">
-        <div class=\"about-video-container\" style=\"width: 600px;\">
-            <video class=\"afterglow about-video\" id=\"myvideo\" width=\"640\" height=\"360\" src=\"";
-                // line 76
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, $context["about"], "video", [], "any", false, false, false, 76), "path", [], "any", false, false, false, 76), "html", null, true);
-                echo "\"
-                poster=\"";
-                // line 77
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, $context["about"], "videoimg", [], "any", false, false, false, 77), "thumb", [0 => 1280, 1 => 720, 2 => ["mode" => "crop"]], "method", false, false, false, 77), "html", null, true);
-                echo "\" /></video>
-        </div>
-        <div class=\"about-content-header\">
-            <div class=\"about-title\">
-                <h3 style=\"font-weight: bold;\">About us</h3>
-            </div>
-            <div class=\"about-title-sec\">
-
-                <h3 style=\"font-size: 100px; color: rgba(214, 214, 214, 0.555); font-weight:bolder; z-index:0;\">About
-                </h3>
-            </div>
-            <div class=\"about-social\">
-                <a href=\"";
-                // line 89
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["about"], "facebook_link", [], "any", false, false, false, 89), "html", null, true);
-                echo "\" target=\"_blank\" class=\"about-social-link\">
-                    <i class=\"fab fa-facebook-square\" style=\"display:flex; margin-top:20px;\"></i>
-                </a>
-                <a class=\"about-social-link\" href=\"";
-                // line 92
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["about"], "twitter_link", [], "any", false, false, false, 92), "html", null, true);
-                echo "\" target=\"_blank\">
-                    <i class=\"fab fa-twitter\" style=\"display:flex; margin-top:20px;\"></i>
-                </a>
-                <a class=\"about-social-link\" href=\"";
-                // line 95
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["about"], "instagram_link", [], "any", false, false, false, 95), "html", null, true);
-                echo "\" target=\"_blank\">
-                    <i class=\"fab fa-instagram\" style=\"display:flex; margin-top:20px;\"></i>
-                </a>
-            </div>
-        </div>
-        <div class=\"about-content-description\">
-            <p>";
-                // line 101
-                echo twig_get_attribute($this->env, $this->source, $context["about"], "description", [], "any", false, false, false, 101);
-                echo "</p>
-        </div>
-
-    </div> -->
-
-
 ";
             }
         }
@@ -205,7 +153,7 @@ class __TwigTemplate_e51ce75d663863575c906da5b36173dbf4c759eb0bedee30fca48bdac19
 
     public function getDebugInfo()
     {
-        return array (  181 => 101,  172 => 95,  166 => 92,  160 => 89,  145 => 77,  141 => 76,  120 => 58,  110 => 51,  104 => 48,  98 => 45,  68 => 18,  64 => 17,  50 => 6,  47 => 5,  45 => 4,  41 => 3,  39 => 2,  37 => 1,);
+        return array (  120 => 58,  110 => 51,  104 => 48,  98 => 45,  68 => 18,  64 => 17,  50 => 6,  47 => 5,  45 => 4,  41 => 3,  39 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -254,13 +202,13 @@ class __TwigTemplate_e51ce75d663863575c906da5b36173dbf4c759eb0bedee30fca48bdac19
 
         </div>
         <div class=\"about-social-container\">
-            <a href=\"{{about.facebook_link}}\" style=\"text-decoration: none;\" target=\"_blank\">
+            <a href=\"{{about.facebook_link}}\" style=\"text-decoration: none;\" target=\"_blank\" name=\"facebook icon\">
                 <i class=\"fab fa-facebook-square\"></i>
             </a>
-            <a href=\"{{about.twitter_link}}\" style=\"text-decoration: none;\" target=\"_blank\">
+            <a href=\"{{about.twitter_link}}\" style=\"text-decoration: none;\" target=\"_blank\" name=\"twitter icon\">
                 <i class=\"fab fa-twitter\"></i>
             </a>
-            <a href=\"{{about.instagram_link}}\" style=\"text-decoration: none;\" target=\"_blank\">
+            <a href=\"{{about.instagram_link}}\" style=\"text-decoration: none;\" target=\"_blank\" name=\"instagram icon\">
                 <i class=\"fab fa-instagram\"></i>
             </a>
         </div>
@@ -282,40 +230,6 @@ class __TwigTemplate_e51ce75d663863575c906da5b36173dbf4c759eb0bedee30fca48bdac19
 
 
 </div>
-<!-- <div class=\"styling-container\"></div>
-    <div class=\"about-content-container\">
-        <div class=\"about-video-container\" style=\"width: 600px;\">
-            <video class=\"afterglow about-video\" id=\"myvideo\" width=\"640\" height=\"360\" src=\"{{about.video.path}}\"
-                poster=\"{{about.videoimg.thumb(1280, 720, {'mode': 'crop'})}}\" /></video>
-        </div>
-        <div class=\"about-content-header\">
-            <div class=\"about-title\">
-                <h3 style=\"font-weight: bold;\">About us</h3>
-            </div>
-            <div class=\"about-title-sec\">
-
-                <h3 style=\"font-size: 100px; color: rgba(214, 214, 214, 0.555); font-weight:bolder; z-index:0;\">About
-                </h3>
-            </div>
-            <div class=\"about-social\">
-                <a href=\"{{about.facebook_link}}\" target=\"_blank\" class=\"about-social-link\">
-                    <i class=\"fab fa-facebook-square\" style=\"display:flex; margin-top:20px;\"></i>
-                </a>
-                <a class=\"about-social-link\" href=\"{{about.twitter_link}}\" target=\"_blank\">
-                    <i class=\"fab fa-twitter\" style=\"display:flex; margin-top:20px;\"></i>
-                </a>
-                <a class=\"about-social-link\" href=\"{{about.instagram_link}}\" target=\"_blank\">
-                    <i class=\"fab fa-instagram\" style=\"display:flex; margin-top:20px;\"></i>
-                </a>
-            </div>
-        </div>
-        <div class=\"about-content-description\">
-            <p>{{about.description|raw}}</p>
-        </div>
-
-    </div> -->
-
-
 {% endif %}
 {% endfor %}", "C:\\xampp\\htdocs\\presenza/plugins/mostafamahmoud/aboutus/components/about/default.htm", "");
     }

@@ -59,7 +59,7 @@ class __TwigTemplate_c3538076b4214192c9cb04685a4cec57681ad982405b162a95c58604e53
     </div>
     <form data-request=\"onSend\" id=\"the_form\" data-request-validate data-request-flash>
         <div class=\"form__group field\">
-            <input type=\"text\" class=\"form__field\" placeholder=\"Name\" name=\"name\" />
+            <input type=\"text\" class=\"form__field\" placeholder=\"Name\" name=\"name\" aria-label=\"name\" />
             <label for=\"name\" class=\"form__label\">Name</label>
             <p class=\"text-danger\" style=\"padding-top: 0px !important;\">
                 ";
@@ -69,7 +69,7 @@ class __TwigTemplate_c3538076b4214192c9cb04685a4cec57681ad982405b162a95c58604e53
         </div>
 
         <div class=\"form__group field\">
-            <input type=\"email\" class=\"form__field\" placeholder=\"email\" name=\"email\" />
+            <input type=\"email\" class=\"form__field\" aria-label=\"email\" placeholder=\"email\" name=\"email\" />
             <label for=\"email\" class=\"form__label\">Email</label>
             <p class=\"text-danger\" style=\"padding-top: 0px !important;\">";
                 // line 23
@@ -79,11 +79,12 @@ class __TwigTemplate_c3538076b4214192c9cb04685a4cec57681ad982405b162a95c58604e53
 
 
             <div class=\"form__group field1 mt-5\">
-                <textarea name=\"content\" id=\"textarea\" class=\"form__field\" placeholder=\"Message\"></textarea>
+                <textarea name=\"content\" id=\"textarea\" aria-label=\"content\" class=\"form__field\"
+                    placeholder=\"Message\"></textarea>
                 <label for=\"content\" class=\"form__label\">Message</label>
                 <p class=\"text-danger\" style=\"padding-top: 0px !important;\">";
-                // line 30
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["errors"] ?? null), "first", [0 => "content"], "method", false, false, false, 30), "html", null, true);
+                // line 31
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["errors"] ?? null), "first", [0 => "content"], "method", false, false, false, 31), "html", null, true);
                 echo "</p>
             </div>
 
@@ -123,7 +124,7 @@ class __TwigTemplate_c3538076b4214192c9cb04685a4cec57681ad982405b162a95c58604e53
 
     public function getDebugInfo()
     {
-        return array (  86 => 30,  76 => 23,  67 => 17,  57 => 10,  51 => 7,  47 => 5,  45 => 4,  41 => 3,  39 => 2,  37 => 1,);
+        return array (  87 => 31,  76 => 23,  67 => 17,  57 => 10,  51 => 7,  47 => 5,  45 => 4,  41 => 3,  39 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -141,21 +142,22 @@ class __TwigTemplate_c3538076b4214192c9cb04685a4cec57681ad982405b162a95c58604e53
     </div>
     <form data-request=\"onSend\" id=\"the_form\" data-request-validate data-request-flash>
         <div class=\"form__group field\">
-            <input type=\"text\" class=\"form__field\" placeholder=\"Name\" name=\"name\" />
+            <input type=\"text\" class=\"form__field\" placeholder=\"Name\" name=\"name\" aria-label=\"name\" />
             <label for=\"name\" class=\"form__label\">Name</label>
             <p class=\"text-danger\" style=\"padding-top: 0px !important;\">
                 {{errors.first('name')}}</p>
         </div>
 
         <div class=\"form__group field\">
-            <input type=\"email\" class=\"form__field\" placeholder=\"email\" name=\"email\" />
+            <input type=\"email\" class=\"form__field\" aria-label=\"email\" placeholder=\"email\" name=\"email\" />
             <label for=\"email\" class=\"form__label\">Email</label>
             <p class=\"text-danger\" style=\"padding-top: 0px !important;\">{{errors.first('email')}}</p>
             <div data-validate-for=\"name\"></div>
 
 
             <div class=\"form__group field1 mt-5\">
-                <textarea name=\"content\" id=\"textarea\" class=\"form__field\" placeholder=\"Message\"></textarea>
+                <textarea name=\"content\" id=\"textarea\" aria-label=\"content\" class=\"form__field\"
+                    placeholder=\"Message\"></textarea>
                 <label for=\"content\" class=\"form__label\">Message</label>
                 <p class=\"text-danger\" style=\"padding-top: 0px !important;\">{{errors.first('content')}}</p>
             </div>

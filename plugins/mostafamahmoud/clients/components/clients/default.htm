@@ -20,7 +20,7 @@
     <div class="row">
         {% if loop.index0 % 2 == 0 %}
         <div class="col-12 col-lg-6 testimony-img-container">
-            <img src="{{user.clientimg.path}}" class="testimony-img">
+            <img src="{{user.clientimg.thumb(720, auto, {mode:'auto',quality:75})}}" class="testimony-img" alt="">
         </div>
         <div class="col-12 col-lg-6">
             <!-- The data-interval attribute disables auto sliding when set to false, add class carousel-fade for fade effect on sliding-->
@@ -31,7 +31,8 @@
                     {% for use in user.slide %}
                     {% if loop.index0 == 0 %}
                     <div class="carousel-item active">
-                        <img src="{{use.coimg.path}}" alt="" class="testimony-co-img">
+                        <img src="{{use.coimg.thumb(100, auto, {mode:'auto',quality:75})}}" alt=""
+                            class="testimony-co-img">
                         <div class="client-testimony-content">
                             <p>{{use.testimony|raw}}</p>
                         </div>
@@ -44,7 +45,8 @@
                     </div>
                     {% else %}
                     <div class="carousel-item">
-                        <img src="{{use.coimg.thumb(100,auto)}}" alt="" class="testimony-co-img">
+                        <img src="{{use.coimg.thumb(100, auto, {mode:'auto',quality:75})}}" alt=""
+                            class="testimony-co-img">
                         <div class="client-testimony-content">
                             <p>{{use.testimony|raw}}</p>
                         </div>
@@ -85,7 +87,7 @@
                 {% for use in user.slide %}
                 {% if loop.index0 == 0 %}
                 <div class="carousel-item active">
-                    <img src="{{use.coimg.path}}" alt="" class="testimony-co-img">
+                    <img src="{{use.coimg.thumb(100, auto, {mode:'auto',quality:75})}}" alt="" class="testimony-co-img">
                     <div class="client-testimony-content">
                         <p>{{use.testimony|raw}}</p>
                     </div>
@@ -98,7 +100,7 @@
                 </div>
                 {% else %}
                 <div class="carousel-item">
-                    <img src="{{use.coimg.path}}" alt="" class="testimony-co-img">
+                    <img src="{{use.coimg.thumb(100, auto, {mode:'auto',quality:75})}}" alt="" class="testimony-co-img">
                     <div class="client-testimony-content">
                         <p>{{use.testimony|raw}}</p>
                     </div>
@@ -127,7 +129,7 @@
     </div>
 
     <div class="col-12 col-lg-6 order-1 order-lg-12 testimony-img-container">
-        <img src="{{user.clientimg.path}}" class="testimony-img">
+        <img src="{{user.clientimg.thumb(720, auto, {mode:'auto',quality:75})}}" class="testimony-img" alt="">
     </div>
 
 </div>

@@ -67,27 +67,16 @@ class __TwigTemplate_bfcd1c53c47ff3de9d174ea1aba7f4bbb3fd08b8940884aeeabbdc170c4
     </div>
 
     <div class=\"hero-button-container\">
-        <a href=\"#contact\" class=\"hero-button-anchor\">
+        <a href=\"#contact\" class=\"hero-button-anchor\" name=\"Get in touch button\">
             <div class=\"hero-button-text\">
                 Get in touch
             </div>
         </a>
     </div>
 
-    <!-- <a href=\"#about\">
-        <img src=\"../../../../../themes/presenza/assets/images/Button@2x.png\" alt=\"\" class=\"hero-button-desktop\">
-    </a>
-
-    <img src=\"../../../../../themes/presenza/assets/images/Group69Copy.png\" alt=\"\" class=\"hero-overlay1\">
-
-    <img src=\"../../../../../themes/presenza/assets/images/Group625.png\" alt=\"\" class=\"hero-overlay2\">
-
-    <a href=\"#about\">
-        <img src=\"../../../../../themes/presenza/assets/images/button2.png\" alt=\"\" class=\"hero-button-mobile\">
-    </a> -->
     <a href=\"#about\">
         <img src=\"../../../../../../presenza/themes/presenza/assets/images/Button@2x.png\" alt=\"\"
-            class=\"hero-button-desktop\">
+            class=\"hero-button-desktop\" name=\"get started button 1\">
     </a>
 
     <img src=\"../../../../../../presenza/themes/presenza/assets/images/Group69Copy.png\" alt=\"\" class=\"hero-overlay1\">
@@ -96,7 +85,7 @@ class __TwigTemplate_bfcd1c53c47ff3de9d174ea1aba7f4bbb3fd08b8940884aeeabbdc170c4
 
     <a href=\"#about\">
         <img src=\"../../../../../../presenza/themes/presenza/assets/images/button2.png\" alt=\"\"
-            class=\"hero-button-mobile\">
+            class=\"hero-button-mobile\" name=\"get started button 1\">
     </a>
 
 
@@ -144,27 +133,16 @@ class __TwigTemplate_bfcd1c53c47ff3de9d174ea1aba7f4bbb3fd08b8940884aeeabbdc170c4
     </div>
 
     <div class=\"hero-button-container\">
-        <a href=\"#contact\" class=\"hero-button-anchor\">
+        <a href=\"#contact\" class=\"hero-button-anchor\" name=\"Get in touch button\">
             <div class=\"hero-button-text\">
                 Get in touch
             </div>
         </a>
     </div>
 
-    <!-- <a href=\"#about\">
-        <img src=\"../../../../../themes/presenza/assets/images/Button@2x.png\" alt=\"\" class=\"hero-button-desktop\">
-    </a>
-
-    <img src=\"../../../../../themes/presenza/assets/images/Group69Copy.png\" alt=\"\" class=\"hero-overlay1\">
-
-    <img src=\"../../../../../themes/presenza/assets/images/Group625.png\" alt=\"\" class=\"hero-overlay2\">
-
-    <a href=\"#about\">
-        <img src=\"../../../../../themes/presenza/assets/images/button2.png\" alt=\"\" class=\"hero-button-mobile\">
-    </a> -->
     <a href=\"#about\">
         <img src=\"../../../../../../presenza/themes/presenza/assets/images/Button@2x.png\" alt=\"\"
-            class=\"hero-button-desktop\">
+            class=\"hero-button-desktop\" name=\"get started button 1\">
     </a>
 
     <img src=\"../../../../../../presenza/themes/presenza/assets/images/Group69Copy.png\" alt=\"\" class=\"hero-overlay1\">
@@ -173,7 +151,7 @@ class __TwigTemplate_bfcd1c53c47ff3de9d174ea1aba7f4bbb3fd08b8940884aeeabbdc170c4
 
     <a href=\"#about\">
         <img src=\"../../../../../../presenza/themes/presenza/assets/images/button2.png\" alt=\"\"
-            class=\"hero-button-mobile\">
+            class=\"hero-button-mobile\" name=\"get started button 1\">
     </a>
 
 

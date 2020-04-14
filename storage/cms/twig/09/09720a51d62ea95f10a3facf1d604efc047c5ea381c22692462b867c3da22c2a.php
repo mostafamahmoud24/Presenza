@@ -51,7 +51,7 @@ class __TwigTemplate_9095cba4541149b6b3205129a0c73998cdb79d5fd2e02d7c5d87a632135
             <a href=\"";
                 // line 9
                 echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["footer"], "facebook_link", [], "any", false, false, false, 9), "html", null, true);
-                echo "\" target=\"_blank\" class=\"footer-link\">
+                echo "\" target=\"_blank\" class=\"footer-link\" name=\"twitter link\">
                 <i class=\"fab fa-twitter\"></i>
 
             </a>
@@ -60,7 +60,7 @@ class __TwigTemplate_9095cba4541149b6b3205129a0c73998cdb79d5fd2e02d7c5d87a632135
             <a href=\"";
                 // line 15
                 echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["footer"], "twitter_link", [], "any", false, false, false, 15), "html", null, true);
-                echo "\" target=\"_blank\" class=\"footer-link\">
+                echo "\" target=\"_blank\" class=\"footer-link\" name=\"facebook link\">
                 <i class=\"fab fa-facebook-square\"></i>
             </a>
         </li>
@@ -69,7 +69,7 @@ class __TwigTemplate_9095cba4541149b6b3205129a0c73998cdb79d5fd2e02d7c5d87a632135
                 // line 20
                 echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["footer"], "youtube_link", [], "any", false, false, false, 20), "html", null, true);
                 echo "\" target=\"_blank\" class=\"footer-link\">
-                <i class=\"fab fa-youtube\"></i>
+                <i class=\"fab fa-youtube\" name=\"youtube link\"></i>
             </a>
         </li>
     </ul>
@@ -122,19 +122,19 @@ class __TwigTemplate_9095cba4541149b6b3205129a0c73998cdb79d5fd2e02d7c5d87a632135
 <div class=\"footer-container\">
     <ul class=\"footer-list\">
         <li>
-            <a href=\"{{footer.facebook_link}}\" target=\"_blank\" class=\"footer-link\">
+            <a href=\"{{footer.facebook_link}}\" target=\"_blank\" class=\"footer-link\" name=\"twitter link\">
                 <i class=\"fab fa-twitter\"></i>
 
             </a>
         </li>
         <li>
-            <a href=\"{{footer.twitter_link}}\" target=\"_blank\" class=\"footer-link\">
+            <a href=\"{{footer.twitter_link}}\" target=\"_blank\" class=\"footer-link\" name=\"facebook link\">
                 <i class=\"fab fa-facebook-square\"></i>
             </a>
         </li>
         <li>
             <a href=\"{{footer.youtube_link}}\" target=\"_blank\" class=\"footer-link\">
-                <i class=\"fab fa-youtube\"></i>
+                <i class=\"fab fa-youtube\" name=\"youtube link\"></i>
             </a>
         </li>
     </ul>

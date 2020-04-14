@@ -164,4 +164,8 @@
   'MostafaMahmoud\\Footer\\Components\\Footers' => 'plugins\\mostafamahmoud\\footer\\components\\Footers.php',
   'backend\\Controllers\\preferences' => 'modules\\backend\\controllers\\preferences.php',
   'backend\\Controllers\\users' => 'modules\\backend\\controllers\\users.php',
+  'popcornphp\\imagecompress\\Plugin' => 'plugins\\popcornphp\\imagecompress\\Plugin.php',
+  'PopcornPHP\\ImageCompress\\Models\\Settings' => 'plugins\\popcornphp\\imagecompress\\models\\Settings.php',
+  'toughdeveloper\\imageresizer\\Plugin' => 'plugins\\toughdeveloper\\imageresizer\\Plugin.php',
+  'ToughDeveloper\\ImageResizer\\Models\\Settings' => 'plugins\\toughdeveloper\\imageresizer\\models\\Settings.php',
 );
