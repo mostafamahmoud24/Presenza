@@ -10,13 +10,18 @@
 
     </div>
     <div class=" burger" onclick="handleSideMenuToggle()">
+        <i class="fas fa-bars" style="color: white; font-size: 27px;"></i>
     </div>
 
     <div class="navigation-links" id="burger">
-        <div class=" burger" onclick="handleSideMenuToggle()">
+        <div class=" burger" onclick="document.getElementById('burger').classList.remove('navigation-links-set');
+        document.getElementById('burger').classList.add('navigation-links');
+            document.documentElement.style.overflowY='scroll' ;" id="hamburger-icon">
+            <i class="fas fa-times" style="color: white; font-size: 27px;"></i>
+
         </div>
 
-        <div class=" nav">
+        <div class=" nav" id="nav">
             <ul class="navbar-links">
                 {% for nav in navs.link %}
                 <a href="#{{nav.link}}" class="navbar-link" onclick="handleSideMenu()">
@@ -32,3 +37,18 @@
         </div>
     </div>
 </div>
+
+
+<!-- The below script toggles the hamburger menu when pressing outside its container -->
+<script>
+    window.addEventListener('mouseup', function (event) {
+        let box = document.getElementById('nav');
+        let sideMenu = document.getElementById('burger');
+        let icon = document.getElementById('hamburger-icon');
+        if (event.target != sideMenu && event.target.parentNode != box) {
+            sideMenu.classList.remove('navigation-links-set');
+            sideMenu.classList.add('navigation-links');
+            document.documentElement.style.overflowY = 'scroll';
+        }
+    });
+</script>

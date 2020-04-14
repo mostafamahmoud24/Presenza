@@ -9,8 +9,9 @@ use Input;
 use Mail;
 use Validator;
 use Redirect;
-// use Flash;
+use Flash;
 use ValidationException;
+use Validation;
 
 
 class ContactForm extends ComponentBase

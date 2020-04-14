@@ -81,10 +81,6 @@ z-index: 5;
     transition-duration: 0.2s;
 }
 
-.burger {
-    display: none;
-}
-
 @media only screen and (min-width: 1200px) {
     .navbar-container {
         display: flex;
@@ -232,7 +228,15 @@ z-index: 5;
             }
   }
 
+  @media only screen and (min-width: 650px){
+    .fa-bars {
+        display: none;
+    }
 
+    .fa-times {
+        display: none;
+    }
+}
 
 @media only screen and (max-width: 650px) and (orientation: portrait) {
 
@@ -287,7 +291,6 @@ z-index: 5;
             top: 48px;
             right: 24px;
             filter: brightness(150%);
-            display: block;
         }
 
         .navbar-links {
@@ -3778,10 +3781,6 @@ input:-webkit-autofill {
     text-decoration: none;
     font-size: 22px;
     margin-right: 30px;
-}
-
-.footer-link:hover {
-    color: #949494;
 }
 
 .fa-facebook-square:hover {

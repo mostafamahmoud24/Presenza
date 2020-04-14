@@ -74,9 +74,9 @@ class __TwigTemplate_9095cba4541149b6b3205129a0c73998cdb79d5fd2e02d7c5d87a632135
         </li>
     </ul>
 
-    <p class=\"footer-copyrights\">Copyright 2020 All rights reserved - Designed by John Esamt</p>
+    <p class=\"footer-copyrights\">Copyright © 2020 Presenza – All rights reserved</p>
 
-    <p class=\"footer-copyrights-mobile\">Copyright 2020 All rights reserved</p>
+    <p class=\"footer-copyrights-mobile\">Copyright © 2020 Presenza – All rights reserved</p>
 
     <!-- <img src=\"../../../../../themes/presenza/assets/images/Triangle@2x.png\" alt=\"\" class=\"footer-triangle\">
     <img src=\"../../../../../themes/presenza/assets/images/footer.png\" alt=\"\" class=\"footer-styling\">
@@ -139,9 +139,9 @@ class __TwigTemplate_9095cba4541149b6b3205129a0c73998cdb79d5fd2e02d7c5d87a632135
         </li>
     </ul>
 
-    <p class=\"footer-copyrights\">Copyright 2020 All rights reserved - Designed by John Esamt</p>
+    <p class=\"footer-copyrights\">Copyright © 2020 Presenza – All rights reserved</p>
 
-    <p class=\"footer-copyrights-mobile\">Copyright 2020 All rights reserved</p>
+    <p class=\"footer-copyrights-mobile\">Copyright © 2020 Presenza – All rights reserved</p>
 
     <!-- <img src=\"../../../../../themes/presenza/assets/images/Triangle@2x.png\" alt=\"\" class=\"footer-triangle\">
     <img src=\"../../../../../themes/presenza/assets/images/footer.png\" alt=\"\" class=\"footer-styling\">

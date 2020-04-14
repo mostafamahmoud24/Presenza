@@ -3780,10 +3780,6 @@ input:-webkit-autofill {
     margin-right: 30px;
 }
 
-.footer-link:hover {
-    color: #949494;
-}
-
 .fa-facebook-square:hover {
     color: #4267B2;
     text-decoration: none;
