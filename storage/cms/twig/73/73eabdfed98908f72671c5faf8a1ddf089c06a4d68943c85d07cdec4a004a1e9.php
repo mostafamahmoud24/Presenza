@@ -51,10 +51,10 @@ class __TwigTemplate_e51ce75d663863575c906da5b36173dbf4c759eb0bedee30fca48bdac19
                 echo "\">
     <div class=\"about-container-container\">
         <div class=\"purple-icon\"></div>
-        <!-- <img src=\"../../../../../themes/presenza/assets/images/square1.png\" alt=\"\" class=\"about-square1\">
-        <img src=\"../../../../../themes/presenza/assets/images/square1.png\" alt=\"\" class=\"about-square2\"> -->
-        <img src=\"../../../../../../presenza/themes/presenza/assets/images/square1.png\" alt=\"\" class=\"about-square1\">
-        <img src=\"../../../../../../presenza/themes/presenza/assets/images/square1.png\" alt=\"\" class=\"about-square2\">
+        <img src=\"../../../../../themes/presenza/assets/images/square1.png\" alt=\"\" class=\"about-square1\">
+        <img src=\"../../../../../themes/presenza/assets/images/square1.png\" alt=\"\" class=\"about-square2\">
+        <!-- <img src=\"../../../../../../presenza/themes/presenza/assets/images/square1.png\" alt=\"\" class=\"about-square1\">
+        <img src=\"../../../../../../presenza/themes/presenza/assets/images/square1.png\" alt=\"\" class=\"about-square2\"> -->
 
         <div class=\"about-container\">
 
@@ -68,26 +68,26 @@ class __TwigTemplate_e51ce75d663863575c906da5b36173dbf4c759eb0bedee30fca48bdac19
                 echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, $context["about"], "videoimg", [], "any", false, false, false, 18), "thumb", [0 => 1194, 1 => 672, 2 => ["mode" => "crop"]], "method", false, false, false, 18), "html", null, true);
                 echo "\" />
             </video>
-            <!-- <img src=\"../../../../../themes/presenza/assets/images/Path 492@2x.png\" alt=\"\" class=\"line-icon\">
+            <img src=\"../../../../../themes/presenza/assets/images/Path 492@2x.png\" alt=\"\" class=\"line-icon\">
             <img src=\"../../../../../themes/presenza/assets/images/Path 493@2x.png\" alt=\"\" class=\"big-curve-icon\">
             <img src=\"../../../../../themes/presenza/assets/images/Path 494@2x.png\" alt=\"\"
                 class=\"small-curve-icon-icon\">
-            <img src=\"../../../../../themes/presenza/assets/images/Group 451@2x.png\" alt=\"\" class=\"square-icon\"> -->
-            <img src=\"../../../../../../presenza/themes/presenza/assets/images/Path 492@2x.png\" alt=\"\"
+            <img src=\"../../../../../themes/presenza/assets/images/Group 451@2x.png\" alt=\"\" class=\"square-icon\">
+            <!-- <img src=\"../../../../../../presenza/themes/presenza/assets/images/Path 492@2x.png\" alt=\"\"
                 class=\"line-icon\">
             <img src=\"../../../../../../presenza/themes/presenza/assets/images/Path 493@2x.png\" alt=\"\"
                 class=\"big-curve-icon\">
             <img src=\"../../../../../../presenza/themes/presenza/assets/images/Path 494@2x.png\" alt=\"\"
                 class=\"small-curve-icon-icon\">
             <img src=\"../../../../../../presenza/themes/presenza/assets/images/Group 451@2x.png\" alt=\"\"
-                class=\"square-icon\">
+                class=\"square-icon\"> -->
         </div>
 
         <div class=\"about-header\">
             <div class=\"about-styling-title-container\">
                 <!-- <h1 class=\"about-styling-title\">About</h1> -->
-                <!-- <img src=\"../../../../../themes/presenza/assets/images/About.png\" alt=\"\"> -->
-                <img src=\"../../../../../../presenza/themes/presenza/assets/images/About.png\" alt=\"\">
+                <img src=\"../../../../../themes/presenza/assets/images/About.png\" alt=\"\">
+                <!-- <img src=\"../../../../../../presenza/themes/presenza/assets/images/About.png\" alt=\"\"> -->
                 <h1 class=\"about-title\">About us</h1>
             </div>
 
@@ -128,8 +128,8 @@ class __TwigTemplate_e51ce75d663863575c906da5b36173dbf4c759eb0bedee30fca48bdac19
     </div>
 </div>
 
-<!-- <img src=\"../../../../../themes/presenza/assets/images/Ellipse 212.png\" alt=\"\" class=\"about-arch\"> -->
-<img src=\"../../../../../../presenza/themes/presenza/assets/images/Ellipse 212.png\" alt=\"\" class=\"about-arch\">
+<img src=\"../../../../../themes/presenza/assets/images/Ellipse 212.png\" alt=\"\" class=\"about-arch\">
+<!-- <img src=\"../../../../../../presenza/themes/presenza/assets/images/Ellipse 212.png\" alt=\"\" class=\"about-arch\"> -->
 
 
 </div>
@@ -166,10 +166,10 @@ class __TwigTemplate_e51ce75d663863575c906da5b36173dbf4c759eb0bedee30fca48bdac19
 <div class=\"about-body\" id=\"{{about.link}}\">
     <div class=\"about-container-container\">
         <div class=\"purple-icon\"></div>
-        <!-- <img src=\"../../../../../themes/presenza/assets/images/square1.png\" alt=\"\" class=\"about-square1\">
-        <img src=\"../../../../../themes/presenza/assets/images/square1.png\" alt=\"\" class=\"about-square2\"> -->
-        <img src=\"../../../../../../presenza/themes/presenza/assets/images/square1.png\" alt=\"\" class=\"about-square1\">
-        <img src=\"../../../../../../presenza/themes/presenza/assets/images/square1.png\" alt=\"\" class=\"about-square2\">
+        <img src=\"../../../../../themes/presenza/assets/images/square1.png\" alt=\"\" class=\"about-square1\">
+        <img src=\"../../../../../themes/presenza/assets/images/square1.png\" alt=\"\" class=\"about-square2\">
+        <!-- <img src=\"../../../../../../presenza/themes/presenza/assets/images/square1.png\" alt=\"\" class=\"about-square1\">
+        <img src=\"../../../../../../presenza/themes/presenza/assets/images/square1.png\" alt=\"\" class=\"about-square2\"> -->
 
         <div class=\"about-container\">
 
@@ -177,26 +177,26 @@ class __TwigTemplate_e51ce75d663863575c906da5b36173dbf4c759eb0bedee30fca48bdac19
             <video class=\" afterglow about-video\" id=\"myvideo\" width=\"597\" height=\"336\" src=\"{{about.video.path}}\"
                 poster=\"{{about.videoimg.thumb(1194, 672, {'mode': 'crop'})}}\" />
             </video>
-            <!-- <img src=\"../../../../../themes/presenza/assets/images/Path 492@2x.png\" alt=\"\" class=\"line-icon\">
+            <img src=\"../../../../../themes/presenza/assets/images/Path 492@2x.png\" alt=\"\" class=\"line-icon\">
             <img src=\"../../../../../themes/presenza/assets/images/Path 493@2x.png\" alt=\"\" class=\"big-curve-icon\">
             <img src=\"../../../../../themes/presenza/assets/images/Path 494@2x.png\" alt=\"\"
                 class=\"small-curve-icon-icon\">
-            <img src=\"../../../../../themes/presenza/assets/images/Group 451@2x.png\" alt=\"\" class=\"square-icon\"> -->
-            <img src=\"../../../../../../presenza/themes/presenza/assets/images/Path 492@2x.png\" alt=\"\"
+            <img src=\"../../../../../themes/presenza/assets/images/Group 451@2x.png\" alt=\"\" class=\"square-icon\">
+            <!-- <img src=\"../../../../../../presenza/themes/presenza/assets/images/Path 492@2x.png\" alt=\"\"
                 class=\"line-icon\">
             <img src=\"../../../../../../presenza/themes/presenza/assets/images/Path 493@2x.png\" alt=\"\"
                 class=\"big-curve-icon\">
             <img src=\"../../../../../../presenza/themes/presenza/assets/images/Path 494@2x.png\" alt=\"\"
                 class=\"small-curve-icon-icon\">
             <img src=\"../../../../../../presenza/themes/presenza/assets/images/Group 451@2x.png\" alt=\"\"
-                class=\"square-icon\">
+                class=\"square-icon\"> -->
         </div>
 
         <div class=\"about-header\">
             <div class=\"about-styling-title-container\">
                 <!-- <h1 class=\"about-styling-title\">About</h1> -->
-                <!-- <img src=\"../../../../../themes/presenza/assets/images/About.png\" alt=\"\"> -->
-                <img src=\"../../../../../../presenza/themes/presenza/assets/images/About.png\" alt=\"\">
+                <img src=\"../../../../../themes/presenza/assets/images/About.png\" alt=\"\">
+                <!-- <img src=\"../../../../../../presenza/themes/presenza/assets/images/About.png\" alt=\"\"> -->
                 <h1 class=\"about-title\">About us</h1>
             </div>
 
@@ -225,8 +225,8 @@ class __TwigTemplate_e51ce75d663863575c906da5b36173dbf4c759eb0bedee30fca48bdac19
     </div>
 </div>
 
-<!-- <img src=\"../../../../../themes/presenza/assets/images/Ellipse 212.png\" alt=\"\" class=\"about-arch\"> -->
-<img src=\"../../../../../../presenza/themes/presenza/assets/images/Ellipse 212.png\" alt=\"\" class=\"about-arch\">
+<img src=\"../../../../../themes/presenza/assets/images/Ellipse 212.png\" alt=\"\" class=\"about-arch\">
+<!-- <img src=\"../../../../../../presenza/themes/presenza/assets/images/Ellipse 212.png\" alt=\"\" class=\"about-arch\"> -->
 
 
 </div>

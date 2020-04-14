@@ -75,6 +75,19 @@ class __TwigTemplate_bfcd1c53c47ff3de9d174ea1aba7f4bbb3fd08b8940884aeeabbdc170c4
     </div>
 
     <a href=\"#about\">
+        <img src=\"../../../../../themes/presenza/assets/images/Button@2x.png\" alt=\"\" class=\"hero-button-desktop\"
+            name=\"get started button 1\">
+    </a>
+
+    <img src=\"../../../../../themes/presenza/assets/images/Group69Copy.png\" alt=\"\" class=\"hero-overlay1\">
+
+    <img src=\"../../../../../themes/presenza/assets/images/Group625.png\" alt=\"\" class=\"hero-overlay2\">
+
+    <a href=\"#about\">
+        <img src=\"../../../../../themes/presenza/assets/images/button2.png\" alt=\"\" class=\"hero-button-mobile\"
+            name=\"get started button 1\">
+    </a>
+    <!-- <a href=\"#about\">
         <img src=\"../../../../../../presenza/themes/presenza/assets/images/Button@2x.png\" alt=\"\"
             class=\"hero-button-desktop\" name=\"get started button 1\">
     </a>
@@ -86,7 +99,7 @@ class __TwigTemplate_bfcd1c53c47ff3de9d174ea1aba7f4bbb3fd08b8940884aeeabbdc170c4
     <a href=\"#about\">
         <img src=\"../../../../../../presenza/themes/presenza/assets/images/button2.png\" alt=\"\"
             class=\"hero-button-mobile\" name=\"get started button 1\">
-    </a>
+    </a> -->
 
 
 </div>
@@ -141,6 +154,19 @@ class __TwigTemplate_bfcd1c53c47ff3de9d174ea1aba7f4bbb3fd08b8940884aeeabbdc170c4
     </div>
 
     <a href=\"#about\">
+        <img src=\"../../../../../themes/presenza/assets/images/Button@2x.png\" alt=\"\" class=\"hero-button-desktop\"
+            name=\"get started button 1\">
+    </a>
+
+    <img src=\"../../../../../themes/presenza/assets/images/Group69Copy.png\" alt=\"\" class=\"hero-overlay1\">
+
+    <img src=\"../../../../../themes/presenza/assets/images/Group625.png\" alt=\"\" class=\"hero-overlay2\">
+
+    <a href=\"#about\">
+        <img src=\"../../../../../themes/presenza/assets/images/button2.png\" alt=\"\" class=\"hero-button-mobile\"
+            name=\"get started button 1\">
+    </a>
+    <!-- <a href=\"#about\">
         <img src=\"../../../../../../presenza/themes/presenza/assets/images/Button@2x.png\" alt=\"\"
             class=\"hero-button-desktop\" name=\"get started button 1\">
     </a>
@@ -152,7 +178,7 @@ class __TwigTemplate_bfcd1c53c47ff3de9d174ea1aba7f4bbb3fd08b8940884aeeabbdc170c4
     <a href=\"#about\">
         <img src=\"../../../../../../presenza/themes/presenza/assets/images/button2.png\" alt=\"\"
             class=\"hero-button-mobile\" name=\"get started button 1\">
-    </a>
+    </a> -->
 
 
 </div>

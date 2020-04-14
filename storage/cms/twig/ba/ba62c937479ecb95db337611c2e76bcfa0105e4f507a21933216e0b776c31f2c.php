@@ -55,20 +55,20 @@ class __TwigTemplate_3dfb3da1da9a036d5e6353e7af3b77ed709dd8e51f8f6eb1749883c9f55
   <link
     href=\"https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Open+Sans&family=Lora:ital@1&family=Poppins:wght@300;400;500;700&display=swap\"
     rel=\"stylesheet\">
-  <!-- <link href=\"";
+  <link href=\"";
         // line 16
         echo $this->extensions['Cms\Twig\Extension']->themeFilter([0 => "assets/css/styles.css"]);
-        echo "\" rel=\"stylesheet\" /> -->
-  <link href=\"../../../../presenza/themes/presenza/assets/css/styles.css\" rel=\"stylesheet\" />
+        echo "\" rel=\"stylesheet\" />
+  <!-- <link href=\"../../../../presenza/themes/presenza/assets/css/styles.css\" rel=\"stylesheet\" /> -->
   <link href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css\" rel=\"stylesheet\"
     integrity=\"sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh\" crossorigin=\"anonymous\">
   <script src=\"https://kit.fontawesome.com/dbcf87c66d.js\" crossorigin=\"anonymous\"></script>
   <script src=\"//cdn.jsdelivr.net/npm/afterglowplayer@1.x\"></script>
-  <!-- <script type=\"text/javascript\" src=\"";
+  <script type=\"text/javascript\" src=\"";
         // line 22
         echo $this->extensions['Cms\Twig\Extension']->themeFilter([0 => "assets/javascript/index.js"]);
-        echo "\"></script> -->
-  <script type=\"text/javascript\" src=\"../../../../presenza/themes/presenza/assets/javascript/index.js\"></script>
+        echo "\"></script>
+  <!-- <script type=\"text/javascript\" src=\"../../../../presenza/themes/presenza/assets/javascript/index.js\"></script> -->
 
 
 
@@ -179,14 +179,14 @@ class __TwigTemplate_3dfb3da1da9a036d5e6353e7af3b77ed709dd8e51f8f6eb1749883c9f55
   <link
     href=\"https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Open+Sans&family=Lora:ital@1&family=Poppins:wght@300;400;500;700&display=swap\"
     rel=\"stylesheet\">
-  <!-- <link href=\"{{ ['assets/css/styles.css']|theme }}\" rel=\"stylesheet\" /> -->
-  <link href=\"../../../../presenza/themes/presenza/assets/css/styles.css\" rel=\"stylesheet\" />
+  <link href=\"{{ ['assets/css/styles.css']|theme }}\" rel=\"stylesheet\" />
+  <!-- <link href=\"../../../../presenza/themes/presenza/assets/css/styles.css\" rel=\"stylesheet\" /> -->
   <link href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css\" rel=\"stylesheet\"
     integrity=\"sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh\" crossorigin=\"anonymous\">
   <script src=\"https://kit.fontawesome.com/dbcf87c66d.js\" crossorigin=\"anonymous\"></script>
   <script src=\"//cdn.jsdelivr.net/npm/afterglowplayer@1.x\"></script>
-  <!-- <script type=\"text/javascript\" src=\"{{ ['assets/javascript/index.js']|theme }}\"></script> -->
-  <script type=\"text/javascript\" src=\"../../../../presenza/themes/presenza/assets/javascript/index.js\"></script>
+  <script type=\"text/javascript\" src=\"{{ ['assets/javascript/index.js']|theme }}\"></script>
+  <!-- <script type=\"text/javascript\" src=\"../../../../presenza/themes/presenza/assets/javascript/index.js\"></script> -->
 
 
 

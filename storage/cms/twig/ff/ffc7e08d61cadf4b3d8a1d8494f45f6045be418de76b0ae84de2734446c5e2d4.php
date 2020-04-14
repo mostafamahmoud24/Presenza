@@ -48,9 +48,9 @@ class __TwigTemplate_8cd7087caad147250dde7c87483d256c9bc961b0bf3dba5ef7fbeaa28fe
                 echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["client"], "link", [], "any", false, false, false, 5), "html", null, true);
                 echo "\">
     <div class=\"client-title-container\">
-        <!-- <img src=\"../../../../../themes/presenza/assets/images/Presenza-icon@2x.png\" alt=\"\" class=\"client-title-img\"> -->
-        <img src=\"../../../../../../presenza/themes/presenza/assets/images/Presenza-icon@2x.png\" alt=\"\"
-            class=\"client-title-img\">
+        <img src=\"../../../../../themes/presenza/assets/images/Presenza-icon@2x.png\" alt=\"\" class=\"client-title-img\">
+        <!-- <img src=\"../../../../../../presenza/themes/presenza/assets/images/Presenza-icon@2x.png\" alt=\"\"
+            class=\"client-title-img\"> -->
         <h2 class=\"client-title\">ur Clients</h2>
     </div>
     <div class=\"client-subtitle-container\">
@@ -415,9 +415,9 @@ class __TwigTemplate_8cd7087caad147250dde7c87483d256c9bc961b0bf3dba5ef7fbeaa28fe
 {% if client.name == clientname %}
 <div class=\"client-header-container\" id=\"{{client.link}}\">
     <div class=\"client-title-container\">
-        <!-- <img src=\"../../../../../themes/presenza/assets/images/Presenza-icon@2x.png\" alt=\"\" class=\"client-title-img\"> -->
-        <img src=\"../../../../../../presenza/themes/presenza/assets/images/Presenza-icon@2x.png\" alt=\"\"
-            class=\"client-title-img\">
+        <img src=\"../../../../../themes/presenza/assets/images/Presenza-icon@2x.png\" alt=\"\" class=\"client-title-img\">
+        <!-- <img src=\"../../../../../../presenza/themes/presenza/assets/images/Presenza-icon@2x.png\" alt=\"\"
+            class=\"client-title-img\"> -->
         <h2 class=\"client-title\">ur Clients</h2>
     </div>
     <div class=\"client-subtitle-container\">
