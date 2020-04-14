@@ -3,6 +3,12 @@
 {% for contact in contacts %}
 {% if contact.name == contactname %}
 
+{% flash %}
+<p data-control="flash-message" class="flash-message fade {{ type }}" data-interval="5">
+    {{ message }}
+</p>
+{% endflash %}
+
 
 <div class="contact-container" id="{{contact.link}}">
     <h1 class="contact-title">Contact us</h1>
@@ -13,37 +19,37 @@
         <div class="form__group field">
             <input type="text" class="form__field" placeholder="Name" name="name" aria-label="name" />
             <label for="name" class="form__label">Name</label>
-            <p class="text-danger" style="padding-top: 0px !important;">
-                {{errors.first('name')}}</p>
+            <div data-validate-for="name" class="text-danger"></div>
+
         </div>
 
         <div class="form__group field">
             <input type="email" class="form__field" aria-label="email" placeholder="email" name="email" />
             <label for="email" class="form__label">Email</label>
-            <p class="text-danger" style="padding-top: 0px !important;">{{errors.first('email')}}</p>
-            <div data-validate-for="name"></div>
+            <div data-validate-for="email" class="text-danger"></div>
+        </div>
 
 
-            <div class="form__group field1 mt-5">
-                <textarea name="content" id="textarea" aria-label="content" class="form__field"
-                    placeholder="Message"></textarea>
-                <label for="content" class="form__label">Message</label>
-                <p class="text-danger" style="padding-top: 0px !important;">{{errors.first('content')}}</p>
-            </div>
+        <div class="form__group field1 mt-5">
+            <textarea name="content" id="textarea" aria-label="content" class="form__field"
+                placeholder="Message"></textarea>
+            <label for="content" class="form__label">Message</label>
+            <div data-validate-for="content" class="text-danger"></div>
+        </div>
 
 
-            <div class="contact-button">
-                <a onclick="$(this).closest('form').submit()" class="contact-submit-text">
-                    <div style="margin-top: 8px; cursor: pointer;">submit form</div>
-                </a>
-                <a onclick="$(this).closest('form').submit()">
-                    <div class="contact-submit-icon" style="cursor: pointer;">
-                        <i class="fas fa-arrow-right"
-                            style="position: absolute; top:11px; right: 12px; cursor: pointer"></i>
-                    </div>
-                </a>
+        <div class="contact-button">
+            <a onclick="$(this).closest('form').submit()" class="contact-submit-text">
+                <div style="margin-top: 8px; cursor: pointer;">submit form</div>
+            </a>
+            <a onclick="$(this).closest('form').submit()">
+                <div class="contact-submit-icon" style="cursor: pointer;">
+                    <i class="fas fa-arrow-right"
+                        style="position: absolute; top:11px; right: 12px; cursor: pointer"></i>
+                </div>
+            </a>
 
-            </div>
+        </div>
     </form>
 </div>
 

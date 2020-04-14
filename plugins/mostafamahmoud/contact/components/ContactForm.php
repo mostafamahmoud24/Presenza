@@ -42,7 +42,7 @@ class ContactForm extends ComponentBase
                 'email' => Input::get('email'),
                 'content' => Input::get('content')
             ],
-            [
+            [ 
                 'name' => 'required|string',
                 'email' => 'required|email',
                 'content' => 'required',
@@ -65,6 +65,8 @@ class ContactForm extends ComponentBase
             $message->to('95mostafamahmoud@gmail.com', 'Admin Person');
             $message->subject('Presenza contact form test');
             });
+
+            Flash::success('Your Message was sent successfully');
         }
     }
 

@@ -128,7 +128,14 @@ class __TwigTemplate_3dfb3da1da9a036d5e6353e7af3b77ed709dd8e51f8f6eb1749883c9f55
   ";
         // line 63
         $_minify = System\Classes\CombineAssets::instance()->useMinify;
-        echo '<script src="' . Request::getBasePath() . '/modules/system/assets/js/framework'.($_minify ? '-min' : '').'.js"></script>'.PHP_EOL;
+        if ($_minify) {
+            echo '<script src="' . Request::getBasePath() . '/modules/system/assets/js/framework.combined-min.js"></script>'.PHP_EOL;
+        }
+        else {
+            echo '<script src="' . Request::getBasePath() . '/modules/system/assets/js/framework.js"></script>'.PHP_EOL;
+            echo '<script src="' . Request::getBasePath() . '/modules/system/assets/js/framework.extras.js"></script>'.PHP_EOL;
+        }
+        echo '<link rel="stylesheet" property="stylesheet" href="' . Request::getBasePath() .'/modules/system/assets/css/framework.extras'.($_minify ? '-min' : '').'.css">'.PHP_EOL;
         unset($_minify);
         // line 64
         echo "  ";
@@ -152,7 +159,7 @@ class __TwigTemplate_3dfb3da1da9a036d5e6353e7af3b77ed709dd8e51f8f6eb1749883c9f55
 
     public function getDebugInfo()
     {
-        return array (  138 => 65,  134 => 64,  130 => 63,  107 => 42,  103 => 41,  98 => 38,  96 => 37,  91 => 34,  87 => 33,  80 => 28,  77 => 27,  69 => 22,  60 => 16,  50 => 9,  45 => 7,  37 => 1,);
+        return array (  145 => 65,  141 => 64,  130 => 63,  107 => 42,  103 => 41,  98 => 38,  96 => 37,  91 => 34,  87 => 33,  80 => 28,  77 => 27,  69 => 22,  60 => 16,  50 => 9,  45 => 7,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -219,7 +226,7 @@ class __TwigTemplate_3dfb3da1da9a036d5e6353e7af3b77ed709dd8e51f8f6eb1749883c9f55
   <script src=\"https://code.jquery.com/jquery-3.4.1.js\" integrity=\"sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=\"
     crossorigin=\"anonymous\"></script>
 
-  {% framework %}
+  {% framework extras %}
   {% scripts %}
 </body>
 

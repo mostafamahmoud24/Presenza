@@ -1,4 +1,4 @@
-1586834724a:1:{s:11:"default.htm";a:5:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:2921:"<!-- description = "Default layout" == -->
+1586883049a:1:{s:11:"default.htm";a:5:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:2928:"<!-- description = "Default layout" == -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -60,11 +60,11 @@
   <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
     crossorigin="anonymous"></script>
 
-  {% framework %}
+  {% framework extras %}
   {% scripts %}
 </body>
 
-</html>";s:5:"mtime";i:1586832852;s:6:"markup";s:2921:"<!-- description = "Default layout" == -->
+</html>";s:5:"mtime";i:1586882441;s:6:"markup";s:2928:"<!-- description = "Default layout" == -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -126,7 +126,7 @@
   <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
     crossorigin="anonymous"></script>
 
-  {% framework %}
+  {% framework extras %}
   {% scripts %}
 </body>
 

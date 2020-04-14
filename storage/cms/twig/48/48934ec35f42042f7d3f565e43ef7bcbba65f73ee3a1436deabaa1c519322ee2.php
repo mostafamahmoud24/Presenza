@@ -45,62 +45,71 @@ class __TwigTemplate_c3538076b4214192c9cb04685a4cec57681ad982405b162a95c58604e53
             if ((twig_get_attribute($this->env, $this->source, $context["contact"], "name", [], "any", false, false, false, 4) == ($context["contactname"] ?? null))) {
                 // line 5
                 echo "
+";
+                $_type = isset($context["type"]) ? $context["type"] : null;                $_message = isset($context["message"]) ? $context["message"] : null;                // line 6
+                foreach (Flash::getMessages() as $type => $messages) {
+                    foreach ($messages as $message) {
+                        $context["type"] = $type;                        $context["message"] = $message;                        // line 7
+                        echo "<p data-control=\"flash-message\" class=\"flash-message fade ";
+                        echo twig_escape_filter($this->env, ($context["type"] ?? null), "html", null, true);
+                        echo "\" data-interval=\"5\">
+    ";
+                        // line 8
+                        echo twig_escape_filter($this->env, ($context["message"] ?? null), "html", null, true);
+                        echo "
+</p>
+";
+                    }
+                }
+                $context["type"] = $_type;                $context["message"] = $_message;                // line 11
+                echo "
 
 <div class=\"contact-container\" id=\"";
-                // line 7
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["contact"], "link", [], "any", false, false, false, 7), "html", null, true);
+                // line 13
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["contact"], "link", [], "any", false, false, false, 13), "html", null, true);
                 echo "\">
     <h1 class=\"contact-title\">Contact us</h1>
     <div class=\"contact-subtitle-container\">
         <p class=\"contact-subtitle\">";
-                // line 10
-                echo twig_get_attribute($this->env, $this->source, $context["contact"], "subtitle", [], "any", false, false, false, 10);
+                // line 16
+                echo twig_get_attribute($this->env, $this->source, $context["contact"], "subtitle", [], "any", false, false, false, 16);
                 echo "</p>
     </div>
     <form data-request=\"onSend\" id=\"the_form\" data-request-validate data-request-flash>
         <div class=\"form__group field\">
             <input type=\"text\" class=\"form__field\" placeholder=\"Name\" name=\"name\" aria-label=\"name\" />
             <label for=\"name\" class=\"form__label\">Name</label>
-            <p class=\"text-danger\" style=\"padding-top: 0px !important;\">
-                ";
-                // line 17
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["errors"] ?? null), "first", [0 => "name"], "method", false, false, false, 17), "html", null, true);
-                echo "</p>
+            <div data-validate-for=\"name\" class=\"text-danger\"></div>
+
         </div>
 
         <div class=\"form__group field\">
             <input type=\"email\" class=\"form__field\" aria-label=\"email\" placeholder=\"email\" name=\"email\" />
             <label for=\"email\" class=\"form__label\">Email</label>
-            <p class=\"text-danger\" style=\"padding-top: 0px !important;\">";
-                // line 23
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["errors"] ?? null), "first", [0 => "email"], "method", false, false, false, 23), "html", null, true);
-                echo "</p>
-            <div data-validate-for=\"name\"></div>
+            <div data-validate-for=\"email\" class=\"text-danger\"></div>
+        </div>
 
 
-            <div class=\"form__group field1 mt-5\">
-                <textarea name=\"content\" id=\"textarea\" aria-label=\"content\" class=\"form__field\"
-                    placeholder=\"Message\"></textarea>
-                <label for=\"content\" class=\"form__label\">Message</label>
-                <p class=\"text-danger\" style=\"padding-top: 0px !important;\">";
-                // line 31
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["errors"] ?? null), "first", [0 => "content"], "method", false, false, false, 31), "html", null, true);
-                echo "</p>
-            </div>
+        <div class=\"form__group field1 mt-5\">
+            <textarea name=\"content\" id=\"textarea\" aria-label=\"content\" class=\"form__field\"
+                placeholder=\"Message\"></textarea>
+            <label for=\"content\" class=\"form__label\">Message</label>
+            <div data-validate-for=\"content\" class=\"text-danger\"></div>
+        </div>
 
 
-            <div class=\"contact-button\">
-                <a onclick=\"\$(this).closest('form').submit()\" class=\"contact-submit-text\">
-                    <div style=\"margin-top: 8px; cursor: pointer;\">submit form</div>
-                </a>
-                <a onclick=\"\$(this).closest('form').submit()\">
-                    <div class=\"contact-submit-icon\" style=\"cursor: pointer;\">
-                        <i class=\"fas fa-arrow-right\"
-                            style=\"position: absolute; top:11px; right: 12px; cursor: pointer\"></i>
-                    </div>
-                </a>
+        <div class=\"contact-button\">
+            <a onclick=\"\$(this).closest('form').submit()\" class=\"contact-submit-text\">
+                <div style=\"margin-top: 8px; cursor: pointer;\">submit form</div>
+            </a>
+            <a onclick=\"\$(this).closest('form').submit()\">
+                <div class=\"contact-submit-icon\" style=\"cursor: pointer;\">
+                    <i class=\"fas fa-arrow-right\"
+                        style=\"position: absolute; top:11px; right: 12px; cursor: pointer\"></i>
+                </div>
+            </a>
 
-            </div>
+        </div>
     </form>
 </div>
 
@@ -124,7 +133,7 @@ class __TwigTemplate_c3538076b4214192c9cb04685a4cec57681ad982405b162a95c58604e53
 
     public function getDebugInfo()
     {
-        return array (  87 => 31,  76 => 23,  67 => 17,  57 => 10,  51 => 7,  47 => 5,  45 => 4,  41 => 3,  39 => 2,  37 => 1,);
+        return array (  75 => 16,  69 => 13,  65 => 11,  58 => 8,  53 => 7,  50 => 6,  47 => 5,  45 => 4,  41 => 3,  39 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -133,6 +142,12 @@ class __TwigTemplate_c3538076b4214192c9cb04685a4cec57681ad982405b162a95c58604e53
 {% set contactname = __SELF__.property('results') %}
 {% for contact in contacts %}
 {% if contact.name == contactname %}
+
+{% flash %}
+<p data-control=\"flash-message\" class=\"flash-message fade {{ type }}\" data-interval=\"5\">
+    {{ message }}
+</p>
+{% endflash %}
 
 
 <div class=\"contact-container\" id=\"{{contact.link}}\">
@@ -144,37 +159,37 @@ class __TwigTemplate_c3538076b4214192c9cb04685a4cec57681ad982405b162a95c58604e53
         <div class=\"form__group field\">
             <input type=\"text\" class=\"form__field\" placeholder=\"Name\" name=\"name\" aria-label=\"name\" />
             <label for=\"name\" class=\"form__label\">Name</label>
-            <p class=\"text-danger\" style=\"padding-top: 0px !important;\">
-                {{errors.first('name')}}</p>
+            <div data-validate-for=\"name\" class=\"text-danger\"></div>
+
         </div>
 
         <div class=\"form__group field\">
             <input type=\"email\" class=\"form__field\" aria-label=\"email\" placeholder=\"email\" name=\"email\" />
             <label for=\"email\" class=\"form__label\">Email</label>
-            <p class=\"text-danger\" style=\"padding-top: 0px !important;\">{{errors.first('email')}}</p>
-            <div data-validate-for=\"name\"></div>
+            <div data-validate-for=\"email\" class=\"text-danger\"></div>
+        </div>
 
 
-            <div class=\"form__group field1 mt-5\">
-                <textarea name=\"content\" id=\"textarea\" aria-label=\"content\" class=\"form__field\"
-                    placeholder=\"Message\"></textarea>
-                <label for=\"content\" class=\"form__label\">Message</label>
-                <p class=\"text-danger\" style=\"padding-top: 0px !important;\">{{errors.first('content')}}</p>
-            </div>
+        <div class=\"form__group field1 mt-5\">
+            <textarea name=\"content\" id=\"textarea\" aria-label=\"content\" class=\"form__field\"
+                placeholder=\"Message\"></textarea>
+            <label for=\"content\" class=\"form__label\">Message</label>
+            <div data-validate-for=\"content\" class=\"text-danger\"></div>
+        </div>
 
 
-            <div class=\"contact-button\">
-                <a onclick=\"\$(this).closest('form').submit()\" class=\"contact-submit-text\">
-                    <div style=\"margin-top: 8px; cursor: pointer;\">submit form</div>
-                </a>
-                <a onclick=\"\$(this).closest('form').submit()\">
-                    <div class=\"contact-submit-icon\" style=\"cursor: pointer;\">
-                        <i class=\"fas fa-arrow-right\"
-                            style=\"position: absolute; top:11px; right: 12px; cursor: pointer\"></i>
-                    </div>
-                </a>
+        <div class=\"contact-button\">
+            <a onclick=\"\$(this).closest('form').submit()\" class=\"contact-submit-text\">
+                <div style=\"margin-top: 8px; cursor: pointer;\">submit form</div>
+            </a>
+            <a onclick=\"\$(this).closest('form').submit()\">
+                <div class=\"contact-submit-icon\" style=\"cursor: pointer;\">
+                    <i class=\"fas fa-arrow-right\"
+                        style=\"position: absolute; top:11px; right: 12px; cursor: pointer\"></i>
+                </div>
+            </a>
 
-            </div>
+        </div>
     </form>
 </div>
 
