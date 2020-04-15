@@ -40,33 +40,30 @@ class __TwigTemplate_65b20dc0163c1496503b0828286053797e11917b7c8145ce06bfda8ada4
 
 <head>
   <meta charset=\"utf-8\" />
-  <title>October CMS - ";
-        // line 7
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, false, 7), "title", [], "any", false, false, false, 7), "html", null, true);
-        echo "</title>
-  <meta name=\"description\" content=\"test\" />
-  <meta name=\"title\" content=\"";
-        // line 9
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, false, 9), "meta_title", [], "any", false, false, false, 9), "html", null, true);
-        echo "\" />
-  <meta name=\"author\" content=\"OctoberCMS\" />
+  <title>Presenza</title>
+  <meta name=\"title\" content=\"Presenza\" />
   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />
   <meta name=\"generator\" content=\"OctoberCMS\" />
+  <link rel=\"icon\" type=\"image/png\" href=\"../../../../presenza/themes/presenza/assets/images/favicon.png\" />
   <link
     href=\"https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Open+Sans&family=Lora:ital@1&family=Poppins:wght@300;400;500;700&display=swap\"
     rel=\"stylesheet\">
   <link href=\"";
-        // line 16
+        // line 15
         echo $this->extensions['Cms\Twig\Extension']->themeFilter([0 => "assets/css/styles.css"]);
         echo "\" rel=\"stylesheet\" />
   <!-- <link href=\"../../../../presenza/themes/presenza/assets/css/styles.css\" rel=\"stylesheet\" /> -->
   <link href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css\" rel=\"stylesheet\"
     integrity=\"sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh\" crossorigin=\"anonymous\">
   <script src=\"https://kit.fontawesome.com/dbcf87c66d.js\" crossorigin=\"anonymous\"></script>
-  <script src=\"//cdn.jsdelivr.net/npm/afterglowplayer@1.x\"></script>
+  <!-- <script src=\"//cdn.jsdelivr.net/npm/afterglowplayer@1.x\"></script> -->
+  <script type=\"text/javascript\" src=\"";
+        // line 21
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter([0 => "assets/javascript/index.js"]);
+        echo "\"></script>
   <script type=\"text/javascript\" src=\"";
         // line 22
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter([0 => "assets/javascript/index.js"]);
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter([0 => "assets/javascript/afterglow.min.js"]);
         echo "\"></script>
   <!-- <script type=\"text/javascript\" src=\"../../../../presenza/themes/presenza/assets/javascript/index.js\"></script> -->
 
@@ -114,19 +111,20 @@ class __TwigTemplate_65b20dc0163c1496503b0828286053797e11917b7c8145ce06bfda8ada4
   <script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js\"
     integrity=\"sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q\"
     crossorigin=\"anonymous\"></script>
-  <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css\"
-    integrity=\"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm\" crossorigin=\"anonymous\">
+  <!-- <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css\"
+    integrity=\"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm\" crossorigin=\"anonymous\"> -->
   <script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js\"
     integrity=\"sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm\"
     crossorigin=\"anonymous\"></script>
   <script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js\"
     integrity=\"sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6\"
     crossorigin=\"anonymous\"></script>
-  <script src=\"https://code.jquery.com/jquery-3.4.1.js\" integrity=\"sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=\"
-    crossorigin=\"anonymous\"></script>
+  <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js\"></script>
+  <!-- <script src=\"https://code.jquery.com/jquery-3.4.1.js\" integrity=\"sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=\"
+    crossorigin=\"anonymous\"></script> -->
 
   ";
-        // line 63
+        // line 64
         $_minify = System\Classes\CombineAssets::instance()->useMinify;
         if ($_minify) {
             echo '<script src="' . Request::getBasePath() . '/modules/system/assets/js/framework.combined-min.js"></script>'.PHP_EOL;
@@ -137,11 +135,11 @@ class __TwigTemplate_65b20dc0163c1496503b0828286053797e11917b7c8145ce06bfda8ada4
         }
         echo '<link rel="stylesheet" property="stylesheet" href="' . Request::getBasePath() .'/modules/system/assets/css/framework.extras'.($_minify ? '-min' : '').'.css">'.PHP_EOL;
         unset($_minify);
-        // line 64
+        // line 65
         echo "  ";
         echo $this->env->getExtension('Cms\Twig\Extension')->assetsFunction('js');
         echo $this->env->getExtension('Cms\Twig\Extension')->displayBlock('scripts');
-        // line 65
+        // line 66
         echo "</body>
 
 </html>";
@@ -159,7 +157,7 @@ class __TwigTemplate_65b20dc0163c1496503b0828286053797e11917b7c8145ce06bfda8ada4
 
     public function getDebugInfo()
     {
-        return array (  145 => 65,  141 => 64,  130 => 63,  107 => 42,  103 => 41,  98 => 38,  96 => 37,  91 => 34,  87 => 33,  80 => 28,  77 => 27,  69 => 22,  60 => 16,  50 => 9,  45 => 7,  37 => 1,);
+        return array (  143 => 66,  139 => 65,  128 => 64,  104 => 42,  100 => 41,  95 => 38,  93 => 37,  88 => 34,  84 => 33,  77 => 28,  74 => 27,  66 => 22,  62 => 21,  53 => 15,  37 => 1,);
     }
 
     public function getSourceContext()
