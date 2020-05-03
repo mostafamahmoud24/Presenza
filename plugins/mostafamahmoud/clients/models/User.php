@@ -47,7 +47,7 @@ class User extends Model
             'MostafaMahmoud\Clients\Models\Client',
     
             /* define the pivot table that links the the movies and genres */
-            'table' => 'mostafamahmoud_clients_user_client',
+            'table' => 'mostafamahmoud_clients_user_clients',
     
             /* set the order at which the links will be displayed by */
             'order' => 'id'

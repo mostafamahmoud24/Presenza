@@ -30,7 +30,7 @@
         </div>
 
 
-        <div class="form__group field1 mt-5">
+        <div class="form__group field1 mt-5" style="z-index: 10;">
             <textarea name="content" id="textarea" aria-label="content" class="form__field"
                 placeholder="Message"></textarea>
             <label for="content" class="form__label">Message</label>
@@ -39,10 +39,10 @@
 
 
         <div class="contact-button">
-            <a onclick="$(this).closest('form').submit()" class="contact-submit-text">
+            <a onclick="$(this).closest('form').submit()" class="contact-submit-text" style="z-index: 10;">
                 <div style="margin-top: 8px; cursor: pointer;">submit form</div>
             </a>
-            <a onclick="$(this).closest('form').submit()">
+            <a onclick="$(this).closest('form').submit()" style="z-index: 10;">
                 <div class="contact-submit-icon" style="cursor: pointer;">
                     <i class="fas fa-arrow-right"
                         style="position: absolute; top:11px; right: 12px; cursor: pointer"></i>

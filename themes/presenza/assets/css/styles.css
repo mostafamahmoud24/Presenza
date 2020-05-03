@@ -3521,6 +3521,7 @@ input:-webkit-autofill {
   width: 40px;
   border-radius: 50%;
   position: relative;
+  z-index: 0;
 }
 
 .fa-arrow-right {
@@ -3782,7 +3783,7 @@ input:-webkit-autofill {
   position: absolute;
   bottom: 0px;
   left: 0px;
-  z-index: 0;
+  z-index: -2;
 }
 .footer-triangle {
   width: 220px;
